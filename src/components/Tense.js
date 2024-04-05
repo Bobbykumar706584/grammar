@@ -6,7 +6,7 @@ const Tenses = () => {
     <>
     <Header />
     <div className="font-serif mt-[100px] p-10">
-        <h1 className="text-5xl text-center font-bold">Tenses  (काल)</h1>
+        <h1 className="text-5xl text-center font-bold">Tenses (काल)</h1>
         <p className="p-2 text-xl">
         Tenses refer to the grammatical structures in languages that indicate the time at which an action or state of being occurs. They help to establish the timing of events or actions in relation to the present, past, or future. Tenses are an integral part of language syntax and are used to convey information about when something happens, happened, or will happen. They allow speakers and writers to provide clarity and context to their communication. In English and many other languages, tenses are often categorized into different forms such as simple, continuous, perfect, and perfect continuous, each serving specific purposes in expressing time-related information.
         </p>
