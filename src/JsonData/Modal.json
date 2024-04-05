@@ -1,0 +1,97 @@
+[
+    {
+        "modalName": "Can",
+        "negativeModalName": "Can not",
+        "form": "1st form"
+       },
+       {
+        "modalName": "Could",
+        "negativeModalName": "Could not",
+        "form": "1st form"
+       },
+       {
+        "modalName": "Could have",
+        "negativeModalName": "Could not have",
+        "form": "3rd form"
+       },
+       {
+        "modalName": "May / Might",
+        "negativeModalName": "May not / Might not",
+        "form": "1st form"
+       },
+       {
+        "modalName": "May have / Might have",
+        "negativeModalName": "May not have / Might not have",
+        "form": "3rd form"
+       },
+       {
+        "modalName": "Should",
+        "negativeModalName": "Should not",
+        "form": "1st form"
+       },
+       {
+        "modalName": "Should have",
+        "negativeModalName": "Should not have",
+        "form": "3rd form"
+       },
+       {
+        "modalName": "Must",
+        "negativeModalName": "Must not",
+        "form": "1st form"
+       },
+       {
+        "modalName": "Must have",
+        "negativeModalName": "Must not have",
+        "form": "3rd form"
+       },
+       {
+        "modalName": "Ought to",
+        "negativeModalName": "Ought not to",
+        "form": "1st form"
+       },
+       {
+        "modalName": "Ought to have",
+        "negativeModalName": "Ought not to have",
+        "form": "3rd form"
+       },
+       {
+        "modalName": "Has to / Have to",
+        "negativeModalName": "Has not to / Have not to",
+        "form": "1st form"
+       },
+       {
+        "modalName": "Had to",
+        "negativeModalName": "Had not to",
+        "form": "1st form"
+       },
+       {
+        "modalName": "Will have to",
+        "negativeModalName": "Will not have to",
+        "form": "1st form"
+       },
+       {
+        "modalName": "Will be able to",
+        "negativeModalName": "Will not be able to",
+        "form": "1st form"
+       },
+       {
+        "modalName": "Would like to",
+        "negativeModalName": "Would not like to",
+        "form": "1st form"
+       },
+       {
+        "modalName": "Used to",
+        "negativeModalName": "Did not use to",
+        "form": "1st form"
+       },
+       {
+        "modalName": "Need / Needs/Needed",
+        "negativeModalName": "Don’t need / Doesn’t need / Didn’t need",
+        "form": "1st form"
+       },
+       {
+        "modalName": "Dare to/ Dares to/ Dared to",
+        "negativeModalName": "Don’t dare to / Doesn’t dare to / Didn’t dare to",
+        "form": "1st form"
+       }
+    ]
