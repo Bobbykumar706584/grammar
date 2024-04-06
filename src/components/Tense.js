@@ -52,6 +52,7 @@ const Tenses = () => {
         </div>
       </div>
     </div>
+    {/* singular and plural */}
     <div className="m-10 text-center bg-gray-200">
       <h1 className="font-bold text-2xl underline p-5">Singular and Plural</h1>
       <div className="grid grid-cols-3 bg-slate-400">
@@ -76,84 +77,384 @@ const Tenses = () => {
       </div>
     </div>
     <div className="m-10 p-10 border border-gray-300 bg-gray-200">
-      <h1 className="text-3xl font-bold text-center">Past Tense (भूतकाल)</h1>
-      <p className="text-center m-2">Past tense is a grammatical form used to indicate actions, events, or states that have already occurred or happened in the past. In English grammar, verbs can be conjugated to express past tense. The past tense form of regular verbs is typically formed by adding "-ed" to the base form of the verb (e.g., walked, talked, played), while irregular verbs have unique past tense forms (e.g., went, ate, saw).</p>
-      <p className="text-center m-2">भूतकाल एक व्याकरणिक रूप है जिसका उपयोग उन कार्यों, घटनाओं या अवस्थाओं को इंगित करने के लिए किया जाता है जो पहले ही घटित हो चुके हैं या अतीत में घटित हो चुके हैं। अंग्रेजी व्याकरण में, क्रियाओं को भूतकाल को व्यक्त करने के लिए संयोजित किया जा सकता है। नियमित क्रियाओं का भूतकाल रूप आमतौर पर क्रिया के आधार रूप में "-ed" जोड़कर बनता है (जैसे, चला, बात की, खेला), जबकि अनियमित क्रियाओं के अद्वितीय भूतकाल रूप होते हैं (जैसे, गया, खाया, देखा) .</p>
-      
-      <h2 className="text-2xl font-bold underline">1. Simple Past Tense (सरल भूतकाल) </h2>
-      <p>In this tense, the auxiliary verbs "गया" (gaya), "लिया" (liya), "दिया" (diya), "सोया" (soya), "दी" (di), "ली" (li), "की" (ki), etc. are used with the main verb. In this tense, "है" (hai), "हैं" (hain), "हो" (ho), "हूँ" (hoon) or "था" (tha), "थे" (the), "थी" (thi) are never used. <br />
-      इस काल में सहायक क्रिया "गया" (गया), "लिया" (लिया), "दिया" (दीया), "सोया" (सोया), "दी" (दी), "ली" (ली), " मुख्य क्रिया के साथ की" (की) आदि का प्रयोग किया जाता है। इस काल में, "है" (है), "हैं" (हैं), "हो" (हो), "हूं" (हूं) या "था" (था), "थे" (द), "थी" ( थी) का कभी भी उपयोग नहीं किया जाता है।
-      </p>
-      <div className="grid grid-cols-2 gap-10 mt-5">
-        <div className="cols-span-1 text-center">
-          <h4 className="font-bold">1. Affirmative (सकारात्मक वाक्य) </h4>
-          <div className="font-bold">Rule: - Subject + 2nd form verb + Object</div>
+        <h1 className="text-3xl font-bold text-center">Past Tense (भूतकाल)</h1>
+        <p className="text-center m-2">Past tense is a grammatical form used to indicate actions, events, or states that have already occurred or happened in the past. In English grammar, verbs can be conjugated to express past tense. The past tense form of regular verbs is typically formed by adding "-ed" to the base form of the verb (e.g., walked, talked, played), while irregular verbs have unique past tense forms (e.g., went, ate, saw).</p>
+        <p className="text-center m-2">भूतकाल एक व्याकरणिक रूप है जिसका उपयोग उन कार्यों, घटनाओं या अवस्थाओं को इंगित करने के लिए किया जाता है जो पहले ही घटित हो चुके हैं या अतीत में घटित हो चुके हैं। अंग्रेजी व्याकरण में, क्रियाओं को भूतकाल को व्यक्त करने के लिए संयोजित किया जा सकता है। नियमित क्रियाओं का भूतकाल रूप आमतौर पर क्रिया के आधार रूप में "-ed" जोड़कर बनता है (जैसे, चला, बात की, खेला), जबकि अनियमित क्रियाओं के अद्वितीय भूतकाल रूप होते हैं (जैसे, गया, खाया, देखा) .</p>
+    {/* simple past tense */}
+        <div className="mt-5">
+          <h2 className="text-2xl font-bold underline">1. Simple Past Tense (सरल भूतकाल):-</h2>
+          <p>In this tense, the auxiliary verbs "गया" (gaya), "लिया" (liya), "दिया" (diya), "सोया" (soya), "दी" (di), "ली" (li), "की" (ki), etc. are used with the main verb. In this tense, "है" (hai), "हैं" (hain), "हो" (ho), "हूँ" (hoon) or "था" (tha), "थे" (the), "थी" (thi) are never used. <br />
+          इस काल में सहायक क्रिया "गया" (गया), "लिया" (लिया), "दिया" (दीया), "सोया" (सोया), "दी" (दी), "ली" (ली), " मुख्य क्रिया के साथ की" (की) आदि का प्रयोग किया जाता है। इस काल में, "है" (है), "हैं" (हैं), "हो" (हो), "हूं" (हूं) या "था" (था), "थे" (द), "थी" ( थी) का कभी भी उपयोग नहीं किया जाता है।
+          </p>
+          <div className="grid grid-cols-2 gap-8 mt-4">
+            <div className="cols-span-1 text-center">
+              <h4 className="font-bold">1. Affirmative (सकारात्मक वाक्य) </h4>
+              <div className="font-bold">Rule: - Subject + 2nd form verb + Object</div>
 
-          <div className="grid grid-cols-1 bg-slate-400">
-            <div className="border border-black p-2 font-bold uppercase">Examples</div> 
-          </div>
-          <div className="grid grid-cols-1">
-              <div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
-                <div className="col-span-2">She wrote a letter. (उसने एक ख़त लिखी।)</div>
-                <div className="col-span-2">Govind ate an apple. (गोविंद ने एक सेब खाया)</div>
-                <div className="col-span-2">I slept at 9. (वे 9 बजे सोये)</div>
-                <div className="col-span-2">we loved him/her (मैंने उसे प्यार किया।)</div>
-                <div className="col-span-2">He/she made a mistake. (उसने गलती की)</div>
-              </div> 
-          </div>
-        </div>
-        <div className="cols-span-1 text-center">
-          <h4 className="font-bold">2. Negative (नकारात्म  क वाक्य) </h4>
-          <div className="font-bold">Rule: Subject + did not + verb 1st form + object.</div>
+              <div className="grid grid-cols-1 bg-slate-400">
+                <div className="border border-black p-2 font-bold uppercase">Examples</div> 
+              </div>
+              <div className="grid grid-cols-1">
+                  <div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
+                    <div className="col-span-2">She wrote a letter. (उसने एक ख़त लिखी।)</div>
+                    <div className="col-span-2">Govind ate an apple. (गोविंद ने एक सेब खाया)</div>
+                    <div className="col-span-2">I slept at 9. (वे 9 बजे सोये)</div>
+                    <div className="col-span-2">we loved him/her (मैंने उसे प्यार किया।)</div>
+                    <div className="col-span-2">He/she made a mistake. (उसने गलती की)</div>
+                  </div> 
+              </div>
+            </div>
+            <div className="cols-span-1 text-center">
+              <h4 className="font-bold">2. Negative (नकारात्म  क वाक्य) </h4>
+              <div className="font-bold">Rule: Subject + did not + verb 1st form + object.</div>
 
-          <div className="grid grid-cols-1 bg-slate-400">
-            <div className="border border-black p-2 font-bold uppercase">Examples</div> 
-          </div>
-          <div className="grid grid-cols-1">
-              <div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
-                <div className="col-span-2">She did not write a letter. (उसने कोई ख़त नहीं लिखी।)</div>
-                <div className="col-span-2">Govind did not eat an apple.(गोविंद ने एक सेब नहीं खाया)</div>
-                <div className="col-span-2">I did not sleep at 9. (मैं 9 बजे सोया नहीं)</div>
-                <div className="col-span-2">I did not love him/her. (मैंने उसे प्यार नहीं किया।)</div>
-                <div className="col-span-2">He/she did not make a mistake. (उसने कोई गलती नहीं की।)</div>
-              </div> 
-          </div>
-        </div>
-        <div className="cols-span-1 text-center">
-          <h4 className="font-bold">Interrogative (प्रश्नवाचक वाक्य)</h4>
-          <div className="font-bold">Rule: + did + subject + verb 1st form + object</div>
+              <div className="grid grid-cols-1 bg-slate-400">
+                <div className="border border-black p-2 font-bold uppercase">Examples</div> 
+              </div>
+              <div className="grid grid-cols-1">
+                  <div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
+                    <div className="col-span-2">She did not write a letter. (उसने कोई ख़त नहीं लिखी।)</div>
+                    <div className="col-span-2">Govind did not eat an apple.(गोविंद ने एक सेब नहीं खाया)</div>
+                    <div className="col-span-2">I did not sleep at 9. (मैं 9 बजे सोया नहीं)</div>
+                    <div className="col-span-2">I did not love him/her. (मैंने उसे प्यार नहीं किया।)</div>
+                    <div className="col-span-2">He/she did not make a mistake. (उसने कोई गलती नहीं की।)</div>
+                  </div> 
+              </div>
+            </div>
+            <div className="cols-span-1 text-center">
+              <h4 className="font-bold">Interrogative (प्रश्नवाचक वाक्य)</h4>
+              <div className="font-bold">Rule: + did + subject + verb 1st form + object</div>
 
-          <div className="grid grid-cols-1 bg-slate-400">
-            <div className="border border-black p-2 font-bold uppercase">Examples</div> 
-          </div>
-          <div className="grid grid-cols-1">
-              <div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
-                <div className="col-span-2">Did she write a letter? (क्या उसने कोई पत्र लिखा?)</div>
-                <div className="col-span-2"> Did Govind eat an apple? (क्या गोविंद ने सेब खाया?)</div>
-                <div className="col-span-2">Did I sleep at 9? (क्या मैं 9 बजे सो गया?)</div>
-                <div className="col-span-2">Did I love him/her (क्या मैंने उसे प्यार?)</div>
-                <div className="col-span-2">Did he/she make a mistake? (क्या उसने कोई गलती की है?)</div>
-              </div> 
-          </div>
-        </div>
-        <div className="cols-span-1 text-center">
-          <h4 className="font-bold">Negative Interrogative (नकारात्मक प्रश्नवाचक वाक्य)</h4>
-          <div className="font-bold">Rule:   + Did + Subject + not + Verb 1st form + Object</div>
+              <div className="grid grid-cols-1 bg-slate-400">
+                <div className="border border-black p-2 font-bold uppercase">Examples</div> 
+              </div>
+              <div className="grid grid-cols-1">
+                  <div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
+                    <div className="col-span-2">Did she write a letter? (क्या उसने कोई पत्र लिखा?)</div>
+                    <div className="col-span-2"> Did Govind eat an apple? (क्या गोविंद ने सेब खाया?)</div>
+                    <div className="col-span-2">Did I sleep at 9? (क्या मैं 9 बजे सो गया?)</div>
+                    <div className="col-span-2">Did I love him/her (क्या मैंने उसे प्यार किया?)</div>
+                    <div className="col-span-2">Did he/she make a mistake? (क्या उसने कोई गलती की है?)</div>
+                  </div> 
+              </div>
+            </div>
+            <div className="cols-span-1 text-center">
+              <h4 className="font-bold">Negative Interrogative (नकारात्मक प्रश्नवाचक वाक्य)</h4>
+              <div className="font-bold">Rule:   + Did + Subject + not + Verb 1st form + Object</div>
 
-          <div className="grid grid-cols-1 bg-slate-400">
-            <div className="border border-black p-2 font-bold uppercase">Examples</div> 
+              <div className="grid grid-cols-1 bg-slate-400">
+                <div className="border border-black p-2 font-bold uppercase">Examples</div> 
+              </div>
+              <div className="grid grid-cols-1">
+                  <div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
+                  <div className="col-span-2">Did she not write a letter? (क्या उसने पत्र नहीं लिखा?)</div>
+                    <div className="col-span-2">Did Govind not eat an apple? (क्या गोविंद ने सेब नहीं खाया?)</div>
+                    <div className="col-span-2">Did I not sleep at 9? (क्या मैं 9 बजे नहीं सोया?)</div>
+                    <div className="col-span-2">Did I not love him/her (क्या मैंने उसे प्यार नहीं किया?)</div>
+                    <div className="col-span-2">Did he/she not make a mistake? (क्या उसने कोई गलती नहीं की है?)</div>
+                  </div> 
+              </div>
+            </div>
           </div>
-          <div className="grid grid-cols-1">
-              <div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
-              <div className="col-span-2">Did she write a letter? (क्या उसने कोई पत्र लिखा?)</div>
-                <div className="col-span-2"> Did Govind eat an apple? (क्या गोविंद ने सेब खाया?)</div>
-                <div className="col-span-2">Did I sleep at 9? (क्या मैं 9 बजे सो गया?)</div>
-                <div className="col-span-2">Did I love him/her (क्या मैंने उसे प्यार?)</div>
-                <div className="col-span-2">Did he/she make a mistake? (क्या उसने कोई गलती की है?)</div>
-              </div> 
+          <div className="mt-5">
+            <h1 className="font-bold text-2xl">Practice (अभ्यास) :-</h1>
+            <p className="text-xl">Hindi to English Translate (हिंदी से अंग्रेजी अनुवाद)</p>
+            <p className="font-bold">Example:-</p>
+            <ul className="list-disc ml-10">
+              <li>उसने किताब पढ़ी।</li>
+              <li>मैंने कल फिल्म देखी।</li>
+              <li>लोग स्टेज़ पर नहीं गये।</li>
+              <li>राम घूमने नहीं गया।</li>
+              <li>क्या आपने अपना होमवर्क पूरा किया?</li>
+              <li>क्या वे पार्क गए थे?</li>
+              <li>उसने ऐसा क्यों नहीं किया?</li>
+              <li>क्या मैंने बोतल से पानी नहीं पिया?</li>
+            </ul>
           </div>
+          <hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-gray-700"></hr>
         </div>
-      </div>
+    {/* past continuous tense */}
+        <div className="mt-5">
+          <h2 className="text-2xl font-bold underline">2. Past Continuous Tense (भूत अपूर्ण काल):-</h2>
+          <p>Past Continuous Tense, also known as the past progressive tense, is used to describe ongoing or continuous actions that were happening at a specific point in the past. In this tense, the action is depicted as being in progress over a period of time in the past. <br />
+          भूत अपूर्ण काल का उपयोग किसी निश्चित समय में गतिशील या लगातार कार्यों का वर्णन करने के लिए किया जाता है जो पिछले में किसी निश्चित समय में हो रहे थे। इस काल में, क्रिया को पिछले समय के दौरान चल रहे के रूप में दिखाया जाता है।
+          </p>
+          {/* <div className="grid grid-cols-2 gap-8 mt-4">
+            <div className="cols-span-1 text-center">
+              <h4 className="font-bold">1. Affirmative (सकारात्मक वाक्य) </h4>
+              <div className="font-bold">Rule 1: - (I, He, She, It, Ram) + was + (1st form verb + ing) + Object</div>
+              <div className="font-bold">Rule 2: - (You, We, They, Ram and Raju) + were + (1st form verb + ing) + Object</div>
+
+              <div className="grid grid-cols-1 bg-slate-400">
+                <div className="border border-black p-2 font-bold uppercase">Examples</div> 
+              </div>
+              <div className="grid grid-cols-1">
+                  <div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
+                    <div className="col-span-2">She wrote a letter. (उसने एक ख़त लिखी।)</div>
+                    <div className="col-span-2">Govind ate an apple. (गोविंद ने एक सेब खाया)</div>
+                    <div className="col-span-2">I slept at 9. (वे 9 बजे सोये)</div>
+                    <div className="col-span-2">we loved him/her (मैंने उसे प्यार किया।)</div>
+                    <div className="col-span-2">He/she made a mistake. (उसने गलती की)</div>
+                  </div> 
+              </div>
+            </div>
+            <div className="cols-span-1 text-center">
+              <h4 className="font-bold">2. Negative (नकारात्म  क वाक्य) </h4>
+              <div className="font-bold">Rule 1: - (I, He, She, It, Ram) + was + not + (1st form verb + ing) + Object</div>
+              <div className="font-bold">Rule 2: - (You, We, They, Ram and Raju) + were + not + (1st form verb + ing) + Object</div>
+
+              <div className="grid grid-cols-1 bg-slate-400">
+                <div className="border border-black p-2 font-bold uppercase">Examples</div> 
+              </div>
+              <div className="grid grid-cols-1">
+                  <div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
+                    <div className="col-span-2">She did not write a letter. (उसने कोई ख़त नहीं लिखी।)</div>
+                    <div className="col-span-2">Govind did not eat an apple.(गोविंद ने एक सेब नहीं खाया)</div>
+                    <div className="col-span-2">I did not sleep at 9. (मैं 9 बजे सोया नहीं)</div>
+                    <div className="col-span-2">I did not love him/her. (मैंने उसे प्यार नहीं किया।)</div>
+                    <div className="col-span-2">He/she did not make a mistake. (उसने कोई गलती नहीं की।)</div>
+                  </div> 
+              </div>
+            </div>
+            <div className="cols-span-1 text-center">
+              <h4 className="font-bold">Interrogative (प्रश्नवाचक वाक्य)</h4>
+              <div className="font-bold">Rule 1: - Was + (I, He, She, It, Ram) + (1st form verb + ing) + Object?</div>
+              <div className="font-bold">Rule 2: - Were + (You, We, They, Ram and Raju) + (1st form verb + ing) + Object?</div>
+              <div className="grid grid-cols-1 bg-slate-400">
+                <div className="border border-black p-2 font-bold uppercase">Examples</div> 
+              </div>
+              <div className="grid grid-cols-1">
+                  <div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
+                    <div className="col-span-2">Did she write a letter? (क्या उसने कोई पत्र लिखा?)</div>
+                    <div className="col-span-2"> Did Govind eat an apple? (क्या गोविंद ने सेब खाया?)</div>
+                    <div className="col-span-2">Did I sleep at 9? (क्या मैं 9 बजे सो गया?)</div>
+                    <div className="col-span-2">Did I love him/her (क्या मैंने उसे प्यार किया?)</div>
+                    <div className="col-span-2">Did he/she make a mistake? (क्या उसने कोई गलती की है?)</div>
+                  </div> 
+              </div>
+            </div>
+            <div className="cols-span-1 text-center">
+              <h4 className="font-bold">Negative Interrogative (नकारात्मक प्रश्नवाचक वाक्य)</h4>
+              <div className="font-bold">Rule 1: - Was + (I, He, She, It, Ram) + not + (1st form verb + ing) + Object?</div>
+              <div className="font-bold">Rule 2: - Were + (You, We, They, Ram and Raju) + not + (1st form verb + ing) + Object?</div>
+              <div className="grid grid-cols-1 bg-slate-400">
+                <div className="border border-black p-2 font-bold uppercase">Examples</div> 
+              </div>
+              <div className="grid grid-cols-1">
+                  <div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
+                  <div className="col-span-2">Did she not write a letter? (क्या उसने पत्र नहीं लिखा?)</div>
+                    <div className="col-span-2">Did Govind not eat an apple? (क्या गोविंद ने सेब नहीं खाया?)</div>
+                    <div className="col-span-2">Did I not sleep at 9? (क्या मैं 9 बजे नहीं सोया?)</div>
+                    <div className="col-span-2">Did I not love him/her (क्या मैंने उसे प्यार नहीं किया?)</div>
+                    <div className="col-span-2">Did he/she not make a mistake? (क्या उसने कोई गलती नहीं की है?)</div>
+                  </div> 
+              </div>
+            </div>
+          </div>
+          <div className="mt-5">
+            <h1 className="font-bold text-2xl">Practice (अभ्यास) :-</h1>
+            <p className="text-xl">Hindi to English Translate (हिंदी से अंग्रेजी अनुवाद)</p>
+            <p className="font-bold">Example:-</p>
+            <ul className="list-disc ml-10">
+              <li>उसने किताब पढ़ी।</li>
+              <li>मैंने कल फिल्म देखी।</li>
+              <li>लोग स्टेज़ पर नहीं गये।</li>
+              <li>राम घूमने नहीं गया।</li>
+              <li>क्या आपने अपना होमवर्क पूरा किया?</li>
+              <li>क्या वे पार्क गए थे?</li>
+              <li>उसने ऐसा क्यों नहीं किया?</li>
+              <li>क्या मैंने बोतल से पानी नहीं पिया?</li>
+            </ul>
+          </div> */}
+          <hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-gray-700"></hr>
+
+        </div>
+    {/* past perfect tense */}
+        {/* <div className="mt-5">
+          <h2 className="text-2xl font-bold underline">3. Past Perfect Tense (सरल भूतकाल):-</h2>
+          <p>In this tense, the auxiliary verbs "गया" (gaya), "लिया" (liya), "दिया" (diya), "सोया" (soya), "दी" (di), "ली" (li), "की" (ki), etc. are used with the main verb. In this tense, "है" (hai), "हैं" (hain), "हो" (ho), "हूँ" (hoon) or "था" (tha), "थे" (the), "थी" (thi) are never used. <br />
+          इस काल में सहायक क्रिया "गया" (गया), "लिया" (लिया), "दिया" (दीया), "सोया" (सोया), "दी" (दी), "ली" (ली), " मुख्य क्रिया के साथ की" (की) आदि का प्रयोग किया जाता है। इस काल में, "है" (है), "हैं" (हैं), "हो" (हो), "हूं" (हूं) या "था" (था), "थे" (द), "थी" ( थी) का कभी भी उपयोग नहीं किया जाता है।
+          </p>
+          <div className="grid grid-cols-2 gap-8 mt-4">
+            <div className="cols-span-1 text-center">
+              <h4 className="font-bold">1. Affirmative (सकारात्मक वाक्य) </h4>
+              <div className="font-bold">Rule: - Subject + 2nd form verb + Object</div>
+
+              <div className="grid grid-cols-1 bg-slate-400">
+                <div className="border border-black p-2 font-bold uppercase">Examples</div> 
+              </div>
+              <div className="grid grid-cols-1">
+                  <div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
+                    <div className="col-span-2">She wrote a letter. (उसने एक ख़त लिखी।)</div>
+                    <div className="col-span-2">Govind ate an apple. (गोविंद ने एक सेब खाया)</div>
+                    <div className="col-span-2">I slept at 9. (वे 9 बजे सोये)</div>
+                    <div className="col-span-2">we loved him/her (मैंने उसे प्यार किया।)</div>
+                    <div className="col-span-2">He/she made a mistake. (उसने गलती की)</div>
+                  </div> 
+              </div>
+            </div>
+            <div className="cols-span-1 text-center">
+              <h4 className="font-bold">2. Negative (नकारात्म  क वाक्य) </h4>
+              <div className="font-bold">Rule: Subject + did not + verb 1st form + object.</div>
+
+              <div className="grid grid-cols-1 bg-slate-400">
+                <div className="border border-black p-2 font-bold uppercase">Examples</div> 
+              </div>
+              <div className="grid grid-cols-1">
+                  <div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
+                    <div className="col-span-2">She did not write a letter. (उसने कोई ख़त नहीं लिखी।)</div>
+                    <div className="col-span-2">Govind did not eat an apple.(गोविंद ने एक सेब नहीं खाया)</div>
+                    <div className="col-span-2">I did not sleep at 9. (मैं 9 बजे सोया नहीं)</div>
+                    <div className="col-span-2">I did not love him/her. (मैंने उसे प्यार नहीं किया।)</div>
+                    <div className="col-span-2">He/she did not make a mistake. (उसने कोई गलती नहीं की।)</div>
+                  </div> 
+              </div>
+            </div>
+            <div className="cols-span-1 text-center">
+              <h4 className="font-bold">Interrogative (प्रश्नवाचक वाक्य)</h4>
+              <div className="font-bold">Rule: + did + subject + verb 1st form + object</div>
+
+              <div className="grid grid-cols-1 bg-slate-400">
+                <div className="border border-black p-2 font-bold uppercase">Examples</div> 
+              </div>
+              <div className="grid grid-cols-1">
+                  <div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
+                    <div className="col-span-2">Did she write a letter? (क्या उसने कोई पत्र लिखा?)</div>
+                    <div className="col-span-2"> Did Govind eat an apple? (क्या गोविंद ने सेब खाया?)</div>
+                    <div className="col-span-2">Did I sleep at 9? (क्या मैं 9 बजे सो गया?)</div>
+                    <div className="col-span-2">Did I love him/her (क्या मैंने उसे प्यार किया?)</div>
+                    <div className="col-span-2">Did he/she make a mistake? (क्या उसने कोई गलती की है?)</div>
+                  </div> 
+              </div>
+            </div>
+            <div className="cols-span-1 text-center">
+              <h4 className="font-bold">Negative Interrogative (नकारात्मक प्रश्नवाचक वाक्य)</h4>
+              <div className="font-bold">Rule:   + Did + Subject + not + Verb 1st form + Object</div>
+
+              <div className="grid grid-cols-1 bg-slate-400">
+                <div className="border border-black p-2 font-bold uppercase">Examples</div> 
+              </div>
+              <div className="grid grid-cols-1">
+                  <div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
+                  <div className="col-span-2">Did she not write a letter? (क्या उसने पत्र नहीं लिखा?)</div>
+                    <div className="col-span-2">Did Govind not eat an apple? (क्या गोविंद ने सेब नहीं खाया?)</div>
+                    <div className="col-span-2">Did I not sleep at 9? (क्या मैं 9 बजे नहीं सोया?)</div>
+                    <div className="col-span-2">Did I not love him/her (क्या मैंने उसे प्यार नहीं किया?)</div>
+                    <div className="col-span-2">Did he/she not make a mistake? (क्या उसने कोई गलती नहीं की है?)</div>
+                  </div> 
+              </div>
+            </div>
+          </div>
+          <div className="mt-5">
+            <h1 className="font-bold text-2xl">Practice (अभ्यास) :-</h1>
+            <p className="text-xl">Hindi to English Translate (हिंदी से अंग्रेजी अनुवाद)</p>
+            <p className="font-bold">Example:-</p>
+            <ul className="list-disc ml-10">
+              <li>उसने किताब पढ़ी।</li>
+              <li>मैंने कल फिल्म देखी।</li>
+              <li>लोग स्टेज़ पर नहीं गये।</li>
+              <li>राम घूमने नहीं गया।</li>
+              <li>क्या आपने अपना होमवर्क पूरा किया?</li>
+              <li>क्या वे पार्क गए थे?</li>
+              <li>उसने ऐसा क्यों नहीं किया?</li>
+              <li>क्या मैंने बोतल से पानी नहीं पिया?</li>
+            </ul>
+          </div>
+          <hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-gray-700"></hr>
+        </div> */}
+    {/* past perfect continuous tense */}
+        {/* <div className="mt-5">
+          <h2 className="text-2xl font-bold underline">1. Past Perfect Continues Tense (सरल भूतकाल):-</h2>
+          <p>In this tense, the auxiliary verbs "गया" (gaya), "लिया" (liya), "दिया" (diya), "सोया" (soya), "दी" (di), "ली" (li), "की" (ki), etc. are used with the main verb. In this tense, "है" (hai), "हैं" (hain), "हो" (ho), "हूँ" (hoon) or "था" (tha), "थे" (the), "थी" (thi) are never used. <br />
+          इस काल में सहायक क्रिया "गया" (गया), "लिया" (लिया), "दिया" (दीया), "सोया" (सोया), "दी" (दी), "ली" (ली), " मुख्य क्रिया के साथ की" (की) आदि का प्रयोग किया जाता है। इस काल में, "है" (है), "हैं" (हैं), "हो" (हो), "हूं" (हूं) या "था" (था), "थे" (द), "थी" ( थी) का कभी भी उपयोग नहीं किया जाता है।
+          </p>
+          <div className="grid grid-cols-2 gap-8 mt-4">
+            <div className="cols-span-1 text-center">
+              <h4 className="font-bold">1. Affirmative (सकारात्मक वाक्य) </h4>
+              <div className="font-bold">Rule: - Subject + 2nd form verb + Object</div>
+
+              <div className="grid grid-cols-1 bg-slate-400">
+                <div className="border border-black p-2 font-bold uppercase">Examples</div> 
+              </div>
+              <div className="grid grid-cols-1">
+                  <div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
+                    <div className="col-span-2">She wrote a letter. (उसने एक ख़त लिखी।)</div>
+                    <div className="col-span-2">Govind ate an apple. (गोविंद ने एक सेब खाया)</div>
+                    <div className="col-span-2">I slept at 9. (वे 9 बजे सोये)</div>
+                    <div className="col-span-2">we loved him/her (मैंने उसे प्यार किया।)</div>
+                    <div className="col-span-2">He/she made a mistake. (उसने गलती की)</div>
+                  </div> 
+              </div>
+            </div>
+            <div className="cols-span-1 text-center">
+              <h4 className="font-bold">2. Negative (नकारात्म  क वाक्य) </h4>
+              <div className="font-bold">Rule: Subject + did not + verb 1st form + object.</div>
+
+              <div className="grid grid-cols-1 bg-slate-400">
+                <div className="border border-black p-2 font-bold uppercase">Examples</div> 
+              </div>
+              <div className="grid grid-cols-1">
+                  <div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
+                    <div className="col-span-2">She did not write a letter. (उसने कोई ख़त नहीं लिखी।)</div>
+                    <div className="col-span-2">Govind did not eat an apple.(गोविंद ने एक सेब नहीं खाया)</div>
+                    <div className="col-span-2">I did not sleep at 9. (मैं 9 बजे सोया नहीं)</div>
+                    <div className="col-span-2">I did not love him/her. (मैंने उसे प्यार नहीं किया।)</div>
+                    <div className="col-span-2">He/she did not make a mistake. (उसने कोई गलती नहीं की।)</div>
+                  </div> 
+              </div>
+            </div>
+            <div className="cols-span-1 text-center">
+              <h4 className="font-bold">Interrogative (प्रश्नवाचक वाक्य)</h4>
+              <div className="font-bold">Rule: + did + subject + verb 1st form + object</div>
+
+              <div className="grid grid-cols-1 bg-slate-400">
+                <div className="border border-black p-2 font-bold uppercase">Examples</div> 
+              </div>
+              <div className="grid grid-cols-1">
+                  <div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
+                    <div className="col-span-2">Did she write a letter? (क्या उसने कोई पत्र लिखा?)</div>
+                    <div className="col-span-2"> Did Govind eat an apple? (क्या गोविंद ने सेब खाया?)</div>
+                    <div className="col-span-2">Did I sleep at 9? (क्या मैं 9 बजे सो गया?)</div>
+                    <div className="col-span-2">Did I love him/her (क्या मैंने उसे प्यार किया?)</div>
+                    <div className="col-span-2">Did he/she make a mistake? (क्या उसने कोई गलती की है?)</div>
+                  </div> 
+              </div>
+            </div>
+            <div className="cols-span-1 text-center">
+              <h4 className="font-bold">Negative Interrogative (नकारात्मक प्रश्नवाचक वाक्य)</h4>
+              <div className="font-bold">Rule:   + Did + Subject + not + Verb 1st form + Object</div>
+
+              <div className="grid grid-cols-1 bg-slate-400">
+                <div className="border border-black p-2 font-bold uppercase">Examples</div> 
+              </div>
+              <div className="grid grid-cols-1">
+                  <div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
+                  <div className="col-span-2">Did she not write a letter? (क्या उसने पत्र नहीं लिखा?)</div>
+                    <div className="col-span-2">Did Govind not eat an apple? (क्या गोविंद ने सेब नहीं खाया?)</div>
+                    <div className="col-span-2">Did I not sleep at 9? (क्या मैं 9 बजे नहीं सोया?)</div>
+                    <div className="col-span-2">Did I not love him/her (क्या मैंने उसे प्यार नहीं किया?)</div>
+                    <div className="col-span-2">Did he/she not make a mistake? (क्या उसने कोई गलती नहीं की है?)</div>
+                  </div> 
+              </div>
+            </div>
+          </div>
+          <div className="mt-5">
+            <h1 className="font-bold text-2xl">Practice (अभ्यास) :-</h1>
+            <p className="text-xl">Hindi to English Translate (हिंदी से अंग्रेजी अनुवाद)</p>
+            <p className="font-bold">Example:-</p>
+            <ul className="list-disc ml-10">
+              <li>उसने किताब पढ़ी।</li>
+              <li>मैंने कल फिल्म देखी।</li>
+              <li>लोग स्टेज़ पर नहीं गये।</li>
+              <li>राम घूमने नहीं गया।</li>
+              <li>क्या आपने अपना होमवर्क पूरा किया?</li>
+              <li>क्या वे पार्क गए थे?</li>
+              <li>उसने ऐसा क्यों नहीं किया?</li>
+              <li>क्या मैंने बोतल से पानी नहीं पिया?</li>
+            </ul>
+          </div>
+          <hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-gray-700"></hr>
+        </div> */}
     </div>
     </>
   );
