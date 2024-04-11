@@ -92,7 +92,7 @@ const Tenses = () => {
           <h4 className="font-bold">Rules:-</h4>
           <ul className="list-disc ml-10">
             <li>To regular verbs just add an s (नियमित क्रियाओं में बस एक s जोड़ें) <br /> <strong>Ex: travel -> travels, give -> gives, play ->plays.</strong></li>
-            <li>When the verb ends in -ch, -ss, -sh, -x or -zz and the subjects our (Case 2), we add -es. (जब क्रिया -ch, -ss, -sh, -x या -zz में समाप्त होती है और विषय हमारे (Case 2) होते हैं, तो हम -es जोड़ते हैं) <br /> <strong>Ex :- buzz -> buzzes</strong> </li>
+            <li>When the verb ends in -ch, o, -ss, -sh, -x or -zz and the subjects our (Case 2), we add -es. (जब क्रिया -ch, o, -ss, -sh, -x या -zz में समाप्त होती है और विषय हमारे (Case 2) होते हैं, तो हम -es जोड़ते हैं) <br /> <strong>Ex :- buzz -> buzzes</strong> </li>
             <li>When the verb ends in a consonant + -y we change y to i and add -es. (जब क्रिया एक व्यंजन + -y में समाप्त होती है तो हम y को i में बदलते हैं और -es जोड़ते हैं।) <br /> <strong>Ex :- Reply -> Replies</strong></li>
           </ul>
           <div className="grid grid-cols-2 gap-8 mt-4 md:text-sm">
@@ -183,7 +183,7 @@ const Tenses = () => {
         </div>
     {/* present continuous tense */}
         <div className="mt-5">
-          {/* <h2 className="text-2xl font-bold underline">2. Present Continuous Tense (वर्तमान काल):-</h2>
+          <h2 className="text-2xl font-bold underline">2. Present Continuous Tense (वर्तमान काल):-</h2>
           <p>The present continuous tense, also known as the present progressive tense, is used to describe actions that are happening at the moment of speaking or actions that are currently in progress. In this tense, the action is ongoing and not yet completed. <br />
           वर्तमान निरंतर काल, जिसे वर्तमान प्रगतिशील काल के रूप में भी जाना जाता है, का उपयोग उन कार्यों का वर्णन करने के लिए किया जाता है जो बोलने के समय हो रहे हैं या जो कार्य वर्तमान में प्रगति पर हैं। इस काल में, कार्रवाई जारी है और अभी तक पूरी नहीं हुई है।
           </p>
@@ -203,77 +203,93 @@ const Tenses = () => {
                   <div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
                     <div className="col-span-2">I am eating lunch. (मैं दोपहर का खाना खा रहा हूँ)</div>
                     <div className="col-span-2">She is reading a book.  (वह किताब पढ़ रही है।)</div>
-                    <div className="col-span-2">They are playing football. (They are playing football.)</div>
+                    <div className="col-span-2">They are playing football. (वे फुटबॉल खेल रहे हैं।)</div>
                     <div className="col-span-2">He is studying for his exam. (वह अपनी परीक्षा के लिए पढ़ाई कर रहा है.)</div>
                   </div> 
               </div>
             </div>
             <div className="cols-span-1 text-center">
               <h4 className="font-bold">2. Negative (नकारात्म  क वाक्य) </h4>
-              <div className="font-bold">Rule 1: - Case 1 + was + not + (1st form verb + ing) + Object</div>
-              <div className="font-bold">Rule 2: - Case 2 + were + not + (1st form verb + ing) + Object</div>
+              <div className="font-bold">Rule 1: - I + am + not + (1st form verb + ing) + Object</div>
+              <div className="font-bold">Rule 2: - Case 1 + is + not + (1st form verb + ing) + Object</div>
+              <div className="font-bold">Rule 3: - Case 2 + are  + not + (1st form verb + ing) + Object</div>
 
               <div className="grid grid-cols-1 bg-slate-400">
                 <div className="border border-black p-2 font-bold uppercase">Examples</div> 
               </div>
               <div className="grid grid-cols-1">
                   <div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
-                  <div className="col-span-2">She was not reading a book. (वह किताब नहीं पढ़ रही थी।)</div>
-                    <div className="col-span-2">They were not playing in the garden. (वे बगीचे में नहीं खेल रहे थे।)</div>
-                    <div className="col-span-2">He was not cooking dinner. (वह रात का खाना नहीं बना रहा था।)</div>
-                    <div className="col-span-2">I was not watching T.V (मैं टीवी नहीं देख रहा था।)</div>
+                    <div className="col-span-2">I am not eating lunch. (मैं दोपहर का खाना नहीं खा रहा हूँ)</div>
+                    <div className="col-span-2">She is not reading a book.  (वह किताब नहीं पढ़ रही है।)</div>
+                    <div className="col-span-2">They are not playing football. (वे फुटबॉल नहीं खेल रहे हैं.)</div>
+                    <div className="col-span-2">He is not studying for his exam. (वह अपनी परीक्षा के लिए पढ़ाई नहीं कर रहा है.)</div>
                   </div> 
               </div>
             </div>
             <div className="cols-span-1 text-center">
               <h4 className="font-bold">Interrogative (प्रश्नवाचक वाक्य)</h4>
-              <div className="font-bold">Rule 1: - Was + (Case 1) + (1st form verb + ing) + Object?</div>
-              <div className="font-bold">Rule 2: - Were + (Case 2) + (1st form verb + ing) + Object?</div>
+              <div className="font-bold">Rule 1: - Am + I + (1st form verb + ing) + Object?</div>
+              <div className="font-bold">Rule 2: - Is + Case 1 + (1st form verb + ing) + Object?</div>
+              <div className="font-bold">Rule 3: - Are + Case 2 + (1st form verb + ing) + Object?</div>
+
               <div className="grid grid-cols-1 bg-slate-400">
                 <div className="border border-black p-2 font-bold uppercase">Examples</div> 
               </div>
               <div className="grid grid-cols-1">
                   <div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
-                    <div className="col-span-2">Was she reading a book? (क्या वह किताब पढ़ रही थी?)</div>
-                    <div className="col-span-2">Were they playing in the garden? (क्या वे बगीचे में खेल रहे थे?)</div>
-                    <div className="col-span-2">Was he cooking dinner? (क्या वह रात का खाना बना रहा था?)</div>
-                    <div className="col-span-2">Was I watching TV? (क्या मैं टीवी देख रहा था?)</div>
+                    <div className="col-span-2">Am i eating lunch? (क्या मैं दोपहर का खाना खा रहा हूँ?)</div>
+                    <div className="col-span-2">Is she reading a book?  (क्या वह किताब पढ़ रही है?)</div>
+                    <div className="col-span-2">Are they playing football? (क्या वे फ़ुटबॉल खेल रहे हैं?)</div>
+                    <div className="col-span-2">Is he studying for his exam? (क्या वह अपनी परीक्षा के लिए पढ़ाई कर रहा है?)</div>
                   </div> 
               </div>
             </div>
             <div className="cols-span-1 text-center">
               <h4 className="font-bold">Negative Interrogative (नकारात्मक प्रश्नवाचक वाक्य)</h4>
-              <div className="font-bold">Rule 1: - Was + (Case 1) + not + (1st form verb + ing) + Object?</div>
-              <div className="font-bold">Rule 2: - Were + (Case 2) + not + (1st form verb + ing) + Object?</div>
+              <div className="font-bold">Rule 1: - Am + I + not + (1st form verb + ing) + Object?</div>
+              <div className="font-bold">Rule 2: - Is + Case 1 + not + (1st form verb + ing) + Object?</div>
+              <div className="font-bold">Rule 3: - Are + Case 2 + not + (1st form verb + ing) + Object?</div>
+
               <div className="grid grid-cols-1 bg-slate-400">
                 <div className="border border-black p-2 font-bold uppercase">Examples</div> 
               </div>
               <div className="grid grid-cols-1">
                   <div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
-                    <div className="col-span-2">Was she not reading a book? (क्या वह किताब नहीं पढ़ रही थी?)</div>
-                    <div className="col-span-2">Were they not playing in the garden? (क्या वे बगीचे में नहीं खेल रहे थे?)</div>
-                    <div className="col-span-2">Was he not cooking dinner? (क्या वह रात का खाना नहीं बना रहा था?)</div>
-                    <div className="col-span-2">Was I not watching TV? (क्या मैं टी.वी नहीं देख रहा था?)</div>
+                    <div className="col-span-2">Am i not eating lunch? (क्या मैं दोपहर का खाना खा रहा हूँ?)</div>
+                    <div className="col-span-2">Is she not reading a book?  (क्या वह किताब पढ़ रही है?)</div>
+                    <div className="col-span-2">Are they not playing football? (क्या वे फ़ुटबॉल खेल रहे हैं?)</div>
+                    <div className="col-span-2">Is he not studying for his exam? (क्या वह अपनी परीक्षा के लिए पढ़ाई कर रहा है?)</div>
                   </div> 
               </div>
             </div>
-          </div> */}
-          {/* <div className="mt-5">
+          </div>
+          <div className="mt-5">
             <h1 className="font-bold text-2xl">Practice (अभ्यास) :-</h1>
             <p className="text-xl">Hindi to English Translate (हिंदी से अंग्रेजी अनुवाद)</p>
             <p className="font-bold">Example:-</p>
             <ul className="list-disc ml-10">
-              <li>उसने किताब पढ़ी।</li>
-              <li>मैंने कल फिल्म देखी।</li>
-              <li>लोग स्टेज़ पर नहीं गये।</li>
-              <li>राम घूमने नहीं गया।</li>
-              <li>क्या आपने अपना होमवर्क पूरा किया?</li>
-              <li>क्या वे पार्क गए थे?</li>
-              <li>उसने ऐसा क्यों नहीं किया?</li>
-              <li>क्या मैंने बोतल से पानी नहीं पिया?</li>
+              <li>मैं एक किताब पढ़ रहा हूँ।</li>
+              <li>वह ईमेल लिख रही है।</li>
+              <li>वह रात का खाना पका रहा है।</li>
+              <li>हम अपनी परीक्षा के लिए पढ़ रहे हैं।</li>
+              <li>बच्चे टीवी देख रहे हैं।</li>
+              <li>कारीगर एक नया पुल बना रहे हैं।</li>
+              <li>वह कोर में गाती है।</li>
+              <li>वह मैराथन दौड़ रहा है।</li>
+              <li>वे दीवारों को नीला रंग लगा रहे हैं।</li>
+              {/* "I am reading a book."
+"She is writing an email."
+"They are playing football."
+"He is cooking dinner."
+"We are studying for our exams."
+"The children are watching TV."
+"The workers are building a new bridge."
+"She is singing in the choir."
+"He is running a marathon."
+"They are painting the walls blue." */}
             </ul>
           </div>
-          <hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-gray-700"></hr> */}
+          <hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-gray-700"></hr>
 
         </div>
     </div>
