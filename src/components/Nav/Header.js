@@ -4,7 +4,7 @@ import {AiOutlineMenu, AiOutlineClose} from "react-icons/ai"
 const Header = () => {
     const [openMenu, setOpenMenu] = useState(false)
 return (
-    <div className="bg-[#85888a] p-4 fixed top-0 w-full">
+    <div className="bg-blue-500 p-4 fixed top-0 w-full">
     {/* <div className="bg-[#2699fb] p-4"> */}
         <div className="max-w-[1240px] py-[15px] flex items-center justify-between mx-auto">
             <div className="text-3xl font-bold font-serif">

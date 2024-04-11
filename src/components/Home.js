@@ -6,6 +6,33 @@ const Home = () => {
   return (
     <>
     <Header />
+    <div className="font-serif mt-[100px] p-10 text-justify text-[#231f45]">
+        <h1 className="text-5xl text-center font-bold">Welcome to GrammerGuide</h1>
+         <h4 className="text-4xl mt-5 text-center">Want to learn English Speaking Easily</h4>
+        <p className="p-2 text-xl">
+        Welcome to our comprehensive grammar guide! Whether you're a student, a professional, or simply someone looking to improve their language skills, understanding grammar is essential for effective communication. This guide is designed to provide you with a clear and concise overview of grammar principles, rules, and concepts.
+        </p>
+        <p className="p-2 text-xl font-sans">
+        हमारी व्यापक व्याकरण मार्गदर्शिका में आपका स्वागत है! चाहे आप एक छात्र हों, एक पेशेवर हों, या बस ऐसे व्यक्ति हों जो अपने भाषा कौशल में सुधार करना चाहते हों, प्रभावी संचार के लिए व्याकरण को समझना आवश्यक है। यह मार्गदर्शिका आपको व्याकरण सिद्धांतों, नियमों और अवधारणाओं का स्पष्ट और संक्षिप्त अवलोकन प्रदान करने के लिए डिज़ाइन की गई है।
+        </p>
+        <div className="grid grid-cols-3 text-cente p-2 gap-5 mx-5">
+          <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+            <a href="/tense">
+            Tenses (काल)
+            </a>
+          </button>
+          <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+          <a href="/modal">
+          Modals (मोडाल्स)
+            </a>
+            </button>
+          <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+          <a href="/speech">
+          Parts of Speech (शब्दभेद)
+            </a>
+            </button>
+        </div>
+    </div>
    
 {/* <button data-drawer-target="sidebar-multi-level-sidebar" data-drawer-toggle="sidebar-multi-level-sidebar" aria-controls="sidebar-multi-level-sidebar" type="button" class="inline-flex items-center p-2 mt-2 ms-3 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
    <span class="sr-only">Open sidebar</span>
