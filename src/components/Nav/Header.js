@@ -28,9 +28,9 @@ return (
                 <li>
                     <a href="/speech">Speech</a>
                 </li>
-                <li>
+                {/* <li>
                     <a href="/about">About</a>
-                </li>
+                </li> */}
             </ul>
             {/* responsive */}
             <ul className={`md:hidden text-white fixed bg-black duration-300 top-[96px] w-full h-screen ${openMenu ? 'left-0' : 'left-[-100%]'}`}>
@@ -46,9 +46,9 @@ return (
                 <li className="p-5">
                     <a href="/speech">Speech</a>
                 </li>
-                <li className="p-5">
+                {/* <li className="p-5">
                     <a href="/about">About</a>
-                </li>
+                </li> */}
             </ul>
         </div>
     </div>

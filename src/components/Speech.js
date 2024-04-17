@@ -16,14 +16,15 @@ const Speech = () => {
         <div className="grid grid-cols-4 text-cente p-2 gap-5 mx-5">
           <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">Noun (संज्ञा)</button>
           <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">Pronoun (सर्वनाम)</button>
+          <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">Adjective (विशेषण)</button>
           <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">Verb (क्रिया)</button>
           <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">Adverb (क्रिया-विशेषण)</button>
-          <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">Adjective (विशेषण)</button>
           <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">Preposition (सम्बंध-सूचक)</button>
           <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">Conjuction (संयोजक)</button>
           <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">Interjection (विस्मयादिबोधक शब्द)</button>
         </div>
     </div>
+    {/* noun */}
     <div className="m-10 p-10 border border-gray-300 bg-gray-200 text-justify font-serif">
         <h1 className="text-3xl font-bold text-center">Noun (संज्ञा)</h1>
         <p className="text-center m-2">A noun is a part of speech that names a person, place, thing, or idea. It's a fundamental building block of a sentence and often serves as the subject or object of a verb.</p>
@@ -74,6 +75,7 @@ const Speech = () => {
         </div>
         <hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-gray-700"></hr>
     </div>
+    {/* pronoun */}
     <div className="m-10 p-10 border border-gray-300 bg-gray-200 text-justify font-serif">
         <h1 className="text-3xl font-bold text-center">Pronoun (सर्वनाम)</h1>
         <p className="text-center m-2">A pronoun is a part of speech that takes the place of a noun in a sentence. It's used to avoid repetition and make sentences less cumbersome. Pronouns can refer to people, places, things, or ideas.</p>
@@ -121,6 +123,50 @@ const Speech = () => {
           <p> These pronouns refer to non-specific people or things.<br /><strong>Example: anybody, everyone, someone, nobody, anything, everything, something, nothing</strong><br />
           ये सर्वनाम गैर-विशिष्ट लोगों या चीज़ों को संदर्भित करते हैं।
             <br /><strong>उदाहरण: कोई भी, हर कोई, कोई, कोई नहीं, कुछ भी, सब कुछ, कुछ, कुछ नहीं</strong></p>
+        </div>
+        <hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-gray-700"></hr>
+    </div>
+    {/* adjective */}
+    <div className="m-10 p-10 border border-gray-300 bg-gray-200 text-justify font-serif">
+        <h1 className="text-3xl font-bold text-center">Adjective (विशेषण)</h1>
+        <p className="text-center m-2">An adjective is a part of speech that modifies or describes a noun or pronoun.  It gives more information about a noun (a person, place, thing, or idea) or a pronoun. Adjectives help us understand the qualities, characteristics, or features of the noun or pronoun they describe.</p>
+        <p className="text-center m-2">विशेषण भाषण का एक हिस्सा है जो संज्ञा या सर्वनाम को संशोधित या वर्णित करता है। यह किसी संज्ञा (किसी व्यक्ति, स्थान, चीज़ या विचार) या सर्वनाम के बारे में अधिक जानकारी देता है। विशेषण हमें उनके द्वारा वर्णित संज्ञा या सर्वनाम के गुणों, विशेषताओं या विशेषताओं को समझने में मदद करते हैं।</p>
+        <h5 className=""><strong>There are 6 types or parts of adjectives: <br />विशेषण के 6 प्रकार या भाग होते हैं: </strong></h5>
+        <div className="mt-3">
+          <h2 className="text-xl font-bold underline mb-2"># Descriptive Adjectives (वर्णानात्मक विशेषण):-</h2>
+          <p>These adjectives provide specific details about the qualities or characteristics of a noun.<br /><strong>Example: beautiful flowers, blue sky, tall building</strong><br />
+          ये विशेषण किसी संज्ञा के गुणों या विशेषताओं के बारे में विशिष्ट विवरण प्रदान करते हैं।
+            <br /><strong>उदाहरण: सुंदर फूल, नीला आकाश, ऊंची इमारत</strong></p>
+        </div>
+        <div className="mt-3">
+          <h2 className="text-xl font-bold underline mb-2"># Quantitative Adjectives (मात्रात्मक विशेषण):-</h2>
+          <p>These adjectives indicate the quantity or amount of a noun.<br /><strong>Example: three apples, many books, few people</strong><br />
+          ये विशेषण संज्ञा की मात्रा या राशि का बोध कराते हैं।
+            <br /><strong>उदाहरण: तीन सेब, ढेर सारी किताबें, कुछ लोग</strong></p>
+        </div>
+        <div className="mt-3">
+          <h2 className="text-xl font-bold underline mb-2"># Demonstrative Adjectives (प्रदर्शनात्मक विशेषण):-</h2>
+          <p>These adjectives point out or identify specific nouns.<br /><strong>Example: this book, that house, these cookies, those mountains</strong><br />
+          ये विशेषण विशिष्ट संज्ञाओं की ओर संकेत करते हैं या उनकी पहचान कराते हैं।
+            <br /><strong>उदाहरण: यह किताब, वह घर, ये कुकीज़, वो पहाड़</strong></p>
+        </div>
+        <div className="mt-3">
+          <h2 className="text-xl font-bold underline mb-2"># Possessive Adjectives (संबंधवाचक विशेषण):-</h2>
+          <p>These adjectives show ownership or possession.<br /><strong>Example: my car, your house, his book, our family, their cat</strong><br />
+          ये विशेषण स्वामित्व या कब्ज़ा दर्शाते हैं।
+            <br /><strong>उदाहरण: मेरी कार, आपका घर, उसकी किताब, हमारा परिवार, उनकी बिल्ली</strong></p>
+        </div>
+        <div className="mt-3">
+          <h2 className="text-xl font-bold underline mb-2"># Interrogative Adjectives (प्रश्नवाचक विशेषण):-</h2>
+          <p>These adjectives are used to ask questions about nouns.<br /><strong>Example: which book, what color, whose bag</strong><br />
+          इन विशेषणों का प्रयोग संज्ञा के बारे में प्रश्न पूछने के लिए किया जाता है।
+            <br /><strong>उदाहरण: कौन सी किताब, कौन सा रंग, किसका बैग</strong></p>
+        </div>
+        <div className="mt-3">
+          <h2 className="text-xl font-bold underline mb-2"># Comparative and Superlative Adjectives (तुलनात्मक और उच्चतम शिखर विशेषण):-</h2>
+          <p>These adjectives are used to compare two or more things.<br /><strong>Example: taller than, more beautiful than, the tallest, the most beautiful</strong><br />
+          इन विशेषणों का प्रयोग दो या दो से अधिक चीजों की तुलना करने के लिए किया जाता है।
+            <br /><strong>उदाहरण: इससे ऊँचा, उससे भी अधिक सुन्दर, सबसे ऊँचा, सबसे सुन्दर</strong></p>
         </div>
         <hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-gray-700"></hr>
     </div>
