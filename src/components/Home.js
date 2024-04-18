@@ -89,7 +89,12 @@ const Home = () => {
         हमारी व्यापक व्याकरण मार्गदर्शिका में आपका स्वागत है! चाहे आप एक छात्र हों, एक पेशेवर हों, या बस ऐसे व्यक्ति हों जो अपने भाषा कौशल में सुधार करना चाहते हों, प्रभावी संचार के लिए व्याकरण को समझना आवश्यक है। यह मार्गदर्शिका आपको व्याकरण सिद्धांतों, नियमों और अवधारणाओं का स्पष्ट और संक्षिप्त अवलोकन प्रदान करने के लिए डिज़ाइन की गई है।
         </p>
 
-        <div className="grid grid-cols-3 text-cente p-2 gap-5 mx-5">
+        <div className="grid grid-cols-4 text-cente p-2 gap-5 mx-5">
+        <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+            <a href="/verb">
+            Verb (क्रिया)
+            </a>
+          </button>
           <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
             <a href="/tense">
             Tenses (काल)

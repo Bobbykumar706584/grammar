@@ -1,0 +1,2326 @@
+
+[
+    {
+        "first_form": "Buy",
+        "hindi_meaning": "खरीदना",
+        "second_form": "Bought",
+        "third_form": "Bought"
+    },
+    {
+        "first_form": "Build",
+        "hindi_meaning": "बांधना",
+        "second_form": "Built",
+        "third_form": "Built"
+    },
+    {
+        "first_form": "Burn",
+        "hindi_meaning": "जलना",
+        "second_form": "Burnt",
+        "third_form": "Burnt"
+    },
+    {
+        "first_form": "Bend",
+        "hindi_meaning": "झुकना",
+        "second_form": "Bent",
+        "third_form": "Bent"
+    },
+    {
+        "first_form": "Bring",
+        "hindi_meaning": "लाना",
+        "second_form": "Brought",
+        "third_form": "Brought"
+    },
+    {
+        "first_form": "Become",
+        "hindi_meaning": "होना",
+        "second_form": "Became",
+        "third_form": "Become"
+    },
+    {
+        "first_form": "Come",
+        "hindi_meaning": "आना",
+        "second_form": "Came",
+        "third_form": "Come"
+    },
+    {
+        "first_form": "Catch",
+        "hindi_meaning": "पकड़ना",
+        "second_form": "Caught",
+        "third_form": "Caught"
+    },
+    {
+        "first_form": "Do",
+        "hindi_meaning": "करना",
+        "second_form": "Did",
+        "third_form": "Done"
+    },
+    {
+        "first_form": "Dream",
+        "hindi_meaning": "देखना",
+        "second_form": "Dreamt",
+        "third_form": "Dreamt"
+    },
+    {
+        "first_form": "Arise",
+        "hindi_meaning": "उठना जागना",
+        "second_form": "Arose",
+        "third_form": "Arisen"
+    },
+    {
+        "first_form": "Be",
+        "hindi_meaning": "होना",
+        "second_form": "Was, were",
+        "third_form": "Been"
+    },
+    {
+        "first_form": "Bear",
+        "hindi_meaning": "सहना करना",
+        "second_form": "Bore",
+        "third_form": "Bore"
+    },
+    {
+        "first_form": "Beat",
+        "hindi_meaning": "मारना",
+        "second_form": "Beat",
+        "third_form": "Beat"
+    },
+    {
+        "first_form": "Bite",
+        "hindi_meaning": "काटना",
+        "second_form": "Bit",
+        "third_form": "Bitten"
+    },
+    {
+        "first_form": "Break",
+        "hindi_meaning": "तोडना",
+        "second_form": "Broke",
+        "third_form": "Broken"
+    },
+    {
+        "first_form": "Choose",
+        "hindi_meaning": "चुनना",
+        "second_form": "Chose",
+        "third_form": "Chosen"
+    },
+    {
+        "first_form": "Draw",
+        "hindi_meaning": "चित्र बनाना",
+        "second_form": "Drew",
+        "third_form": "Drawn"
+    },
+    {
+        "first_form": "Drive",
+        "hindi_meaning": "चलाना",
+        "second_form": "Drove",
+        "third_form": "Driven"
+    },
+    {
+        "first_form": "Eat",
+        "hindi_meaning": "खाना",
+        "second_form": "Ate",
+        "third_form": "Eaten"
+    },
+    {
+        "first_form": "Fall",
+        "hindi_meaning": "गिरना",
+        "second_form": "Fell",
+        "third_form": "Fallen"
+    },
+    {
+        "first_form": "Fly",
+        "hindi_meaning": "उड़ना",
+        "second_form": "Flew",
+        "third_form": "Flown"
+    },
+    {
+        "first_form": "Forget",
+        "hindi_meaning": "भूल जाना",
+        "second_form": "Forgot",
+        "third_form": "Forgotten"
+    },
+    {
+        "first_form": "Forgive",
+        "hindi_meaning": "माफ करना",
+        "second_form": "Forgave",
+        "third_form": "Forgiven"
+    },
+    {
+        "first_form": "Give",
+        "hindi_meaning": "देना",
+        "second_form": "Gave",
+        "third_form": "Given"
+    },
+    {
+        "first_form": "Grow",
+        "hindi_meaning": "बढ़ना",
+        "second_form": "Grew",
+        "third_form": "Grown"
+    },
+    {
+        "first_form": "Hide",
+        "hindi_meaning": "छुपना",
+        "second_form": "Hid",
+        "third_form": "Hidden"
+    },
+    {
+        "first_form": "Know",
+        "hindi_meaning": "जानना",
+        "second_form": "Knew",
+        "third_form": "Known"
+    },
+    {
+        "first_form": "Lie",
+        "hindi_meaning": "लेटना",
+        "second_form": "Lay",
+        "third_form": "Lain"
+    },
+    {
+        "first_form": "Ride",
+        "hindi_meaning": "सवार होना",
+        "second_form": "Rode",
+        "third_form": "Ridden"
+    },
+    {
+        "first_form": "Rise",
+        "hindi_meaning": "उठना",
+        "second_form": "Rose",
+        "third_form": "Risen"
+    },
+    {
+        "first_form": "See",
+        "hindi_meaning": "देखना",
+        "second_form": "Saw",
+        "third_form": "Seen"
+    },
+    {
+        "first_form": "Speak",
+        "hindi_meaning": "बोलना",
+        "second_form": "Spoke",
+        "third_form": "Spoken"
+    },
+    {
+        "first_form": "Take",
+        "hindi_meaning": "लेना",
+        "second_form": "Took",
+        "third_form": "Taken"
+    },
+    {
+        "first_form": "Throw",
+        "hindi_meaning": "फेकना",
+        "second_form": "Threw",
+        "third_form": "Thrown"
+    },
+    {
+        "first_form": "Wake",
+        "hindi_meaning": "जागना",
+        "second_form": "Woke",
+        "third_form": "Woken"
+    },
+    {
+        "first_form": "Wear",
+        "hindi_meaning": "कपड़े पहनना",
+        "second_form": "Wore",
+        "third_form": "Worn"
+    },
+    {
+        "first_form": "Write",
+        "hindi_meaning": "लिखना",
+        "second_form": "Wrote",
+        "third_form": "Written"
+    },
+    {
+        "first_form": "Begin",
+        "hindi_meaning": "शुरू करना",
+        "second_form": "Began",
+        "third_form": "Begun"
+    },
+    {
+        "first_form": "Drink",
+        "hindi_meaning": "पीना",
+        "second_form": "Drank",
+        "third_form": "Drunk"
+    },
+    {
+        "first_form": "Ring",
+        "hindi_meaning": "घंटी बजाना",
+        "second_form": "Rang",
+        "third_form": "Rung"
+    },
+    {
+        "first_form": "Run",
+        "hindi_meaning": "दौड़ना",
+        "second_form": "Ran",
+        "third_form": "Run"
+    },
+    {
+        "first_form": "Shrink",
+        "hindi_meaning": "सिकुड़ना",
+        "second_form": "Shrank",
+        "third_form": "Shrunk"
+    },
+    {
+        "first_form": "Sing",
+        "hindi_meaning": "गाना",
+        "second_form": "Sang",
+        "third_form": "Sung"
+    },
+    {
+        "first_form": "Sink",
+        "hindi_meaning": "डूबना",
+        "second_form": "Sank",
+        "third_form": "Sunk"
+    },
+    {
+        "first_form": "Swear",
+        "hindi_meaning": "कसम लेना",
+        "second_form": "Swore",
+        "third_form": "Sworn"
+    },
+    {
+        "first_form": "Stand",
+        "hindi_meaning": "खड़े रहना",
+        "second_form": "Stood",
+        "third_form": "Stood"
+    },
+    {
+        "first_form": "Sell",
+        "hindi_meaning": "बेचना",
+        "second_form": "Sold",
+        "third_form": "Sold"
+    },
+    {
+        "first_form": "Shine",
+        "hindi_meaning": "चमकना",
+        "second_form": "Shone",
+        "third_form": "Shone"
+    },
+    {
+        "first_form": "Shoot",
+        "hindi_meaning": "गोली मारना",
+        "second_form": "Shot",
+        "third_form": "Shot"
+    },
+    {
+        "first_form": "Sit",
+        "hindi_meaning": "बैठना",
+        "second_form": "Sat",
+        "third_form": "Sat"
+    },
+    {
+        "first_form": "Swim",
+        "hindi_meaning": "तैरना",
+        "second_form": "Swam",
+        "third_form": "Swum"
+    },
+    {
+        "first_form": "Sweep",
+        "hindi_meaning": "झाड़ू लगाना",
+        "second_form": "Swept",
+        "third_form": "Swept"
+    },
+    {
+        "first_form": "Sleep",
+        "hindi_meaning": "सोना",
+        "second_form": "Slept",
+        "third_form": "Slept"
+    },
+    {
+        "first_form": "Steal",
+        "hindi_meaning": "चोरी हो जाना",
+        "second_form": "Stole",
+        "third_form": "Stolen"
+    },
+    {
+        "first_form": "Smell",
+        "hindi_meaning": "सूंघना",
+        "second_form": "Smelt",
+        "third_form": "Smelt"
+    },
+    {
+        "first_form": "Teach",
+        "hindi_meaning": "पढ़ाना",
+        "second_form": "Taught",
+        "third_form": "Taught"
+    },
+    {
+        "first_form": "Tell",
+        "hindi_meaning": "कहना",
+        "second_form": "Told",
+        "third_form": "Told"
+    },
+    {
+        "first_form": "Think",
+        "hindi_meaning": "सोचना",
+        "second_form": "Thought",
+        "third_form": "Thought"
+    },
+    {
+        "first_form": "Understand",
+        "hindi_meaning": "समझना",
+        "second_form": "Understood",
+        "third_form": "Understood"
+    },
+    {
+        "first_form": "Win",
+        "hindi_meaning": "जीतना",
+        "second_form": "Won",
+        "third_form": "Won"
+    },
+    {
+        "first_form": "Withdraw",
+        "hindi_meaning": "निकालना",
+        "second_form": "Withdrew",
+        "third_form": "Withdrawn"
+    },
+    {
+        "first_form": "Fight",
+        "hindi_meaning": "लड़ाई करना",
+        "second_form": "Fought",
+        "third_form": "Fought"
+    },
+    {
+        "first_form": "Feed",
+        "hindi_meaning": "खिलाना",
+        "second_form": "Fed",
+        "third_form": "Fed"
+    },
+    {
+        "first_form": "Feel",
+        "hindi_meaning": "महसूस करना",
+        "second_form": "Felt",
+        "third_form": "Felt"
+    },
+    {
+        "first_form": "Find",
+        "hindi_meaning": "ढूंढना",
+        "second_form": "Found",
+        "third_form": "Found"
+    },
+    {
+        "first_form": "Forbid",
+        "hindi_meaning": "रोकना",
+        "second_form": "Forbade",
+        "third_form": "Forbidden"
+    },
+    {
+        "first_form": "Get",
+        "hindi_meaning": "पाना",
+        "second_form": "Got",
+        "third_form": "Got"
+    },
+    {
+        "first_form": "Go",
+        "hindi_meaning": "जाना",
+        "second_form": "Went",
+        "third_form": "Gone"
+    },
+    {
+        "first_form": "Hear",
+        "hindi_meaning": "सुनना",
+        "second_form": "Heard",
+        "third_form": "Heard"
+    },
+    {
+        "first_form": "Hold",
+        "hindi_meaning": "पकड़ना",
+        "second_form": "Held",
+        "third_form": "Held"
+    },
+    {
+        "first_form": "Hang",
+        "hindi_meaning": "टांगना लटकना",
+        "second_form": "Hung",
+        "third_form": "Hung"
+    },
+    {
+        "first_form": "Keep",
+        "hindi_meaning": "रखना",
+        "second_form": "Kept",
+        "third_form": "Kept"
+    },
+    {
+        "first_form": "Learn",
+        "hindi_meaning": "सीखना",
+        "second_form": "Learnt",
+        "third_form": "Learnt"
+    },
+    {
+        "first_form": "Leave",
+        "hindi_meaning": "छोड़ना",
+        "second_form": "Left",
+        "third_form": "Left"
+    },
+    {
+        "first_form": "Mean",
+        "hindi_meaning": "अर्थ होना",
+        "second_form": "Meant",
+        "third_form": "Meant"
+    },
+    {
+        "first_form": "Make",
+        "hindi_meaning": "बनाना",
+        "second_form": "Made",
+        "third_form": "Made"
+    },
+    {
+        "first_form": "Overtake",
+        "hindi_meaning": "आगे पहुंचना",
+        "second_form": "Overtook",
+        "third_form": "Overtaken"
+    },
+    {
+        "first_form": "Pay",
+        "hindi_meaning": "अदा करना",
+        "second_form": "Paid",
+        "third_form": "Paid"
+    },
+    {
+        "first_form": "Say",
+        "hindi_meaning": "कहना",
+        "second_form": "Said",
+        "third_form": "Said"
+    },
+    {
+        "first_form": "Agree",
+        "hindi_meaning": "मानना",
+        "second_form": "Agreed",
+        "third_form": "Agreed"
+    },
+    {
+        "first_form": "Allow",
+        "hindi_meaning": "परवानगी देना",
+        "second_form": "Allowed",
+        "third_form": "Allowed"
+    },
+    {
+        "first_form": "Announce",
+        "hindi_meaning": "जाहिर करना",
+        "second_form": "Announced",
+        "third_form": "Announced"
+    },
+    {
+        "first_form": "Answer",
+        "hindi_meaning": "जवाब देना",
+        "second_form": "Answered",
+        "third_form": "Answered"
+    },
+    {
+        "first_form": "Apologize",
+        "hindi_meaning": "माफी मांगना",
+        "second_form": "Apologized",
+        "third_form": "Apologized"
+    },
+    {
+        "first_form": "Appear",
+        "hindi_meaning": "प्रकट होना",
+        "second_form": "Appeared",
+        "third_form": "Appeared"
+    },
+    {
+        "first_form": "Appoint",
+        "hindi_meaning": "नियुक्त करना",
+        "second_form": "Appointed",
+        "third_form": "Appointed"
+    },
+    {
+        "first_form": "Argue",
+        "hindi_meaning": "बहस करना",
+        "second_form": "Argued",
+        "third_form": "Argued"
+    },
+    {
+        "first_form": "Arrange",
+        "hindi_meaning": "व्यवस्थित करना",
+        "second_form": "Arranged",
+        "third_form": "Arranged"
+    },
+    {
+        "first_form": "Arrest",
+        "hindi_meaning": "अटक करना",
+        "second_form": "Arrested",
+        "third_form": "Arrested"
+    },
+    {
+        "first_form": "Arrive",
+        "hindi_meaning": "आगमन होना",
+        "second_form": "Arrived",
+        "third_form": "Arrived"
+    },
+    {
+        "first_form": "Attach",
+        "hindi_meaning": "जोड़ना",
+        "second_form": "Attached",
+        "third_form": "Attached"
+    },
+    {
+        "first_form": "Attack",
+        "hindi_meaning": "हमला करना",
+        "second_form": "Attacked",
+        "third_form": "Attacked"
+    },
+    {
+        "first_form": "Attempt",
+        "hindi_meaning": "प्रयास करना",
+        "second_form": "Attempted",
+        "third_form": "Attempted"
+    },
+    {
+        "first_form": "Attend",
+        "hindi_meaning": "उपस्थित होना",
+        "second_form": "Attended",
+        "third_form": "Attended"
+    },
+    {
+        "first_form": "Avoid",
+        "hindi_meaning": "टालना",
+        "second_form": "Avoided",
+        "third_form": "Avoided"
+    },
+    {
+        "first_form": "Await",
+        "hindi_meaning": "इंतजार करना",
+        "second_form": "Awaited",
+        "third_form": "Awaited"
+    },
+    {
+        "first_form": "Award",
+        "hindi_meaning": "इनाम देना",
+        "second_form": "Awarded",
+        "third_form": "Awarded"
+    },
+    {
+        "first_form": "Ban",
+        "hindi_meaning": "प्रतिबंध करना",
+        "second_form": "Banned",
+        "third_form": "Banned"
+    },
+    {
+        "first_form": "Bargain",
+        "hindi_meaning": "मोलतोल करना",
+        "second_form": "Bargained",
+        "third_form": "Bargained"
+    },
+    {
+        "first_form": "Behave",
+        "hindi_meaning": "व्यवहार करना",
+        "second_form": "Behaved",
+        "third_form": "Behaved"
+    },
+    {
+        "first_form": "Believe",
+        "hindi_meaning": "विश्वास रखना",
+        "second_form": "Believed",
+        "third_form": "Believed"
+    },
+    {
+        "first_form": "Bless",
+        "hindi_meaning": "आशीर्वाद देना",
+        "second_form": "Blessed",
+        "third_form": "Blessed"
+    },
+    {
+        "first_form": "Boil",
+        "hindi_meaning": "उबालना",
+        "second_form": "Boiled",
+        "third_form": "Boiled"
+    },
+    {
+        "first_form": "Build",
+        "hindi_meaning": "बांधना",
+        "second_form": "Built",
+        "third_form": "Built"
+    },
+    {
+        "first_form": "Burn",
+        "hindi_meaning": "जलना",
+        "second_form": "Burnt",
+        "third_form": "Burnt"
+    },
+    {
+        "first_form": "Bury",
+        "hindi_meaning": "गाढ़ देना",
+        "second_form": "Buried",
+        "third_form": "Buried"
+    },
+    {
+        "first_form": "Call",
+        "hindi_meaning": "बुलाना",
+        "second_form": "Called",
+        "third_form": "Called"
+    },
+    {
+        "first_form": "Cancel",
+        "hindi_meaning": "रद्द करना",
+        "second_form": "Canceled",
+        "third_form": "Canceled"
+    },
+    {
+        "first_form": "Care",
+        "hindi_meaning": "देखभाल करना",
+        "second_form": "Cared",
+        "third_form": "Cared"
+    },
+    {
+        "first_form": "Carry",
+        "hindi_meaning": "ले जाना",
+        "second_form": "Carried",
+        "third_form": "Carried"
+    },
+    {
+        "first_form": "Celebrate",
+        "hindi_meaning": "मनाना",
+        "second_form": "Celebrated",
+        "third_form": "Celebrated"
+    },
+    {
+        "first_form": "Challenge",
+        "hindi_meaning": "चुनौती देना",
+        "second_form": "Challenged",
+        "third_form": "Challenged"
+    },
+    {
+        "first_form": "Change",
+        "hindi_meaning": "बदलना",
+        "second_form": "Changed",
+        "third_form": "Changed"
+    },
+    {
+        "first_form": "Cheat",
+        "hindi_meaning": "धोकाधड़ी करना",
+        "second_form": "Cheated",
+        "third_form": "Cheated"
+    },
+    {
+        "first_form": "Check",
+        "hindi_meaning": "जाँच करना",
+        "second_form": "Checked",
+        "third_form": "Checked"
+    },
+    {
+        "first_form": "Clarify",
+        "hindi_meaning": "स्पष्ट करना",
+        "second_form": "Clarified",
+        "third_form": "Clarified"
+    },
+    {
+        "first_form": "Clean",
+        "hindi_meaning": "सफाई करना",
+        "second_form": "Cleaned",
+        "third_form": "Cleaned"
+    },
+    {
+        "first_form": "Clear",
+        "hindi_meaning": "साफ करना",
+        "second_form": "Cleared",
+        "third_form": "Cleared"
+    },
+    {
+        "first_form": "Climb",
+        "hindi_meaning": "चढ़ना",
+        "second_form": "Climbed",
+        "third_form": "Climbed"
+    },
+    {
+        "first_form": "Close",
+        "hindi_meaning": "बंद करना",
+        "second_form": "Closed",
+        "third_form": "Closed"
+    },
+    {
+        "first_form": "Collect",
+        "hindi_meaning": "इकट्ठा करना",
+        "second_form": "Collected",
+        "third_form": "Collected"
+    },
+    {
+        "first_form": "Command",
+        "hindi_meaning": "हुकुम चलाना",
+        "second_form": "Commanded",
+        "third_form": "Commanded"
+    },
+    {
+        "first_form": "Comment",
+        "hindi_meaning": "टिप्पणी करना",
+        "second_form": "Commented",
+        "third_form": "Commented"
+    },
+    {
+        "first_form": "Compare",
+        "hindi_meaning": "तुलना करना",
+        "second_form": "Compared",
+        "third_form": "Compared"
+    },
+    {
+        "first_form": "Complete",
+        "hindi_meaning": "पूरा करना",
+        "second_form": "Completed",
+        "third_form": "Completed"
+    },
+    {
+        "first_form": "Confirm",
+        "hindi_meaning": "पुष्टि करना",
+        "second_form": "Confirmed",
+        "third_form": "Confirmed"
+    },
+    {
+        "first_form": "Connect",
+        "hindi_meaning": "जोड़ना",
+        "second_form": "Connected",
+        "third_form": "Connected"
+    },
+    {
+        "first_form": "Construct",
+        "hindi_meaning": "निर्माण करना",
+        "second_form": "Constructed",
+        "third_form": "Constructed"
+    },
+    {
+        "first_form": "Continue",
+        "hindi_meaning": "चालू रखना",
+        "second_form": "Continued",
+        "third_form": "Continued"
+    },
+    {
+        "first_form": "Control",
+        "hindi_meaning": "नियंत्रण करना",
+        "second_form": "Controlled",
+        "third_form": "Controlled"
+    },
+    {
+        "first_form": "Cook",
+        "hindi_meaning": "पकाना",
+        "second_form": "Cooked",
+        "third_form": "Cooked"
+    },
+    {
+        "first_form": "Copy",
+        "hindi_meaning": "नकल करना",
+        "second_form": "Copied",
+        "third_form": "Copied"
+    },
+    {
+        "first_form": "Cure",
+        "hindi_meaning": "इलाज करना",
+        "second_form": "Cured",
+        "third_form": "Cured"
+    },
+    {
+        "first_form": "Dance",
+        "hindi_meaning": "नाचना",
+        "second_form": "Danced",
+        "third_form": "Danced"
+    },
+    {
+        "first_form": "Decide",
+        "hindi_meaning": "निर्णय लेना",
+        "second_form": "Decided",
+        "third_form": "Decided"
+    },
+    {
+        "first_form": "Declare",
+        "hindi_meaning": "घोषित करना",
+        "second_form": "Declared",
+        "third_form": "Declared"
+    },
+    {
+        "first_form": "Decorate",
+        "hindi_meaning": "सुशोभित करना",
+        "second_form": "Decorated",
+        "third_form": "Decorated"
+    },
+    {
+        "first_form": "Defeat",
+        "hindi_meaning": "पराजित करना",
+        "second_form": "Defeated",
+        "third_form": "Defeated"
+    },
+    {
+        "first_form": "Demand",
+        "hindi_meaning": "माँग करना",
+        "second_form": "Demanded",
+        "third_form": "Demanded"
+    },
+    {
+        "first_form": "Depend",
+        "hindi_meaning": "आश्रित रहना",
+        "second_form": "Depended",
+        "third_form": "Depended"
+    },
+    {
+        "first_form": "Describe",
+        "hindi_meaning": "वर्णन करना",
+        "second_form": "Described",
+        "third_form": "Described"
+    },
+    {
+        "first_form": "Desire",
+        "hindi_meaning": "इच्छा जताना",
+        "second_form": "Desired",
+        "third_form": "Desired"
+    },
+    {
+        "first_form": "Dispatch",
+        "hindi_meaning": "भेजना",
+        "second_form": "Dispatched",
+        "third_form": "Dispatched"
+    },
+    {
+        "first_form": "Destroy",
+        "hindi_meaning": "नाश करना",
+        "second_form": "Destroyed",
+        "third_form": "Destroyed"
+    },
+    {
+        "first_form": "Devote",
+        "hindi_meaning": "समर्पित करना",
+        "second_form": "Devoted",
+        "third_form": "Devoted"
+    },
+    {
+        "first_form": "Die",
+        "hindi_meaning": "मरना",
+        "second_form": "Died",
+        "third_form": "Died"
+    },
+    {
+        "first_form": "Disappear",
+        "hindi_meaning": "गायब होना",
+        "second_form": "Disappeared",
+        "third_form": "Disappeared"
+    },
+    {
+        "first_form": "Discuss",
+        "hindi_meaning": "चर्चा करना",
+        "second_form": "Discussed",
+        "third_form": "Discussed"
+    },
+    {
+        "first_form": "Dislike",
+        "hindi_meaning": "नापसंद करना",
+        "second_form": "Disliked",
+        "third_form": "Disliked"
+    },
+    {
+        "first_form": "Distribute",
+        "hindi_meaning": "बाँटना",
+        "second_form": "Distributed",
+        "third_form": "Distributed"
+    },
+    {
+        "first_form": "Divide",
+        "hindi_meaning": "विभाजित करना",
+        "second_form": "Divided",
+        "third_form": "Divided"
+    },
+    {
+        "first_form": "Doubt",
+        "hindi_meaning": "शक करना",
+        "second_form": "Doubted",
+        "third_form": "Doubted"
+    },
+    {
+        "first_form": "Drop",
+        "hindi_meaning": "गिराना",
+        "second_form": "Dropped",
+        "third_form": "Dropped"
+    },
+    {
+        "first_form": "Dry",
+        "hindi_meaning": "सुखाना",
+        "second_form": "Dried",
+        "third_form": "Dried"
+    },
+    {
+        "first_form": "Earn",
+        "hindi_meaning": "कमाना",
+        "second_form": "Earned",
+        "third_form": "Earned"
+    },
+    {
+        "first_form": "Educate",
+        "hindi_meaning": "शिक्षित करना",
+        "second_form": "Educated",
+        "third_form": "Educated"
+    },
+    {
+        "first_form": "Elect",
+        "hindi_meaning": "चुनाव जित करना",
+        "second_form": "Elected",
+        "third_form": "Elected"
+    },
+    {
+        "first_form": "Embrace",
+        "hindi_meaning": "गले लगाना",
+        "second_form": "Embraced",
+        "third_form": "Embraced"
+    },
+    {
+        "first_form": "Employ",
+        "hindi_meaning": "नौकरी देना",
+        "second_form": "Employed",
+        "third_form": "Employed"
+    },
+    {
+        "first_form": "Enjoy",
+        "hindi_meaning": "मजा करना",
+        "second_form": "Enjoyed",
+        "third_form": "Enjoyed"
+    },
+    {
+        "first_form": "Enquire",
+        "hindi_meaning": "पूछताछ करना",
+        "second_form": "Enquired",
+        "third_form": "Enquired"
+    },
+    {
+        "first_form": "Enter",
+        "hindi_meaning": "अंदर जाना",
+        "second_form": "Entered",
+        "third_form": "Entered"
+    },
+    {
+        "first_form": "Establish",
+        "hindi_meaning": "स्थापित करना",
+        "second_form": "Established",
+        "third_form": "Established"
+    },
+    {
+        "first_form": "Excuse",
+        "hindi_meaning": "माफ करना",
+        "second_form": "Excused",
+        "third_form": "Excused"
+    },
+    {
+        "first_form": "Exchange",
+        "hindi_meaning": "अदलाबदली करना",
+        "second_form": "Exchanged",
+        "third_form": "Exchanged"
+    },
+    {
+        "first_form": "Expand",
+        "hindi_meaning": "विस्तार करना",
+        "second_form": "Expanded",
+        "third_form": "Expanded"
+    },
+    {
+        "first_form": "Expect",
+        "hindi_meaning": "अपेक्षा करना",
+        "second_form": "Expected",
+        "third_form": "Expected"
+    },
+    {
+        "first_form": "Experience",
+        "hindi_meaning": "अनुभव करना",
+        "second_form": "Experienced",
+        "third_form": "Experienced"
+    },
+    {
+        "first_form": "Explain",
+        "hindi_meaning": "समझाना",
+        "second_form": "Explained",
+        "third_form": "Explained"
+    },
+    {
+        "first_form": "Export",
+        "hindi_meaning": "निर्यात करना",
+        "second_form": "Exported",
+        "third_form": "Exported"
+    },
+    {
+        "first_form": "Extend",
+        "hindi_meaning": "बढ़ाना",
+        "second_form": "Extended",
+        "third_form": "Extended"
+    },
+    {
+        "first_form": "Face",
+        "hindi_meaning": "सामना करना",
+        "second_form": "Faced",
+        "third_form": "Faced"
+    },
+    {
+        "first_form": "Fade",
+        "hindi_meaning": "फीका पड़ना",
+        "second_form": "Faded",
+        "third_form": "Faded"
+    },
+    {
+        "first_form": "Fail",
+        "hindi_meaning": "असफल होना",
+        "second_form": "Failed",
+        "third_form": "Failed"
+    },
+    {
+        "first_form": "Favour",
+        "hindi_meaning": "मेहरबानी",
+        "second_form": "Favoured",
+        "third_form": "Favoured"
+    },
+    {
+        "first_form": "Fear",
+        "hindi_meaning": "घबराना",
+        "second_form": "Feared",
+        "third_form": "Feared"
+    },
+    {
+        "first_form": "Feed",
+        "hindi_meaning": "खिलाना",
+        "second_form": "Fed",
+        "third_form": "Fed"
+    },
+    {
+        "first_form": "Fetch",
+        "hindi_meaning": "जाकर लाना",
+        "second_form": "Fetched",
+        "third_form": "Fetched"
+    },
+    {
+        "first_form": "Fight",
+        "hindi_meaning": "लड़ाई करना",
+        "second_form": "fought",
+        "third_form": "fought"
+    },
+    {
+        "first_form": "Fill",
+        "hindi_meaning": "भरना",
+        "second_form": "Filled",
+        "third_form": "Filled"
+    },
+    {
+        "first_form": "Find",
+        "hindi_meaning": "पाना",
+        "second_form": "Found",
+        "third_form": "Found"
+    },
+    {
+        "first_form": "Finish",
+        "hindi_meaning": "खत्म करना",
+        "second_form": "Finished",
+        "third_form": "Finished"
+    },
+    {
+        "first_form": "Flatter",
+        "hindi_meaning": "खुशामद करना",
+        "second_form": "Flattered",
+        "third_form": "Flattered"
+    },
+    {
+        "first_form": "Follow",
+        "hindi_meaning": "अनुसरण करना",
+        "second_form": "Followed",
+        "third_form": "Followed"
+    },
+    {
+        "first_form": "Force",
+        "hindi_meaning": "जबरदस्ती करना",
+        "second_form": "Forced",
+        "third_form": "Forced"
+    },
+    {
+        "first_form": "Form",
+        "hindi_meaning": "बनाना, रूप देना",
+        "second_form": "Formed",
+        "third_form": "Formed"
+    },
+    {
+        "first_form": "Forward",
+        "hindi_meaning": "आगे भेजना",
+        "second_form": "Forwarded",
+        "third_form": "Forwarded"
+    },
+    {
+        "first_form": "Gain",
+        "hindi_meaning": "पाना",
+        "second_form": "Gained",
+        "third_form": "Gained"
+    },
+    {
+        "first_form": "Gamble",
+        "hindi_meaning": "जुआ खेलना",
+        "second_form": "Gambled",
+        "third_form": "Gambled"
+    },
+    {
+        "first_form": "Generate",
+        "hindi_meaning": "उत्पन्न करना",
+        "second_form": "Generated",
+        "third_form": "Generated"
+    },
+    {
+        "first_form": "Greet",
+        "hindi_meaning": "अभिवादन करना",
+        "second_form": "Greeted",
+        "third_form": "Greeted"
+    },
+    {
+        "first_form": "Grumble",
+        "hindi_meaning": "बड़बड़ाना",
+        "second_form": "Grumbled",
+        "third_form": "Grumbled"
+    },
+    {
+        "first_form": "Guard",
+        "hindi_meaning": "रक्षा करना",
+        "second_form": "Guarded",
+        "third_form": "Guarded"
+    },
+    {
+        "first_form": "Guide",
+        "hindi_meaning": "मार्गदर्शन करना",
+        "second_form": "Guided",
+        "third_form": "Guided"
+    },
+    {
+        "first_form": "Halt",
+        "hindi_meaning": "ठहराव देना",
+        "second_form": "Halted",
+        "third_form": "Halted"
+    },
+    {
+        "first_form": "Handcuff",
+        "hindi_meaning": "बेडी ठोकना",
+        "second_form": "Handcuffed",
+        "third_form": "Handcuffed"
+    },
+    {
+        "first_form": "Handle",
+        "hindi_meaning": "नियंत्रण करना",
+        "second_form": "Handled",
+        "third_form": "Handled"
+    },
+    {
+        "first_form": "Hang",
+        "hindi_meaning": "फाँसी देना",
+        "second_form": "Hanged",
+        "third_form": "Hanged"
+    },
+    {
+        "first_form": "Harass",
+        "hindi_meaning": "सताना, तंग करना",
+        "second_form": "Harassed",
+        "third_form": "Harassed"
+    },
+    {
+        "first_form": "Harm",
+        "hindi_meaning": "नुकसान करना",
+        "second_form": "Harmed",
+        "third_form": "Harmed"
+    },
+    {
+        "first_form": "Help",
+        "hindi_meaning": "मदद करना",
+        "second_form": "Helped",
+        "third_form": "Helped"
+    },
+    {
+        "first_form": "Hire",
+        "hindi_meaning": "इकराये पर देना",
+        "second_form": "Hired",
+        "third_form": "Hired"
+    },
+    {
+        "first_form": "Hoist",
+        "hindi_meaning": "खड़ा करना, उभाड़ना",
+        "second_form": "Hoisted",
+        "third_form": "Hoisted"
+    },
+    {
+        "first_form": "Honour",
+        "hindi_meaning": "सम्मान देना",
+        "second_form": "Honoured",
+        "third_form": "Honoured"
+    },
+    {
+        "first_form": "Hope",
+        "hindi_meaning": "आशा करना",
+        "second_form": "Hoped",
+        "third_form": "Hoped"
+    },
+    {
+        "first_form": "Hunt",
+        "hindi_meaning": "शिकार करना",
+        "second_form": "Hunted",
+        "third_form": "Hunted"
+    },
+    {
+        "first_form": "Hurry",
+        "hindi_meaning": "जल्दबाजी करना",
+        "second_form": "Hurried",
+        "third_form": "Hurried"
+    },
+    {
+        "first_form": "Identify",
+        "hindi_meaning": "पहचानना",
+        "second_form": "Identified",
+        "third_form": "Identified"
+    },
+    {
+        "first_form": "Ignore",
+        "hindi_meaning": "नजरअंदाज करना",
+        "second_form": "Ignored",
+        "third_form": "Ignored"
+    },
+    {
+        "first_form": "Imagine",
+        "hindi_meaning": "कल्पना करना",
+        "second_form": "Imagined",
+        "third_form": "Imagined"
+    },
+    {
+        "first_form": "Imprison",
+        "hindi_meaning": "बंदी बनाना",
+        "second_form": "Imprisoned",
+        "third_form": "Imprisoned"
+    },
+    {
+        "first_form": "Increase",
+        "hindi_meaning": "बढ़ना",
+        "second_form": "Increased",
+        "third_form": "Increased"
+    },
+    {
+        "first_form": "Indicate",
+        "hindi_meaning": "दिशाना",
+        "second_form": "Indicated",
+        "third_form": "Indicated"
+    },
+    {
+        "first_form": "Inform",
+        "hindi_meaning": "सूचित करना",
+        "second_form": "Informed",
+        "third_form": "Informed"
+    },
+    {
+        "first_form": "Injure",
+        "hindi_meaning": "जख्मी होना",
+        "second_form": "Injured",
+        "third_form": "Injured"
+    },
+    {
+        "first_form": "Install",
+        "hindi_meaning": "स्थापित करना",
+        "second_form": "Installed",
+        "third_form": "Installed"
+    },
+    {
+        "first_form": "Instruct",
+        "hindi_meaning": "निदेश देना",
+        "second_form": "Instructed",
+        "third_form": "Instructed"
+    },
+    {
+        "first_form": "Insult",
+        "hindi_meaning": "अपमान करना",
+        "second_form": "Insulted",
+        "third_form": "Insulted"
+    },
+    {
+        "first_form": "Interview",
+        "hindi_meaning": "मुलाखत",
+        "second_form": "Interviewed",
+        "third_form": "Interviewed"
+    },
+    {
+        "first_form": "Introduce",
+        "hindi_meaning": "पहचान करवाना",
+        "second_form": "Introduced",
+        "third_form": "Introduced"
+    },
+    {
+        "first_form": "Invent",
+        "hindi_meaning": "खोज करना",
+        "second_form": "Invented",
+        "third_form": "Invented"
+    },
+    {
+        "first_form": "Invest",
+        "hindi_meaning": "निवेश करना",
+        "second_form": "Invested",
+        "third_form": "Invested"
+    },
+    {
+        "first_form": "Invite",
+        "hindi_meaning": "आमंत्रित करना",
+        "second_form": "Invited",
+        "third_form": "Invited"
+    },
+    {
+        "first_form": "Iron",
+        "hindi_meaning": "इस्त्री करना",
+        "second_form": "Ironed",
+        "third_form": "Ironed"
+    },
+    {
+        "first_form": "Join",
+        "hindi_meaning": "जोड़ना",
+        "second_form": "Joined",
+        "third_form": "Joined"
+    },
+    {
+        "first_form": "Jump",
+        "hindi_meaning": "कूदना",
+        "second_form": "Jumped",
+        "third_form": "Jumped"
+    },
+    {
+        "first_form": "Kick",
+        "hindi_meaning": "लाथ मारना",
+        "second_form": "Kicked",
+        "third_form": "Kicked"
+    },
+    {
+        "first_form": "Kidnap",
+        "hindi_meaning": "अपहरण करना",
+        "second_form": "Kidnaped",
+        "third_form": "Kidnaped"
+    },
+    {
+        "first_form": "Kill",
+        "hindi_meaning": "मार देना",
+        "second_form": "Killed",
+        "third_form": "Killed"
+    },
+    {
+        "first_form": "Knock",
+        "hindi_meaning": "दरवाजा खटखटाना",
+        "second_form": "Knocked",
+        "third_form": "Knocked"
+    },
+    {
+        "first_form": "Laugh",
+        "hindi_meaning": "हँसना",
+        "second_form": "Laughed",
+        "third_form": "Laughed"
+    },
+    {
+        "first_form": "Learn",
+        "hindi_meaning": "सीखना",
+        "second_form": "Learned",
+        "third_form": "Learned"
+    },
+    {
+        "first_form": "Lend",
+        "hindi_meaning": "उधार देना",
+        "second_form": "Lent",
+        "third_form": "Lent"
+    },
+    {
+        "first_form": "Lick",
+        "hindi_meaning": "चाटना",
+        "second_form": "Licked",
+        "third_form": "Licked"
+    },
+    {
+        "first_form": "Lie",
+        "hindi_meaning": "झूठ बोलना",
+        "second_form": "Lied",
+        "third_form": "Lied"
+    },
+    {
+        "first_form": "Lift",
+        "hindi_meaning": "ऊपर उठाना",
+        "second_form": "Lifted",
+        "third_form": "Lifted"
+    },
+    {
+        "first_form": "Light",
+        "hindi_meaning": "जलाना, रोशनी करना",
+        "second_form": "Lighted",
+        "third_form": "Lighted"
+    },
+    {
+        "first_form": "Live",
+        "hindi_meaning": "रहना",
+        "second_form": "Lived",
+        "third_form": "Lived"
+    },
+    {
+        "first_form": "Locate",
+        "hindi_meaning": "ढूंड़ना",
+        "second_form": "Located",
+        "third_form": "Located"
+    },
+    {
+        "first_form": "Look",
+        "hindi_meaning": "देखना",
+        "second_form": "Looked",
+        "third_form": "Looked"
+    },
+    {
+        "first_form": "Lose",
+        "hindi_meaning": "खोना, हारना",
+        "second_form": "Lost",
+        "third_form": "Lost"
+    },
+    {
+        "first_form": "Love",
+        "hindi_meaning": "प्यार करना",
+        "second_form": "Loved",
+        "third_form": "Loved"
+    },
+    {
+        "first_form": "Maintain",
+        "hindi_meaning": "संभालना, बनाए रखना",
+        "second_form": "Maintained",
+        "third_form": "Maintained"
+    },
+    {
+        "first_form": "Marry",
+        "hindi_meaning": "शादी करना",
+        "second_form": "Married",
+        "third_form": "Married"
+    },
+    {
+        "first_form": "Melt",
+        "hindi_meaning": "पिघलाना, गल जाना",
+        "second_form": "Melted",
+        "third_form": "Melted"
+    },
+    {
+        "first_form": "Mention",
+        "hindi_meaning": "उल्लेख करना",
+        "second_form": "Mentioned",
+        "third_form": "Mentioned"
+    },
+    {
+        "first_form": "Mind",
+        "hindi_meaning": "मन लगाना",
+        "second_form": "Minded",
+        "third_form": "Minded"
+    },
+    {
+        "first_form": "Miss",
+        "hindi_meaning": "चूकना",
+        "second_form": "Missed",
+        "third_form": "Missed"
+    },
+    {
+        "first_form": "Move",
+        "hindi_meaning": "हिलना",
+        "second_form": "Moved",
+        "third_form": "Moved"
+    },
+    {
+        "first_form": "Murder",
+        "hindi_meaning": "खून करना",
+        "second_form": "Murdered",
+        "third_form": "Murdered"
+    },
+    {
+        "first_form": "Narrate",
+        "hindi_meaning": "बयान करना",
+        "second_form": "Narrated",
+        "third_form": "Narrated"
+    },
+    {
+        "first_form": "Need",
+        "hindi_meaning": "जरूरत होना",
+        "second_form": "Needed",
+        "third_form": "Needed"
+    },
+    {
+        "first_form": "Nominate",
+        "hindi_meaning": "नामित करना",
+        "second_form": "Nominated",
+        "third_form": "Nominated"
+    },
+    {
+        "first_form": "Note",
+        "hindi_meaning": "लिख लेना",
+        "second_form": "Noted",
+        "third_form": "Noted"
+    },
+    {
+        "first_form": "Notice",
+        "hindi_meaning": "ध्यान देना",
+        "second_form": "Noticed",
+        "third_form": "Noticed"
+    },
+    {
+        "first_form": "Nourish",
+        "hindi_meaning": "पोषण करना",
+        "second_form": "Nourished",
+        "third_form": "Nourished"
+    },
+    {
+        "first_form": "Oblige",
+        "hindi_meaning": "एहसान करना, मजबूर करना",
+        "second_form": "Obliged",
+        "third_form": "Obliged"
+    },
+    {
+        "first_form": "Observe",
+        "hindi_meaning": "निरीक्षण करना",
+        "second_form": "Observed",
+        "third_form": "Observed"
+    },
+    {
+        "first_form": "Obtain",
+        "hindi_meaning": "पाना",
+        "second_form": "Obtained",
+        "third_form": "Obtained"
+    },
+    {
+        "first_form": "Occur",
+        "hindi_meaning": "घटना होनी होना",
+        "second_form": "Occurred",
+        "third_form": "Occurred"
+    },
+    {
+        "first_form": "Open",
+        "hindi_meaning": "खोलना",
+        "second_form": "Opened",
+        "third_form": "Opened"
+    },
+    {
+        "first_form": "Pain",
+        "hindi_meaning": "दर्द होना",
+        "second_form": "Pained",
+        "third_form": "Pained"
+    },
+    {
+        "first_form": "Pardon",
+        "hindi_meaning": "माफ करना",
+        "second_form": "Pardoned",
+        "third_form": "Pardoned"
+    },
+    {
+        "first_form": "Paste",
+        "hindi_meaning": "चिपकाना",
+        "second_form": "Pasted",
+        "third_form": "Pasted"
+    },
+    {
+        "first_form": "Prefer",
+        "hindi_meaning": "पसंद करना, चुनना",
+        "second_form": "Preferred",
+        "third_form": "Preferred"
+    },
+    {
+        "first_form": "Prepare",
+        "hindi_meaning": "तैयार करना",
+        "second_form": "Prepared",
+        "third_form": "Prepared"
+    },
+    {
+        "first_form": "Produce",
+        "hindi_meaning": "उत्पादन करना",
+        "second_form": "Produced",
+        "third_form": "Produced"
+    },
+    {
+        "first_form": "Promise",
+        "hindi_meaning": "वचन देना",
+        "second_form": "Promised",
+        "third_form": "Promised"
+    },
+    {
+        "first_form": "Protect",
+        "hindi_meaning": "रक्षा करना",
+        "second_form": "Protected",
+        "third_form": "Protected"
+    },
+    {
+        "first_form": "Prove",
+        "hindi_meaning": "साबित करना",
+        "second_form": "Proved",
+        "third_form": "Proved"
+    },
+    {
+        "first_form": "Provide",
+        "hindi_meaning": "उपलब्ध कराना",
+        "second_form": "Provided",
+        "third_form": "Provided"
+    },
+    {
+        "first_form": "Publish",
+        "hindi_meaning": "प्रकाशित करना",
+        "second_form": "Published",
+        "third_form": "Published"
+    },
+    {
+        "first_form": "Pull",
+        "hindi_meaning": "खींचना",
+        "second_form": "Pulled",
+        "third_form": "Pulled"
+    },
+    {
+        "first_form": "Punish",
+        "hindi_meaning": "सजा देना",
+        "second_form": "Punished",
+        "third_form": "Punished"
+    },
+    {
+        "first_form": "Push",
+        "hindi_meaning": "धकेलना",
+        "second_form": "Pushed",
+        "third_form": "Pushed"
+    },
+    {
+        "first_form": "Quarrel",
+        "hindi_meaning": "झगड़ना",
+        "second_form": "Quarreled",
+        "third_form": "Quarreled"
+    },
+    {
+        "first_form": "Question",
+        "hindi_meaning": "सवाल पूछना",
+        "second_form": "Questioned",
+        "third_form": "Questioned"
+    },
+    {
+        "first_form": "Rain",
+        "hindi_meaning": "बारिश होना",
+        "second_form": "Rained",
+        "third_form": "Rained"
+    },
+    {
+        "first_form": "Raise",
+        "hindi_meaning": "बढ़ाना",
+        "second_form": "Raised",
+        "third_form": "Raised"
+    },
+    {
+        "first_form": "Reach",
+        "hindi_meaning": "पहुंचना",
+        "second_form": "Reached",
+        "third_form": "Reached"
+    },
+    {
+        "first_form": "Realize",
+        "hindi_meaning": "एहसास होना",
+        "second_form": "Realized",
+        "third_form": "Realized"
+    },
+    {
+        "first_form": "Receive",
+        "hindi_meaning": "स्वीकारना",
+        "second_form": "Received",
+        "third_form": "Received"
+    },
+    {
+        "first_form": "Reconcile",
+        "hindi_meaning": "मेल बिठाना",
+        "second_form": "Reconciled",
+        "third_form": "Reconciled"
+    },
+    {
+        "first_form": "Rectify",
+        "hindi_meaning": "सुधार करना",
+        "second_form": "Rectified",
+        "third_form": "Rectified"
+    },
+    {
+        "first_form": "Reduce",
+        "hindi_meaning": "कम करना",
+        "second_form": "Reduced",
+        "third_form": "Reduced"
+    },
+    {
+        "first_form": "Refine",
+        "hindi_meaning": "साफ करना",
+        "second_form": "Refined",
+        "third_form": "Refined"
+    },
+    {
+        "first_form": "Reflect",
+        "hindi_meaning": "प्रतिबिंब देखना",
+        "second_form": "Reflected",
+        "third_form": "Reflected"
+    },
+    {
+        "first_form": "Refund",
+        "hindi_meaning": "लौटाना",
+        "second_form": "Refunded",
+        "third_form": "Refunded"
+    },
+    {
+        "first_form": "Refuse",
+        "hindi_meaning": "नकारना",
+        "second_form": "Refused",
+        "third_form": "Refused"
+    },
+    {
+        "first_form": "Regret",
+        "hindi_meaning": "पछतावा करना",
+        "second_form": "Regretted",
+        "third_form": "Regretted"
+    },
+    {
+        "first_form": "Reject",
+        "hindi_meaning": "अस्वीकार करना",
+        "second_form": "Rejected",
+        "third_form": "Rejected"
+    },
+    {
+        "first_form": "Relax",
+        "hindi_meaning": "आराम करना",
+        "second_form": "Relaxed",
+        "third_form": "Relaxed"
+    },
+    {
+        "first_form": "Remember",
+        "hindi_meaning": "याद करना",
+        "second_form": "Remembered",
+        "third_form": "Remembered"
+    },
+    {
+        "first_form": "Remind",
+        "hindi_meaning": "याद दिलाना",
+        "second_form": "Reminded",
+        "third_form": "Reminded"
+    },
+    {
+        "first_form": "Represent",
+        "hindi_meaning": "प्रतिनिधित्व करना",
+        "second_form": "Represented",
+        "third_form": "Represented"
+    },
+    {
+        "first_form": "Require",
+        "hindi_meaning": "जरूरत होना",
+        "second_form": "Required",
+        "third_form": "Required"
+    },
+    {
+        "first_form": "Reserve",
+        "hindi_meaning": "आरक्षित रखना",
+        "second_form": "Reserved",
+        "third_form": "Reserved"
+    },
+    {
+        "first_form": "Resign",
+        "hindi_meaning": "इस्तीफा देना",
+        "second_form": "Resigned",
+        "third_form": "Resigned"
+    },
+    {
+        "first_form": "Respect",
+        "hindi_meaning": "आदर करना",
+        "second_form": "Respected",
+        "third_form": "Respected"
+    },
+    {
+        "first_form": "Rest",
+        "hindi_meaning": "आराम करना",
+        "second_form": "Rested",
+        "third_form": "Rested"
+    },
+    {
+        "first_form": "Reveal",
+        "hindi_meaning": "खुलासा करना",
+        "second_form": "Revealed",
+        "third_form": "Revealed"
+    },
+    {
+        "first_form": "Revise",
+        "hindi_meaning": "दोहराना",
+        "second_form": "Revised",
+        "third_form": "Revised"
+    },
+    {
+        "first_form": "Roam",
+        "hindi_meaning": "भटकना",
+        "second_form": "Roamed",
+        "third_form": "Roamed"
+    },
+    {
+        "first_form": "Rob",
+        "hindi_meaning": "चोरी करना",
+        "second_form": "Robbed",
+        "third_form": "Robbed"
+    },
+    {
+        "first_form": "Rush",
+        "hindi_meaning": "जल्दी करना",
+        "second_form": "Rushed",
+        "third_form": "Rushed"
+    },
+    {
+        "first_form": "Sacrifice",
+        "hindi_meaning": "बलिदान करना",
+        "second_form": "Sacrificed",
+        "third_form": "Sacrificed"
+    },
+    {
+        "first_form": "Save",
+        "hindi_meaning": "बचाना",
+        "second_form": "Saved",
+        "third_form": "Saved"
+    },
+    {
+        "first_form": "Search",
+        "hindi_meaning": "खोजना",
+        "second_form": "Searched",
+        "third_form": "Searched"
+    },
+    {
+        "first_form": "Seem",
+        "hindi_meaning": "अभास होना",
+        "second_form": "Seemed",
+        "third_form": "Seemed"
+    },
+    {
+        "first_form": "Select",
+        "hindi_meaning": "चुनना",
+        "second_form": "Selected",
+        "third_form": "Selected"
+    },
+    {
+        "first_form": "Separate",
+        "hindi_meaning": "अलग करना",
+        "second_form": "Separated",
+        "third_form": "Separated"
+    },
+    {
+        "first_form": "Serve",
+        "hindi_meaning": "परोसना",
+        "second_form": "Served",
+        "third_form": "Served"
+    },
+    {
+        "first_form": "Settle",
+        "hindi_meaning": "बसेरा होना",
+        "second_form": "Settled",
+        "third_form": "Settled"
+    },
+    {
+        "first_form": "Shave",
+        "hindi_meaning": "दाढ़ी करना",
+        "second_form": "Shaved",
+        "third_form": "Shaved"
+    },
+    {
+        "first_form": "Shout",
+        "hindi_meaning": "चिल्लाना",
+        "second_form": "Shouted",
+        "third_form": "Shouted"
+    },
+    {
+        "first_form": "Sign",
+        "hindi_meaning": "हस्ताक्षर करना",
+        "second_form": "Signed",
+        "third_form": "Signed"
+    },
+    {
+        "first_form": "Smell",
+        "hindi_meaning": "सूंघना",
+        "second_form": "Smelled",
+        "third_form": "Smelled"
+    },
+    {
+        "first_form": "Solve",
+        "hindi_meaning": "हल करना",
+        "second_form": "Solved",
+        "third_form": "Solved"
+    },
+    {
+        "first_form": "Sow",
+        "hindi_meaning": "बीज बोना",
+        "second_form": "Sowed",
+        "third_form": "Sowed"
+    },
+    {
+        "first_form": "Spare",
+        "hindi_meaning": "अधिकवतु रखना",
+        "second_form": "Spared",
+        "third_form": "Spared"
+    },
+    {
+        "first_form": "Spend",
+        "hindi_meaning": "खर्च करना",
+        "second_form": "Spent",
+        "third_form": "Spent"
+    },
+    {
+        "first_form": "Stab",
+        "hindi_meaning": "छुरा भोंकना",
+        "second_form": "Stabbed",
+        "third_form": "Stabbed"
+    },
+    {
+        "first_form": "Stare",
+        "hindi_meaning": "एकटक देखना",
+        "second_form": "Stared",
+        "third_form": "Stared"
+    },
+    {
+        "first_form": "Start",
+        "hindi_meaning": "शुरुआत करना",
+        "second_form": "Started",
+        "third_form": "Started"
+    },
+    {
+        "first_form": "State",
+        "hindi_meaning": "कथन करना",
+        "second_form": "Stated",
+        "third_form": "Stated"
+    },
+    {
+        "first_form": "Stay",
+        "hindi_meaning": "रहना",
+        "second_form": "Stayed",
+        "third_form": "Stayed"
+    },
+    {
+        "first_form": "Stick",
+        "hindi_meaning": "चिपकाना",
+        "second_form": "Stuck",
+        "third_form": "Stuck"
+    },
+    {
+        "first_form": "Stitch",
+        "hindi_meaning": "सिलाई करना",
+        "second_form": "Stitched",
+        "third_form": "Stitched"
+    },
+    {
+        "first_form": "Stop",
+        "hindi_meaning": "रुकना",
+        "second_form": "Stopped",
+        "third_form": "Stopped"
+    },
+    {
+        "first_form": "Study",
+        "hindi_meaning": "पढ़ाई करना",
+        "second_form": "Studied",
+        "third_form": "Studied"
+    },
+    {
+        "first_form": "Submit",
+        "hindi_meaning": "प्रस्तुत करना",
+        "second_form": "Submitted",
+        "third_form": "Submitted"
+    },
+    {
+        "first_form": "Subscribe",
+        "hindi_meaning": "सदस्य बनना",
+        "second_form": "Subscribed",
+        "third_form": "Subscribed"
+    },
+    {
+        "first_form": "Succeed",
+        "hindi_meaning": "सफल होना",
+        "second_form": "Succeeded",
+        "third_form": "Succeeded"
+    },
+    {
+        "first_form": "Suffer",
+        "hindi_meaning": "भुगतना",
+        "second_form": "Suffered",
+        "third_form": "Suffered"
+    },
+    {
+        "first_form": "Suggest",
+        "hindi_meaning": "सलाह देना",
+        "second_form": "Suggested",
+        "third_form": "Suggested"
+    },
+    {
+        "first_form": "Supply",
+        "hindi_meaning": "आपूर्ति करना",
+        "second_form": "Supplied",
+        "third_form": "Supplied"
+    },
+    {
+        "first_form": "Support",
+        "hindi_meaning": "आधार देना",
+        "second_form": "Supported",
+        "third_form": "Supported"
+    },
+    {
+        "first_form": "Suppose",
+        "hindi_meaning": "कल्पना करना",
+        "second_form": "Supposed",
+        "third_form": "Supposed"
+    },
+    {
+        "first_form": "Surprise",
+        "hindi_meaning": "चौंकाना",
+        "second_form": "Surprised",
+        "third_form": "Surprised"
+    },
+    {
+        "first_form": "Surrender",
+        "hindi_meaning": "शरण जाना",
+        "second_form": "Surrendered",
+        "third_form": "Surrendered"
+    },
+    {
+        "first_form": "Survey",
+        "hindi_meaning": "सर्वेक्षण करना",
+        "second_form": "Surveyed",
+        "third_form": "Surveyed"
+    },
+    {
+        "first_form": "Sympathize",
+        "hindi_meaning": "सहानुभूति देना",
+        "second_form": "Sympathized",
+        "third_form": "Sympathized"
+    },
+    {
+        "first_form": "Talk",
+        "hindi_meaning": "बातचीत करना",
+        "second_form": "Talked",
+        "third_form": "Talked"
+    },
+    {
+        "first_form": "Tally",
+        "hindi_meaning": "मिलाना",
+        "second_form": "Tallied",
+        "third_form": "Tallied"
+    },
+    {
+        "first_form": "Taste",
+        "hindi_meaning": "चखना",
+        "second_form": "Tasted",
+        "third_form": "Tasted"
+    },
+    {
+        "first_form": "Thank",
+        "hindi_meaning": "धन्यवाद अदा करना",
+        "second_form": "Thanked",
+        "third_form": "Thanked"
+    },
+    {
+        "first_form": "Threaten",
+        "hindi_meaning": "डराना",
+        "second_form": "Threatened",
+        "third_form": "Threatened"
+    },
+    {
+        "first_form": "Tie",
+        "hindi_meaning": "बाँधना",
+        "second_form": "Tied",
+        "third_form": "Tied"
+    },
+    {
+        "first_form": "Toil",
+        "hindi_meaning": "मेहनत करना",
+        "second_form": "Toiled",
+        "third_form": "Toiled"
+    },
+    {
+        "first_form": "Tolerate",
+        "hindi_meaning": "सहना",
+        "second_form": "Tolerated",
+        "third_form": "Tolerated"
+    },
+    {
+        "first_form": "Torture",
+        "hindi_meaning": "सताना",
+        "second_form": "Tortured",
+        "third_form": "Tortured"
+    },
+    {
+        "first_form": "Touch",
+        "hindi_meaning": "स्पर्श करना",
+        "second_form": "Touched",
+        "third_form": "Touched"
+    },
+    {
+        "first_form": "Trade",
+        "hindi_meaning": "व्यापार करना",
+        "second_form": "Traded",
+        "third_form": "Traded"
+    },
+    {
+        "first_form": "Transfer",
+        "hindi_meaning": "तबादला करना",
+        "second_form": "Transferred",
+        "third_form": "Transferred"
+    },
+    {
+        "first_form": "Translate",
+        "hindi_meaning": "अनुवाद करना",
+        "second_form": "Translated",
+        "third_form": "Translated"
+    },
+    {
+        "first_form": "Transport",
+        "hindi_meaning": "परिवहन करना",
+        "second_form": "Transported",
+        "third_form": "Transported"
+    },
+    {
+        "first_form": "Travel",
+        "hindi_meaning": "सफर करना",
+        "second_form": "Traveled",
+        "third_form": "Traveled"
+    },
+    {
+        "first_form": "Treat",
+        "hindi_meaning": "इलाज करना",
+        "second_form": "Treated",
+        "third_form": "Treated"
+    },
+    {
+        "first_form": "Trouble",
+        "hindi_meaning": "तकलीफ देना",
+        "second_form": "Troubled",
+        "third_form": "Troubled"
+    },
+    {
+        "first_form": "Trust",
+        "hindi_meaning": "भरोसा रखना",
+        "second_form": "Trusted",
+        "third_form": "Trusted"
+    },
+    {
+        "first_form": "Try",
+        "hindi_meaning": "प्रयास करना",
+        "second_form": "Tried",
+        "third_form": "Tried"
+    },
+    {
+        "first_form": "Turn",
+        "hindi_meaning": "घुमाना",
+        "second_form": "Turned",
+        "third_form": "Turned"
+    },
+    {
+        "first_form": "Use",
+        "hindi_meaning": "इस्तेमाल करना",
+        "second_form": "Used",
+        "third_form": "Used"
+    },
+    {
+        "first_form": "Utilize",
+        "hindi_meaning": "उपयोग करना",
+        "second_form": "Utilized",
+        "third_form": "Utilized"
+    },
+    {
+        "first_form": "Value",
+        "hindi_meaning": "मूल्य लगाना",
+        "second_form": "Valued",
+        "third_form": "Valued"
+    },
+    {
+        "first_form": "Verify",
+        "hindi_meaning": "प्रमाणित करना",
+        "second_form": "Verified",
+        "third_form": "Verified"
+    },
+    {
+        "first_form": "Visit",
+        "hindi_meaning": "भेट देना",
+        "second_form": "Visited",
+        "third_form": "Visited"
+    },
+    {
+        "first_form": "Vomit",
+        "hindi_meaning": "उलटी करना",
+        "second_form": "Vomited",
+        "third_form": "Vomited"
+    },
+    {
+        "first_form": "Wag",
+        "hindi_meaning": "पूंछ झुलाना",
+        "second_form": "Wagged",
+        "third_form": "Wagged"
+    },
+    {
+        "first_form": "Wait",
+        "hindi_meaning": "इंतजार करना",
+        "second_form": "Waited",
+        "third_form": "Waited"
+    },
+    {
+        "first_form": "Walk",
+        "hindi_meaning": "चलना",
+        "second_form": "Walked",
+        "third_form": "Walked"
+    },
+    {
+        "first_form": "Wander",
+        "hindi_meaning": "भटकना",
+        "second_form": "Wandered",
+        "third_form": "Wandered"
+    },
+    {
+        "first_form": "Want",
+        "hindi_meaning": "जरूरत होना",
+        "second_form": "Wanted",
+        "third_form": "Wanted"
+    },
+    {
+        "first_form": "Warm",
+        "hindi_meaning": "गरम होना",
+        "second_form": "Warmed",
+        "third_form": "Warmed"
+    },
+    {
+        "first_form": "Warn",
+        "hindi_meaning": "चेतावनी देना",
+        "second_form": "Warned",
+        "third_form": "Warned"
+    },
+    {
+        "first_form": "Wash",
+        "hindi_meaning": "साफ करना",
+        "second_form": "Washed",
+        "third_form": "Washed"
+    },
+    {
+        "first_form": "Waste",
+        "hindi_meaning": "खराब करना",
+        "second_form": "Wasted",
+        "third_form": "Wasted"
+    },
+    {
+        "first_form": "Watch",
+        "hindi_meaning": "नजर रखना",
+        "second_form": "Watched",
+        "third_form": "Watched"
+    },
+    {
+        "first_form": "Whistle",
+        "hindi_meaning": "सीटी बजाना",
+        "second_form": "Whistled",
+        "third_form": "Whistled"
+    },
+    {
+        "first_form": "Wish",
+        "hindi_meaning": "इच्छा जाहिर करना",
+        "second_form": "Wished",
+        "third_form": "Wished"
+    },
+    {
+        "first_form": "Witness",
+        "hindi_meaning": "गवाही देना",
+        "second_form": "Witnessed",
+        "third_form": "Witnessed"
+    },
+    {
+        "first_form": "Wonder",
+        "hindi_meaning": "आश्चर्य करना",
+        "second_form": "Wondered",
+        "third_form": "Wondered"
+    },
+    {
+        "first_form": "Work",
+        "hindi_meaning": "काम करना",
+        "second_form": "Worked",
+        "third_form": "Worked"
+    },
+    {
+        "first_form": "Worry",
+        "hindi_meaning": "चिंता करना",
+        "second_form": "Worried",
+        "third_form": "Worried"
+    },
+    {
+        "first_form": "Yell",
+        "hindi_meaning": "चिल्लाना",
+        "second_form": "Yelled",
+        "third_form": "Yelled"
+    },
+    {
+        "first_form": "Yield",
+        "hindi_meaning": "शरण आना",
+        "second_form": "Yielded",
+        "third_form": "Yielded"
+    }
+    ]
+  

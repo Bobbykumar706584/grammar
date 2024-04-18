@@ -20,6 +20,9 @@ return (
                     <a href="/">Home</a>
                 </li>
                 <li>
+                    <a href="/verb">Verb</a>
+                </li>
+                <li>
                     <a href="/tense">Tense</a>
                 </li>
                 <li>
