@@ -1,6 +1,6 @@
 import React from "react"
 import Header from "./Nav/Header";
-import Data from "../JsonData/Modal.json"
+import Data from "../JsonData/Common.json"
 
 const Modal = () => {
   return (
@@ -23,7 +23,7 @@ Following table lets you know about modals helping verbs, their negatives and al
           <div>नकारात्मक वाक्य में कहाँ पर not लगाना है – <br />Where to use ‘not’ in negatives</div>
           <div>मुख्य क्रिया की कौन सी form लगानी है – <br />Which form of main verb to be used</div>
         </div>
-        {Data.map(item => (
+        {Data.modal.map(item => (
             <div className="grid grid-cols-3 border text-center border-black p-2 mx-5">
             <div>{item.modalName}</div>
             <div>{item.negativeModalName}</div>
