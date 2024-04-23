@@ -236,7 +236,7 @@ const TableReact = ({products}) => {
         </div>
         
         <div
-          className={`w-full overflow-x-scroll md:overflow-auto max-w-7xl 2xl:max-w-none ${
+          className={`w-full overflow-x-scroll md:overflow-auto xmax-w-7xl 2xl:max-w-none ${
             productList?.length > 0 ? "flex" : "hidden"
           }`}
         >

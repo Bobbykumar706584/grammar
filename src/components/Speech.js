@@ -170,6 +170,31 @@ const Speech = () => {
         </div>
         <hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-gray-700"></hr>
     </div>
+    <div className="m-10 p-10 border border-gray-300 bg-gray-200 text-justify font-serif">
+        <h1 className="text-3xl font-bold text-center">Verb (क्रिया)</h1>
+        <p className="text-center m-2">A verb is a word that expresses an action, occurrence, or state of being. In a sentence, a verb typically indicates what the subject is doing (action) or what is happening to the subject (occurrence or state of being). For example, in the sentence "She runs fast," "runs" is the verb, indicating the action performed by the subject "she." Verbs are central to constructing meaningful sentences in any language. They can also convey tense, aspect, mood, and voice.</p>
+        <p className="text-center m-2">
+        क्रिया एक ऐसा शब्द है जो किसी क्रिया, घटना या होने की स्थिति को व्यक्त करता है। एक वाक्य में, एक क्रिया आमतौर पर इंगित करती है कि विषय क्या कर रहा है (क्रिया) या विषय के साथ क्या हो रहा है (घटना या होने की स्थिति)। उदाहरण के लिए, वाक्य में "वह तेज़ दौड़ती है," "दौड़ती है" क्रिया है, जो विषय "वह" द्वारा की गई क्रिया को दर्शाती है। किसी भी भाषा में सार्थक वाक्यों के निर्माण में क्रियाएँ केंद्रीय होती हैं। वे तनाव, पहलू, मनोदशा और आवाज भी व्यक्त कर सकते हैं।</p>
+        <div className="grid grid-cols-1 bg-slate-400">
+                <div className="border border-black p-2 font-bold uppercase">Examples</div> 
+              </div>
+              <div className="grid grid-cols-1">
+                  <div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
+                    <div className="col-span-2">Read: She reads novels every night before bed. (पढ़ना:: वह हर रात सोने से पहले उपन्यास पढ़ती है।)</div>
+                    <div className="col-span-2">Swim: We swim in the lake during the summer. (तैरना: हम गर्मियों के दौरान झील में तैरते हैं।)</div>
+                    <div className="col-span-2">Paint: He paints landscapes in his spare time. (रँगना:: वह अपने खाली समय में भूदृश्यों को चित्रित करता है।)</div>
+                    <div className="col-span-2">Talk: They talk on the phone for hours. (बात करना:: वे घंटों फोन पर बात करते हैं।)</div>
+                    <div className="col-span-2">Dance: The couple dances gracefully at the wedding. (नृत्य: जोड़े ने शादी में शानदार नृत्य किया।)</div>
+                    <div className="col-span-2">Sleep: The baby sleeps peacefully in the crib. (नींद: बच्चा पालने में शांति से सोता है।)</div>
+                    <div className="col-span-2">Play: The children play soccer in the park. (खेलना: बच्चे पार्क में फुटबॉल खेलते हैं।)</div>
+                    <div className="col-span-2">Cook: She cooks dinner for her family every evening. (पकाना:: वह हर शाम अपने परिवार के लिए रात का खाना बनाती है।)</div>
+                  </div> 
+              </div>
+            
+            <div>For more verb you can go to <a href="/verb" className="font-bold text-red-500">Verbs</a> page</div>
+
+        <hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-gray-700"></hr>
+    </div>
     </>
   );
 };
