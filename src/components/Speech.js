@@ -66,7 +66,7 @@ const Speech = () => {
 				<h5 className="">
 					<strong>
 						There are several types or parts of nouns: <br />
-						संज्ञा के कई प्रकार या भाग होते हैं:{" "}
+						संज्ञा के कई प्रकार या भाग होते हैं:
 					</strong>
 				</h5>
 				{/* Noun */}
@@ -201,7 +201,7 @@ const Speech = () => {
 				<h5 className="">
 					<strong>
 						There are several types or parts of pronouns: <br />
-						सर्वनाम के कई प्रकार या भाग होते हैं:{" "}
+						सर्वनाम के कई प्रकार या भाग होते हैं:
 					</strong>
 				</h5>
 				{/* pronoun */}
@@ -227,7 +227,6 @@ const Speech = () => {
 						# Possessive Pronoun (स्वामित्व सर्वनाम):-
 					</h2>
 					<p>
-						{" "}
 						These pronouns show ownership or possession.
 						<br />
 						<strong>Example: mine, yours, his, hers, its, ours, theirs</strong>
@@ -311,7 +310,6 @@ const Speech = () => {
 						# Indefinite Pronoun (अनिश्चितकालीन सर्वनाम):-
 					</h2>
 					<p>
-						{" "}
 						These pronouns refer to non-specific people or things.
 						<br />
 						<strong>
@@ -349,7 +347,7 @@ const Speech = () => {
 				<h5 className="">
 					<strong>
 						There are 6 types or parts of adjectives: <br />
-						विशेषण के 6 प्रकार या भाग होते हैं:{" "}
+						विशेषण के 6 प्रकार या भाग होते हैं:
 					</strong>
 				</h5>
 				<div className="mt-3">
@@ -519,10 +517,10 @@ const Speech = () => {
 				</div>
 
 				<div>
-					For more verb you can go to{" "}
+					For more verb you can go to
 					<a href="/verb" className="font-bold text-red-500">
 						Verbs
-					</a>{" "}
+					</a>
 					page
 				</div>
 
@@ -550,13 +548,10 @@ const Speech = () => {
 					उपयोग सहित दिए गए हैं:
 				</p>
 				<div className="mt-3">
-					<h2 className="text-xl font-bold underline mb-2">
-						# Manner Adverbs{" "}
-					</h2>
+					<h2 className="text-xl font-bold underline mb-2"># Manner Adverbs</h2>
 					<p>
-						{" "}
 						<strong>Quickly:</strong> She ran quickly to catch the bus. <br />
-						<strong>Carefully:</strong> He handled the fragile vase carefully.{" "}
+						<strong>Carefully:</strong> He handled the fragile vase carefully.
 						<br />
 						<strong>Bravely:</strong> She spoke bravely in front of the
 						audience.
@@ -565,7 +560,6 @@ const Speech = () => {
 				<div className="mt-3">
 					<h2 className="text-xl font-bold underline mb-2"># Place Adverbs</h2>
 					<p>
-						{" "}
 						<strong>Here:</strong> Please come here and sit next to me. <br />
 						<strong>Everywhere:</strong> The children searched everywhere for
 						their lost dog. <br />
@@ -576,8 +570,7 @@ const Speech = () => {
 				<div className="mt-3">
 					<h2 className="text-xl font-bold underline mb-2"># Time Adverbs</h2>
 					<p>
-						{" "}
-						<strong>Now:</strong> We need to leave now to make it on time.{" "}
+						<strong>Now:</strong> We need to leave now to make it on time.
 						<br />
 						<strong>Yesterday:</strong> They went to the beach yesterday. <br />
 						<strong>Soon:</strong> He will arrive soon to pick you up.
@@ -588,8 +581,7 @@ const Speech = () => {
 						# Frequency Adverbs
 					</h2>
 					<p>
-						{" "}
-						<strong>Always:</strong> She always arrives early for meetings.{" "}
+						<strong>Always:</strong> She always arrives early for meetings.
 						<br />
 						<strong>Often:</strong> They often go hiking on weekends <br />
 						<strong>Rarely:</strong> He rarely eats fast food.
@@ -598,7 +590,6 @@ const Speech = () => {
 				<div className="mt-3">
 					<h2 className="text-xl font-bold underline mb-2"># Degree Adverbs</h2>
 					<p>
-						{" "}
 						<strong>Very:</strong> It was a very hot day. <br />
 						<strong>Extremely:</strong> The movie was extremely boring. <br />
 						<strong>Quite:</strong> She's quite tall for her age.
@@ -609,10 +600,9 @@ const Speech = () => {
 						# Certainty Adverbs
 					</h2>
 					<p>
-						{" "}
 						<strong>Certainly:</strong> She will certainly be there to support
 						you. <br />
-						<strong>Definitely:</strong> He's definitely coming to the party.{" "}
+						<strong>Definitely:</strong> He's definitely coming to the party.
 						<br />
 						<strong>Probably:</strong> They probably won't be able to make it to
 						the event.
@@ -623,7 +613,7 @@ const Speech = () => {
 			{/* Preposition */}
 			<div className="m-10 p-10 border border-gray-300 bg-gray-200 text-justify font-serif">
 				<h1 className="text-3xl font-bold text-center">
-					Adverb (क्रिया-विशेषण)
+					Preposition (सम्बंध-सूचक)
 				</h1>
 				<p className="text-center m-2">
 					A preposition is a word that typically comes before a noun or pronoun
@@ -639,7 +629,7 @@ const Speech = () => {
 				</p>
 				<div className="mt-3">
 					<h2 className="text-xl font-bold underline mb-2">
-						# Location Prepositions{" "}
+						# Location Prepositions
 					</h2>
 					<h3 className="text-md font-bold">
 						Above (ऊपर), Across (पार), Against (के खिलाफ), Along (के साथ), Among
@@ -654,7 +644,6 @@ const Speech = () => {
 						Example :-
 					</h3>
 					<p>
-						{" "}
 						<strong>On:</strong> The book is on the table. <br />
 						<strong>Under:</strong> The cat is under the chair. <br />
 						<strong>In:</strong> The keys are in the drawer.
@@ -672,10 +661,9 @@ const Speech = () => {
 						Example :-
 					</h3>
 					<p>
-						{" "}
 						<strong>To:</strong>She went to the store. <br />
 						<strong>From:</strong>He came from the office. <br />
-						<strong>Toward:</strong>The bird flew toward the tree.{" "}
+						<strong>Toward:</strong>The bird flew toward the tree.
 					</p>
 				</div>
 				<div className="mt-3">
@@ -690,10 +678,9 @@ const Speech = () => {
 						Example :-
 					</h3>
 					<p>
-						{" "}
 						<strong>Before:</strong> We arrived before the movie started. <br />
 						<strong>After:</strong> They went home after the party. <br />
-						<strong>During:</strong> He slept during the flight.{" "}
+						<strong>During:</strong> He slept during the flight.
 					</p>
 				</div>
 				<div className="mt-3">
@@ -709,7 +696,6 @@ const Speech = () => {
 						Example :-
 					</h3>
 					<p>
-						{" "}
 						<strong>Of:</strong> The color of the sky is blue. <br />
 						<strong>With:</strong> She's friends with Sarah. <br />
 						<strong>By:</strong> The letter was written by John.
