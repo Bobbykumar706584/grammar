@@ -1,3 +1,4 @@
+/** @format */
 
 import { React, useState } from "react";
 import Axios from "axios";
@@ -6,114 +7,118 @@ import Banner from "./Nav/Banner";
 import { HiOutlineSpeakerWave } from "react-icons/hi2";
 
 const Home = () => {
-   const [data, setData] = useState("");
-  const [searchWord, setSearchWord] = useState("");
- 
-  // Function to fetch information on button 
-  // click, and set the data accordingly
-  function getMeaning() {
-    Axios.get(
-      `https://api.dictionaryapi.dev/api/v2/entries/en_US/${searchWord}`
-    ).then((response) => {
-      setData(response.data[0]);
-    });
-  }
- 
-  // Function to play and listen the 
-  // phonetics of the searched word
-  function playAudio() {
-    let audio = new Audio(data.phonetics[0].audio);
-    audio.play();
-  }
-  return (
-    <>
-    <Header />
-    <div className="font-serif mt-[100px] p-10 text-justify text-[#231f45]">
-      <div class="grid grid-cols-3 gap-5 border border-gray-600 p-2">
-        <div className="col-start-1 col-span-1 text-center">
-          <h1 for="search_word" class="text-center text-4xl">Dictionary</h1>
-            <input 
-            type="text" 
-            placeholder="Search..." 
-            id="search_word" 
-            value={searchWord}
-            onChange={(e) => {
-              setSearchWord(e.target.value);
-            }} 
-            class="bg-gray-50 border span border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" 
-            />
-          <button
-            className="bg-blue-500 p-2.5 mt-5 w-[100px] rounded-md"
-            onClick={() => {
-              getMeaning();
-            }}
-            >
-            Search 
-          </button>
-        </div>
-        <div className="col-span-2 text-center border border-gray-600">
-          {/* {data && ( */}
-          <h1 className="text-2xl font-bold">Result:</h1>
+	const [data, setData] = useState("");
+	const [searchWord, setSearchWord] = useState("");
 
-          {/* )} */}
-        {data && (
-        <div className="showResults col-span-2">
-          <h2 className="text-2xl">
-            {data.word}{" "}
-            <button
-              onClick={() => {
-                playAudio();
-              }}
-            >
-              <HiOutlineSpeakerWave className="mx-3 mt-6" size="30px" />
-            </button>
-          </h2>
-          <h4>Parts of speech:</h4>
-          <p>{data.meanings[0].partOfSpeech}</p>
-          <h4>Definition:</h4>
-          <p>{data.meanings[0].definitions[0].definition}</p>
-          <h4>Example:</h4>
-          <p>{console.log(data)}</p>
-          <p>{data.meanings[0].definitions[0].example}</p>
-        </div>
-        )}
-        </div>
-        
-      </div>
-        <h1 className="text-5xl text-center font-bold mt-[50px]">Welcome to GrammerGuide</h1>
-         <h4 className="text-4xl mt-5 text-center">Want to learn English Speaking Easily</h4>
-        <p className="p-2 text-xl">
-        Welcome to our comprehensive grammar guide! Whether you're a student, a professional, or simply someone looking to improve their language skills, understanding grammar is essential for effective communication. This guide is designed to provide you with a clear and concise overview of grammar principles, rules, and concepts.
-        </p>
-        <p className="p-2 text-xl font-sans">
-        हमारी व्यापक व्याकरण मार्गदर्शिका में आपका स्वागत है! चाहे आप एक छात्र हों, एक पेशेवर हों, या बस ऐसे व्यक्ति हों जो अपने भाषा कौशल में सुधार करना चाहते हों, प्रभावी संचार के लिए व्याकरण को समझना आवश्यक है। यह मार्गदर्शिका आपको व्याकरण सिद्धांतों, नियमों और अवधारणाओं का स्पष्ट और संक्षिप्त अवलोकन प्रदान करने के लिए डिज़ाइन की गई है।
-        </p>
+	// Function to fetch information on button
+	// click, and set the data accordingly
+	function getMeaning() {
+		Axios.get(
+			`https://api.dictionaryapi.dev/api/v2/entries/en_US/${searchWord}`
+			// `https://api.dictionaryapi.dev/api/v2/entries/en/${searchWord}`
+		).then((response) => {
+			setData(response.data[0]);
+		});
+	}
 
-        <div className="grid grid-cols-4 text-cente p-2 gap-5 mx-5">
-        <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-            <a href="/verb">
-            Verb (क्रिया)
-            </a>
-          </button>
-          <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-            <a href="/tense">
-            Tenses (काल)
-            </a>
-          </button>
-          <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-          <a href="/modal">
-          Modals (मोडाल्स)
-            </a>
-            </button>
-          <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-          <a href="/speech">
-          Parts of Speech (शब्दभेद)
-            </a>
-            </button>
-        </div>
-    </div>
-   
-{/* <button data-drawer-target="sidebar-multi-level-sidebar" data-drawer-toggle="sidebar-multi-level-sidebar" aria-controls="sidebar-multi-level-sidebar" type="button" class="inline-flex items-center p-2 mt-2 ms-3 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
+	// Function to play and listen the
+	// phonetics of the searched word
+	function playAudio() {
+		let audio = new Audio(data.phonetics[0].audio);
+		audio.play();
+	}
+	return (
+		<>
+			<Header />
+			<div className="font-serif mt-[100px] p-10 text-justify text-[#231f45]">
+				<div class="grid grid-cols-3 gap-5 border border-gray-600 p-2">
+					<div className="col-start-1 col-span-1 text-center">
+						<h1 for="search_word" class="text-center text-4xl">
+							Dictionary
+						</h1>
+						<input
+							type="text"
+							placeholder="Search..."
+							id="search_word"
+							value={searchWord}
+							onChange={(e) => {
+								setSearchWord(e.target.value);
+							}}
+							class="bg-gray-50 border span border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+						/>
+						<button
+							className="bg-blue-500 p-2.5 mt-5 w-[100px] rounded-md"
+							onClick={() => {
+								getMeaning();
+							}}>
+							Search
+						</button>
+					</div>
+					<div className="col-span-2 text-center border border-gray-600">
+						{/* {data && ( */}
+						<h1 className="text-2xl font-bold">Result:</h1>
+
+						{/* )} */}
+						{data && (
+							<div className="showResults col-span-2">
+								<h2 className="text-2xl">
+									{data.word}
+									<button
+										onClick={() => {
+											playAudio();
+										}}>
+										<HiOutlineSpeakerWave className="mx-3 mt-6" size="30px" />
+									</button>
+								</h2>
+								<h4>Parts of speech:</h4>
+								<p>{data.meanings[0].partOfSpeech}</p>
+								<h4>Definition:</h4>
+								<p>{data.meanings[0].definitions[0].definition}</p>
+								<h4>Example:</h4>
+								<p>{console.log(data)}</p>
+								<p>{data.meanings[0].definitions[0].example}</p>
+							</div>
+						)}
+					</div>
+				</div>
+				<h1 className="text-5xl text-center font-bold mt-[50px]">
+					Welcome to GrammerGuide
+				</h1>
+				<h4 className="text-4xl mt-5 text-center">
+					Want to learn English Speaking Easily
+				</h4>
+				<p className="p-2 text-xl">
+					Welcome to our comprehensive grammar guide! Whether you're a student,
+					a professional, or simply someone looking to improve their language
+					skills, understanding grammar is essential for effective
+					communication. This guide is designed to provide you with a clear and
+					concise overview of grammar principles, rules, and concepts.
+				</p>
+				<p className="p-2 text-xl font-sans">
+					हमारी व्यापक व्याकरण मार्गदर्शिका में आपका स्वागत है! चाहे आप एक छात्र
+					हों, एक पेशेवर हों, या बस ऐसे व्यक्ति हों जो अपने भाषा कौशल में सुधार
+					करना चाहते हों, प्रभावी संचार के लिए व्याकरण को समझना आवश्यक है। यह
+					मार्गदर्शिका आपको व्याकरण सिद्धांतों, नियमों और अवधारणाओं का स्पष्ट और
+					संक्षिप्त अवलोकन प्रदान करने के लिए डिज़ाइन की गई है।
+				</p>
+
+				<div className="grid grid-cols-4 text-cente p-2 gap-5 mx-5">
+					<button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+						<a href="/verb">Verb (क्रिया)</a>
+					</button>
+					<button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+						<a href="/tense">Tenses (काल)</a>
+					</button>
+					<button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+						<a href="/modal">Modals (मोडाल्स)</a>
+					</button>
+					<button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+						<a href="/speech">Parts of Speech (शब्दभेद)</a>
+					</button>
+				</div>
+			</div>
+
+			{/* <button data-drawer-target="sidebar-multi-level-sidebar" data-drawer-toggle="sidebar-multi-level-sidebar" aria-controls="sidebar-multi-level-sidebar" type="button" class="inline-flex items-center p-2 mt-2 ms-3 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
    <span class="sr-only">Open sidebar</span>
    <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
    <path clip-rule="evenodd" fill-rule="evenodd" d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z"></path>
@@ -148,8 +153,7 @@ const Home = () => {
       </ul>
    </div>
 </aside> */}
-
-    </>
-  );
+		</>
+	);
 };
 export default Home;

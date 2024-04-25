@@ -703,6 +703,107 @@ const Speech = () => {
 				</div>
 				<hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-gray-700"></hr>
 			</div>
+			{/* Conjuction */}
+			<div className="m-10 p-10 border border-gray-300 bg-gray-200 text-justify font-serif">
+				<h1 className="text-3xl font-bold text-center">Conjuction (संयोजक)</h1>
+				<p className="text-center m-2">
+					A conjunction is a word that connects words, phrases, or clauses
+					within a sentence. Conjunctions are used to show relationships between
+					different elements and to join them together to create coherent and
+					meaningful sentences. There are three main types of conjunctions:
+				</p>
+				<p className="text-center m-2">
+					समुच्चयबोधक एक ऐसा शब्द है जो एक वाक्य के भीतर शब्दों, वाक्यांशों या
+					उपवाक्यों को जोड़ता है। संयोजकों का उपयोग विभिन्न तत्वों के बीच संबंध
+					दिखाने और उन्हें एक साथ जोड़कर सुसंगत और सार्थक वाक्य बनाने के लिए
+					किया जाता है। संयोजक के तीन मुख्य प्रकार हैं:
+				</p>
+				<div className="mt-3">
+					<h2 className="text-xl font-bold underline mb-2">
+						# Coordinating Conjunctions:
+					</h2>
+					<h3 className="text-md font-bold">
+						And (और), But (लेकिन), Or (या), Nor (नहीं), For (क्योंकि), So
+						(ताकि), Yet (फिर भी).
+						<br />
+						Example :-
+					</h3>
+					<p>
+						<strong>And:</strong> She likes to read and write. (वह पढ़ने और
+						लिखने का शौक रखती है।)
+						<br />
+						<strong>But:</strong> He wants to go to the party, but he has too
+						much work to do. (वह पार्टी में जाना चाहता है, लेकिन उसके पास करने
+						के लिए बहुत सारा काम है।) <br />
+						<strong>Or:</strong> Would you like tea or coffee? (आपको चाय या कॉफी
+						चाहेंगे?)
+						<br />
+						<strong>So:</strong> It's raining, so we should take an umbrella.
+						(बारिश हो रही है, इसलिए हमें छाता ले लेना चाहिए।)
+						<br />
+						<strong>Yet:</strong> He works hard, yet he never seems to get
+						ahead. (वह कड़ी मेहनत करता है, फिर भी वह कभी आगे नहीं बढ़ पाता।)
+					</p>
+				</div>
+				<div className="mt-3">
+					<h2 className="text-xl font-bold underline mb-2">
+						# Subordinating Conjunctions:
+					</h2>
+					<h3 className="text-md font-bold">
+						After (बाद), Although (हालांकि), As (क्योंकि), Because (क्योंकि),
+						Before (से पहले), If (अगर), Since (क्योंकि), Though (हालांकि),
+						Unless (जब तक), Until (तक), When (जब), Whenever (जब भी), Where
+						(जहाँ), Wherever (जहाँ भी), While (जबकि).
+						<br />
+						Example :-
+					</h3>
+					<p>
+						<strong>Because:</strong>She stayed home because it was raining.
+						(बारिश होने के कारण वह घर पर ही रुकी रही।)
+						<br />
+						<strong>Although:</strong>Although it was cold, she didn't wear a
+						coat. (हालाँकि ठंड थी, उसने कोट नहीं पहना था।)
+						<br />
+						<strong>If:</strong> I'll go to the store if you need anything. (अगर
+						तुम्हें किसी चीज़ की ज़रूरत होगी तो मैं दुकान पर जाऊँगा।)
+						<br />
+						<strong>Since:</strong> She has been studying hard since she wants
+						to pass the exam. (वह मेहनत से पढ़ रही है क्योंकि उसे परीक्षा में
+						पास होना है।)
+						<br />
+						<strong>When:</strong>I'll call you when I arrive at the station.
+						(स्टेशन पहुंचने पर मैं तुम्हें फोन करूंगा।)
+					</p>
+				</div>
+				<div className="mt-3">
+					<h2 className="text-xl font-bold underline mb-2">
+						# Correlative Conjunctions:
+					</h2>
+					<h3 className="text-md font-bold">
+						Both...and (दोनों...और), Either...or (या तो...या), Neither...nor (न
+						तो...न), Not only...but also (न केवल...बल्कि भी), Whether...or
+						(क्या...या).
+						<br />
+						Example :-
+					</h3>
+					<p>
+						<strong>Both...and:</strong>She is both smart and kind. (वह चतुर और
+						दयालु दोनों है।) <br />
+						<strong>Either...or:</strong>You can either come with us or stay
+						here. (आप या तो हमारे साथ आ सकते हैं या रुक सकते हैं यहाँ।)
+						<br />
+						<strong>Neither...no:</strong> He is neither tall nor short. (वह न
+						तो लंबा है और न ही छोटा.) <br />
+						<strong>Not only...but also:</strong> She is not only a great singer
+						but also a talented dancer. (वह न केवल एक बेहतरीन गायिका हैं बल्कि
+						एक प्रतिभाशाली डांसर भी हैं।)
+						<br />
+						<strong>Whether...or:</strong> you like it or not, we have to go.
+						(आपको यह पसंद है या नहीं, हमें जाना होगा।)
+					</p>
+				</div>
+				<hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-gray-700"></hr>
+			</div>
 		</>
 	);
 };
