@@ -8,22 +8,22 @@ const Speech = () => {
 		<>
 			<Header />
 			<div className="font-serif mt-[100px] p-10 text-justify text-[#231f45]">
-				<h1 className="text-5xl text-center font-bold">
+				<h1 className="lg:text-5xl md:text-2xl text-center font-bold">
 					Parts of Speech (शब्दभेद)
 				</h1>
-				<p className="p-2 text-xl">
+				<p className="p-2 lg:text-xl">
 					A part of speech, also known as a word class or lexical category, is a
 					linguistic category of words. It classifies words according to their
 					syntactic and semantic functions within sentences. Common parts of
 					speech include:
 				</p>
-				<p className="p-2 text-xl font-sans">
+				<p className="p-2 lg:text-xl font-sans">
 					भाषण का एक भाग, जिसे शब्द वर्ग या शाब्दिक श्रेणी के रूप में भी जाना
 					जाता है, शब्दों की एक भाषाई श्रेणी है। यह वाक्यों के भीतर शब्दों को
 					उनके वाक्य-विन्यास और अर्थ संबंधी कार्यों के अनुसार वर्गीकृत करता है।
 					भाषण के सामान्य भागों में शामिल हैं:
 				</p>
-				<div className="grid grid-cols-4 text-cente p-2 gap-5 mx-5">
+				<div className="grid md:grid-cols-4 text-cente p-2 gap-5 mx-5">
 					<button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
 						Noun (संज्ञा)
 					</button>
@@ -52,8 +52,10 @@ const Speech = () => {
 			</div>
 			{/* noun */}
 			<div className="m-10 p-10 border border-gray-300 bg-gray-200 text-justify font-serif">
-				<h1 className="text-3xl font-bold text-center">Noun (संज्ञा)</h1>
-				<p className="text-center m-2">
+				<h1 className="md:text-3xl sm:text-2xl font-bold text-center">
+					Noun (संज्ञा)
+				</h1>
+				<p className="text-center m-2 md:text-xl">
 					A noun is a part of speech that names a person, place, thing, or idea.
 					It's a fundamental building block of a sentence and often serves as
 					the subject or object of a verb.
@@ -71,7 +73,7 @@ const Speech = () => {
 				</h5>
 				{/* Noun */}
 				<div className="mt-3">
-					<h2 className="text-xl font-bold underline mb-2">
+					<h2 className="md:md:text-xl font-bold underline mb-2">
 						# Common Noun (सामान्य संज्ञा):-
 					</h2>
 					<p>
@@ -87,7 +89,7 @@ const Speech = () => {
 					</p>
 				</div>
 				<div className="mt-3">
-					<h2 className="text-xl font-bold underline mb-2">
+					<h2 className="md:text-xl font-bold underline mb-2">
 						# Proper Noun (विशेष संज्ञा):-
 					</h2>
 					<p>
@@ -102,7 +104,7 @@ const Speech = () => {
 					</p>
 				</div>
 				<div className="mt-3">
-					<h2 className="text-xl font-bold underline mb-2">
+					<h2 className="md:text-xl font-bold underline mb-2">
 						# Concrete Noun (सांकेतिक संज्ञा):-
 					</h2>
 					<p>
@@ -118,7 +120,7 @@ const Speech = () => {
 					</p>
 				</div>
 				<div className="mt-3">
-					<h2 className="text-xl font-bold underline mb-2">
+					<h2 className="md:text-xl font-bold underline mb-2">
 						# Abstract Noun (भाववाचक संज्ञा):-
 					</h2>
 					<p>
@@ -134,7 +136,7 @@ const Speech = () => {
 					</p>
 				</div>
 				<div className="mt-3">
-					<h2 className="text-xl font-bold underline mb-2">
+					<h2 className="md:text-xl font-bold underline mb-2">
 						# Countable Noun (गिनने योग्य संज्ञा):-
 					</h2>
 					<p>
@@ -150,7 +152,7 @@ const Speech = () => {
 					</p>
 				</div>
 				<div className="mt-3">
-					<h2 className="text-xl font-bold underline mb-2">
+					<h2 className="md:text-xl font-bold underline mb-2">
 						# Uncountable Noun (अगिनने योग्य संज्ञा):-
 					</h2>
 					<p>
@@ -167,7 +169,7 @@ const Speech = () => {
 					</p>
 				</div>
 				<div className="mt-3">
-					<h2 className="text-xl font-bold underline mb-2">
+					<h2 className="md:text-xl font-bold underline mb-2">
 						# Collective Noun (समूह संज्ञा):-
 					</h2>
 					<p>
@@ -206,7 +208,7 @@ const Speech = () => {
 				</h5>
 				{/* pronoun */}
 				<div className="mt-3">
-					<h2 className="text-xl font-bold underline mb-2">
+					<h2 className="md:text-xl font-bold underline mb-2">
 						# Personal Pronoun (सामान्य संज्ञा):-
 					</h2>
 					<p>
@@ -223,7 +225,7 @@ const Speech = () => {
 					</p>
 				</div>
 				<div className="mt-3">
-					<h2 className="text-xl font-bold underline mb-2">
+					<h2 className="md:text-xl font-bold underline mb-2">
 						# Possessive Pronoun (स्वामित्व सर्वनाम):-
 					</h2>
 					<p>
@@ -239,7 +241,7 @@ const Speech = () => {
 					</p>
 				</div>
 				<div className="mt-3">
-					<h2 className="text-xl font-bold underline mb-2">
+					<h2 className="md:text-xl font-bold underline mb-2">
 						# Reflexive Pronoun (कर्मकर्त्ता सर्वनाम):-
 					</h2>
 					<p>
@@ -260,7 +262,7 @@ const Speech = () => {
 					</p>
 				</div>
 				<div className="mt-3">
-					<h2 className="text-xl font-bold underline mb-2">
+					<h2 className="md:text-xl font-bold underline mb-2">
 						# Demonstrative Pronoun (संकेतवाचक सर्वनाम):-
 					</h2>
 					<p>
@@ -276,7 +278,7 @@ const Speech = () => {
 					</p>
 				</div>
 				<div className="mt-3">
-					<h2 className="text-xl font-bold underline mb-2">
+					<h2 className="md:text-xl font-bold underline mb-2">
 						# Relative Pronoun (सम्बंध सर्वनाम):-
 					</h2>
 					<p>
@@ -292,7 +294,7 @@ const Speech = () => {
 					</p>
 				</div>
 				<div className="mt-3">
-					<h2 className="text-xl font-bold underline mb-2">
+					<h2 className="md:text-xl font-bold underline mb-2">
 						# Interrogative Pronoun (प्रश्नवाचक सर्वनाम):-
 					</h2>
 					<p>
@@ -306,7 +308,7 @@ const Speech = () => {
 					</p>
 				</div>
 				<div className="mt-3">
-					<h2 className="text-xl font-bold underline mb-2">
+					<h2 className="md:text-xl font-bold underline mb-2">
 						# Indefinite Pronoun (अनिश्चितकालीन सर्वनाम):-
 					</h2>
 					<p>
@@ -351,7 +353,7 @@ const Speech = () => {
 					</strong>
 				</h5>
 				<div className="mt-3">
-					<h2 className="text-xl font-bold underline mb-2">
+					<h2 className="md:text-xl font-bold underline mb-2">
 						# Descriptive Adjectives (वर्णानात्मक विशेषण):-
 					</h2>
 					<p>
@@ -367,7 +369,7 @@ const Speech = () => {
 					</p>
 				</div>
 				<div className="mt-3">
-					<h2 className="text-xl font-bold underline mb-2">
+					<h2 className="md:text-xl font-bold underline mb-2">
 						# Quantitative Adjectives (मात्रात्मक विशेषण):-
 					</h2>
 					<p>
@@ -381,7 +383,7 @@ const Speech = () => {
 					</p>
 				</div>
 				<div className="mt-3">
-					<h2 className="text-xl font-bold underline mb-2">
+					<h2 className="md:text-xl font-bold underline mb-2">
 						# Demonstrative Adjectives (प्रदर्शनात्मक विशेषण):-
 					</h2>
 					<p>
@@ -398,7 +400,7 @@ const Speech = () => {
 					</p>
 				</div>
 				<div className="mt-3">
-					<h2 className="text-xl font-bold underline mb-2">
+					<h2 className="md:text-xl font-bold underline mb-2">
 						# Possessive Adjectives (संबंधवाचक विशेषण):-
 					</h2>
 					<p>
@@ -416,7 +418,7 @@ const Speech = () => {
 					</p>
 				</div>
 				<div className="mt-3">
-					<h2 className="text-xl font-bold underline mb-2">
+					<h2 className="md:text-xl font-bold underline mb-2">
 						# Interrogative Adjectives (प्रश्नवाचक विशेषण):-
 					</h2>
 					<p>
@@ -431,7 +433,7 @@ const Speech = () => {
 					</p>
 				</div>
 				<div className="mt-3">
-					<h2 className="text-xl font-bold underline mb-2">
+					<h2 className="md:text-xl font-bold underline mb-2">
 						# Comparative and Superlative Adjectives (तुलनात्मक और उच्चतम शिखर
 						विशेषण):-
 					</h2>
@@ -548,7 +550,9 @@ const Speech = () => {
 					उपयोग सहित दिए गए हैं:
 				</p>
 				<div className="mt-3">
-					<h2 className="text-xl font-bold underline mb-2"># Manner Adverbs</h2>
+					<h2 className="md:text-xl font-bold underline mb-2">
+						# Manner Adverbs
+					</h2>
 					<p>
 						<strong>Quickly:</strong> She ran quickly to catch the bus. <br />
 						<strong>Carefully:</strong> He handled the fragile vase carefully.
@@ -558,7 +562,9 @@ const Speech = () => {
 					</p>
 				</div>
 				<div className="mt-3">
-					<h2 className="text-xl font-bold underline mb-2"># Place Adverbs</h2>
+					<h2 className="md:text-xl font-bold underline mb-2">
+						# Place Adverbs
+					</h2>
 					<p>
 						<strong>Here:</strong> Please come here and sit next to me. <br />
 						<strong>Everywhere:</strong> The children searched everywhere for
@@ -568,7 +574,9 @@ const Speech = () => {
 					</p>
 				</div>
 				<div className="mt-3">
-					<h2 className="text-xl font-bold underline mb-2"># Time Adverbs</h2>
+					<h2 className="md:text-xl font-bold underline mb-2">
+						# Time Adverbs
+					</h2>
 					<p>
 						<strong>Now:</strong> We need to leave now to make it on time.
 						<br />
@@ -577,7 +585,7 @@ const Speech = () => {
 					</p>
 				</div>
 				<div className="mt-3">
-					<h2 className="text-xl font-bold underline mb-2">
+					<h2 className="md:text-xl font-bold underline mb-2">
 						# Frequency Adverbs
 					</h2>
 					<p>
@@ -588,7 +596,9 @@ const Speech = () => {
 					</p>
 				</div>
 				<div className="mt-3">
-					<h2 className="text-xl font-bold underline mb-2"># Degree Adverbs</h2>
+					<h2 className="md:text-xl font-bold underline mb-2">
+						# Degree Adverbs
+					</h2>
 					<p>
 						<strong>Very:</strong> It was a very hot day. <br />
 						<strong>Extremely:</strong> The movie was extremely boring. <br />
@@ -596,7 +606,7 @@ const Speech = () => {
 					</p>
 				</div>
 				<div className="mt-3">
-					<h2 className="text-xl font-bold underline mb-2">
+					<h2 className="md:text-xl font-bold underline mb-2">
 						# Certainty Adverbs
 					</h2>
 					<p>
@@ -628,7 +638,7 @@ const Speech = () => {
 					इंगित करती है।
 				</p>
 				<div className="mt-3">
-					<h2 className="text-xl font-bold underline mb-2">
+					<h2 className="md:text-xl font-bold underline mb-2">
 						# Location Prepositions
 					</h2>
 					<h3 className="text-md font-bold">
@@ -650,7 +660,7 @@ const Speech = () => {
 					</p>
 				</div>
 				<div className="mt-3">
-					<h2 className="text-xl font-bold underline mb-2">
+					<h2 className="md:text-xl font-bold underline mb-2">
 						# Direction Prepositions
 					</h2>
 					<h3 className="text-md font-bold">
@@ -667,7 +677,7 @@ const Speech = () => {
 					</p>
 				</div>
 				<div className="mt-3">
-					<h2 className="text-xl font-bold underline mb-2">
+					<h2 className="md:text-xl font-bold underline mb-2">
 						# Time Prepositions
 					</h2>
 					<h3 className="text-md font-bold">
@@ -684,7 +694,7 @@ const Speech = () => {
 					</p>
 				</div>
 				<div className="mt-3">
-					<h2 className="text-xl font-bold underline mb-2">
+					<h2 className="md:text-xl font-bold underline mb-2">
 						# Relationship Prepositions
 					</h2>
 					<h3 className="text-md font-bold">
@@ -719,7 +729,7 @@ const Speech = () => {
 					किया जाता है। संयोजक के तीन मुख्य प्रकार हैं:
 				</p>
 				<div className="mt-3">
-					<h2 className="text-xl font-bold underline mb-2">
+					<h2 className="md:text-xl font-bold underline mb-2">
 						# Coordinating Conjunctions:
 					</h2>
 					<h3 className="text-md font-bold">
@@ -746,7 +756,7 @@ const Speech = () => {
 					</p>
 				</div>
 				<div className="mt-3">
-					<h2 className="text-xl font-bold underline mb-2">
+					<h2 className="md:text-xl font-bold underline mb-2">
 						# Subordinating Conjunctions:
 					</h2>
 					<h3 className="text-md font-bold">
@@ -776,7 +786,7 @@ const Speech = () => {
 					</p>
 				</div>
 				<div className="mt-3">
-					<h2 className="text-xl font-bold underline mb-2">
+					<h2 className="md:text-xl font-bold underline mb-2">
 						# Correlative Conjunctions:
 					</h2>
 					<h3 className="text-md font-bold">
@@ -800,6 +810,64 @@ const Speech = () => {
 						<br />
 						<strong>Whether...or:</strong> you like it or not, we have to go.
 						(आपको यह पसंद है या नहीं, हमें जाना होगा।)
+					</p>
+				</div>
+				<hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-gray-700"></hr>
+			</div>
+			{/* interjection */}
+			<div className="m-10 p-10 border border-gray-300 bg-gray-200 text-justify font-serif">
+				<h1 className="text-3xl font-bold text-center">
+					Interjection (विस्मयादिबोधक शब्द)
+				</h1>
+				<p className="text-center m-2">
+					Interjections are words or phrases used to express emotions,
+					sentiments, or sudden exclamations. They often stand alone or are
+					followed by an exclamation mark to indicate strong feelings or
+					reactions. Here are some examples of interjections:
+				</p>
+				<p className="text-center m-2">
+					Interjections केवल भावनाओं, भावनाओं, या अचानक की अभिव्यक्ति के लिए
+					प्रयोग किए जाने वाले शब्द या वाक्यांश हैं। वे अक्सर अकेले खड़े होते
+					हैं या अधिक भावनात्मक भावों या प्रतिक्रियाओं की चिह्नित करने के लिए
+					विस्मयादिबोधक चिह्न के साथ आते हैं। यहां कुछ Interjections के उदाहरण
+					हैं:
+				</p>
+				<div className="mt-3">
+					<h3 className="text-md font-bold">
+						Wow!: वाह! (Vah!) Ouch!: आउच! (Auch!) Oops!: ओहो! (Oho!) Hooray!:
+						हुर्रे! (Hurrae!) Oh no!: अरे नहीं! (Arey nahin!) Yay!: ये! (Ye!)
+						Ah!: आह! (Aah!) Phew!: फ्यू! (Phew!) Alas!: आह! (Aah!) Bravo!:
+						ब्रावो! (Bravo!)
+						<br />
+						Example :-
+					</h3>
+					<p>
+						<strong>Wow:</strong> Wow, that's incredible! (वाह! यह अद्भुत है!)
+						<br />
+						<strong>Ouch:</strong> Ouch, that hurt! (आउच! वह चोट लगी!) <br />
+						<strong>Oops:</strong> Oops, I dropped my phone! (ओहो! मुझसे फोन गिर
+						गया!)
+						<br />
+						<strong>Hooray:</strong> Hooray, we won the game! (हुर्रे! हमने खेल
+						जीत लिया!)
+						<br />
+						<strong>Oh no:</strong> Oh no, I forgot my keys! (ओह नहीं! मुझे अपनी
+						चाबियाँ भूल गई!)
+						<br />
+						<strong>Yay:</strong> Yay, it's finally Friday! (ये! यह आखिरकार
+						शुक्रवार है!)
+						<br />
+						<strong>Ah:</strong> Ah, I see what you mean. (आह! मैं समझता हूँ तुम
+						क्या कहना चाहते हो।)
+						<br />
+						<strong>Phew:</strong> Phew, that was a close call! (फ्यू! वह कुछ
+						गम्भीर था!)
+						<br />
+						<strong>Alas:</strong> Alas, we missed the last train. (आह! हमने
+						अंतिम ट्रेन को छूट दिया।)
+						<br />
+						<strong>Bravo:</strong> Bravo, what a performance! (ब्रावो! क्या
+						प्रदर्शन है!)
 					</p>
 				</div>
 				<hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-gray-700"></hr>
