@@ -133,7 +133,7 @@ const Tenses = () => {
 			</div>
 			{/* Present tense */}
 			<div className="m-10 p-10 border border-gray-300 bg-gray-200 text-justify font-serif">
-				<h1 className="text-3xl font-bold text-center">
+				<h1 className="text-3xl font-bold text-center hover:text-[#04aa6d]">
 					Present Tense (वर्तमानकाल)
 				</h1>
 				<p className="text-center m-2">
@@ -149,7 +149,7 @@ const Tenses = () => {
 				</p>
 				{/* simple present tense */}
 				<div className="mt-5">
-					<h2 className="text-2xl font-bold underline mb-2">
+					<h2 className="text-2xl font-bold mb-2 hover:text-[#04aa6d]">
 						1. Simple Present Tense (सरल वर्तमानकाल):-
 					</h2>
 					<p>
@@ -193,7 +193,7 @@ const Tenses = () => {
 							<strong>Ex :- Reply {"->"} Replies</strong>
 						</li>
 					</ul>
-					<div className="grid grid-cols-2 gap-8 mt-4 md:text-sm">
+					<div className="grid md:grid-cols-2 gap-8 mt-4 md:text-sm">
 						<div className="cols-span-1 text-center">
 							<h4 className="font-bold">1. Affirmative (सकारात्मक वाक्य) </h4>
 							<div className="font-bold">
@@ -353,7 +353,7 @@ const Tenses = () => {
 				</div>
 				{/* present continuous tense */}
 				<div className="mt-5">
-					<h2 className="text-2xl font-bold underline">
+					<h2 className="text-2xl font-bold hover:text-[#04aa6d]">
 						2. Present Continuous Tense (वर्तमान काल):-
 					</h2>
 					<p>
@@ -368,7 +368,7 @@ const Tenses = () => {
 					</p>
 					<h4 className="font-bold">Case 1:- He, She, It, Ram.</h4>
 					<h4 className="font-bold">Case 2:- You, We, They, Ram and Raju.</h4>
-					<div className="grid grid-cols-2 gap-8 mt-4">
+					<div className="grid md:grid-cols-2 gap-8 mt-4">
 						<div className="cols-span-1 text-center">
 							<h4 className="font-bold">1. Affirmative (सकारात्मक वाक्य) </h4>
 							<div className="font-bold">
@@ -546,7 +546,9 @@ const Tenses = () => {
 			</div>
 			{/* past tense */}
 			<div className="m-10 p-10 border border-gray-300 bg-gray-200 text-justify font-serif">
-				<h1 className="text-3xl font-bold text-center">Past Tense (भूतकाल)</h1>
+				<h1 className="text-3xl font-bold text-center hover:text-[#04aa6d]">
+					Past Tense (भूतकाल)
+				</h1>
 				<p className="text-center m-2">
 					Past tense is a grammatical form used to indicate actions, events, or
 					states that have already occurred or happened in the past. In English
@@ -566,7 +568,7 @@ const Tenses = () => {
 				</p>
 				{/* simple past tense */}
 				<div className="mt-5">
-					<h2 className="text-2xl font-bold underline mb-2">
+					<h2 className="text-2xl font-bold mb-2 hover:text-[#04aa6d]">
 						1. Simple Past Tense (सरल भूतकाल):-
 					</h2>
 					<p>
@@ -581,7 +583,7 @@ const Tenses = () => {
 						(हो), "हूं" (हूं) या "था" (था), "थे" (द), "थी" ( थी) का कभी भी उपयोग
 						नहीं किया जाता है।
 					</p>
-					<div className="grid grid-cols-2 gap-8 mt-4 md:text-sm">
+					<div className="grid md:grid-cols-2 gap-8 mt-4 md:text-sm">
 						<div className="cols-span-1 text-center">
 							<h4 className="font-bold">1. Affirmative (सकारात्मक वाक्य) </h4>
 							<div className="font-bold">
@@ -732,7 +734,7 @@ const Tenses = () => {
 				</div>
 				{/* past continuous tense */}
 				<div className="mt-5">
-					<h2 className="text-2xl font-bold underline">
+					<h2 className="text-2xl font-bold hover:text-[#04aa6d]">
 						2. Past Continuous Tense (भूत अपूर्ण काल):-
 					</h2>
 					<p>
@@ -748,7 +750,7 @@ const Tenses = () => {
 					</p>
 					<h4 className="font-bold">Case 1:- I, He, She, It, Ram.</h4>
 					<h4 className="font-bold">Case 2:- You, We, They, Ram and Raju.</h4>
-					<div className="grid grid-cols-2 gap-8 mt-4">
+					<div className="grid md:grid-cols-2 gap-8 mt-4">
 						<div className="cols-span-1 text-center">
 							<h4 className="font-bold">1. Affirmative (सकारात्मक वाक्य) </h4>
 							<div className="font-bold">
@@ -898,7 +900,7 @@ const Tenses = () => {
 				</div>
 				{/* past perfect tense */}
 				{/* <div className="mt-5">
-          <h2 className="text-2xl font-bold underline">3. Past Perfect Tense (सरल भूतकाल):-</h2>
+          <h2 className="text-2xl font-bold hover:text-[#04aa6d]">3. Past Perfect Tense (सरल भूतकाल):-</h2>
           <p>In this tense, the auxiliary verbs "गया" (gaya), "लिया" (liya), "दिया" (diya), "सोया" (soya), "दी" (di), "ली" (li), "की" (ki), etc. are used with the main verb. In this tense, "है" (hai), "हैं" (hain), "हो" (ho), "हूँ" (hoon) or "था" (tha), "थे" (the), "थी" (thi) are never used. <br />
           इस काल में सहायक क्रिया "गया" (गया), "लिया" (लिया), "दिया" (दीया), "सोया" (सोया), "दी" (दी), "ली" (ली), " मुख्य क्रिया के साथ की" (की) आदि का प्रयोग किया जाता है। इस काल में, "है" (है), "हैं" (हैं), "हो" (हो), "हूं" (हूं) या "था" (था), "थे" (द), "थी" ( थी) का कभी भी उपयोग नहीं किया जाता है।
           </p>
@@ -991,7 +993,7 @@ const Tenses = () => {
         </div> */}
 				{/* past perfect continuous tense */}
 				{/* <div className="mt-5">
-          <h2 className="text-2xl font-bold underline">1. Past Perfect Continues Tense (सरल भूतकाल):-</h2>
+          <h2 className="text-2xl font-bold hover:text-[#04aa6d]">1. Past Perfect Continues Tense (सरल भूतकाल):-</h2>
           <p>In this tense, the auxiliary verbs "गया" (gaya), "लिया" (liya), "दिया" (diya), "सोया" (soya), "दी" (di), "ली" (li), "की" (ki), etc. are used with the main verb. In this tense, "है" (hai), "हैं" (hain), "हो" (ho), "हूँ" (hoon) or "था" (tha), "थे" (the), "थी" (thi) are never used. <br />
           इस काल में सहायक क्रिया "गया" (गया), "लिया" (लिया), "दिया" (दीया), "सोया" (सोया), "दी" (दी), "ली" (ली), " मुख्य क्रिया के साथ की" (की) आदि का प्रयोग किया जाता है। इस काल में, "है" (है), "हैं" (हैं), "हो" (हो), "हूं" (हूं) या "था" (था), "थे" (द), "थी" ( थी) का कभी भी उपयोग नहीं किया जाता है।
           </p>
