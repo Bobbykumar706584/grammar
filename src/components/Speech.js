@@ -2,12 +2,14 @@
 
 import React from "react";
 import Header from "./Nav/Header";
+import data from "../JsonData/Common.json";
+import TableReact from "./Nav/customTable";
 
 const Speech = () => {
 	return (
 		<>
 			<Header />
-			<div className="font-serif mt-[100px] p-10 text-justify text-[#231f45]">
+			<div className="mt-[100px] font-serif p-10 text-justify text-[#231f45]">
 				<h1 className="lg:text-5xl md:text-2xl text-center font-bold">
 					Parts of Speech (शब्दभेद)
 				</h1>
@@ -24,35 +26,35 @@ const Speech = () => {
 					भाषण के सामान्य भागों में शामिल हैं:
 				</p>
 				<div className="grid md:grid-cols-4 text-cente p-2 gap-5 mx-5">
-					<button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+					<button className="bg-transparent hover:bg-[#04aa6d] text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
 						Noun (संज्ञा)
 					</button>
-					<button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+					<button className="bg-transparent hover:bg-[#04aa6d] text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
 						Pronoun (सर्वनाम)
 					</button>
-					<button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+					<button className="bg-transparent hover:bg-[#04aa6d] text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
 						Adjective (विशेषण)
 					</button>
-					<button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+					<button className="bg-transparent hover:bg-[#04aa6d] text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
 						Verb (क्रिया)
 					</button>
-					<button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+					<button className="bg-transparent hover:bg-[#04aa6d] text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
 						Adverb (क्रिया-विशेषण)
 					</button>
-					<button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+					<button className="bg-transparent hover:bg-[#04aa6d] text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
 						Preposition (सम्बंध-सूचक)
 					</button>
-					<button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+					<button className="bg-transparent hover:bg-[#04aa6d] text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
 						Conjuction (संयोजक)
 					</button>
-					<button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+					<button className="bg-transparent hover:bg-[#04aa6d] text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
 						Interjection (विस्मयादिबोधक शब्द)
 					</button>
 				</div>
 			</div>
 			{/* noun */}
 			<div className="m-10 p-10 border border-gray-300 bg-gray-200 text-justify font-serif">
-				<h1 className="md:text-3xl sm:text-2xl font-bold text-center">
+				<h1 className="md:text-3xl font-bold text-center hover:text-[#04aa6d]">
 					Noun (संज्ञा)
 				</h1>
 				<p className="text-center m-2 md:text-xl">
@@ -72,123 +74,29 @@ const Speech = () => {
 					</strong>
 				</h5>
 				{/* Noun */}
-				<div className="mt-3">
-					<h2 className="md:md:text-xl font-bold underline mb-2">
-						# Common Noun (सामान्य संज्ञा):-
-					</h2>
-					<p>
-						These are general names for people, places, things, or ideas and are
-						not capitalized unless they begin a sentence. <br />
-						<strong>Example: dog, city, book, happiness </strong>
-						<br />
-						ये लोगों, स्थानों, चीज़ों या विचारों के लिए सामान्य नाम हैं और
-						इन्हें तब तक बड़े अक्षरों में नहीं लिखा जाता जब तक कि वे एक वाक्य
-						शुरू न करें।
-						<br />
-						<strong>उदाहरण: कुत्ता, शहर, किताब, ख़ुशी </strong>
-					</p>
-				</div>
-				<div className="mt-3">
-					<h2 className="md:text-xl font-bold underline mb-2">
-						# Proper Noun (विशेष संज्ञा):-
-					</h2>
-					<p>
-						These are specific names for individual people, places, or things
-						and are capitalized. <br />
-						<strong>Example: John, Paris, The Great Gatsby</strong>
-						<br />
-						ये अलग-अलग लोगों, स्थानों या चीज़ों के लिए विशिष्ट नाम हैं और बड़े
-						अक्षरों में लिखे गए हैं।
-						<br />
-						<strong>उदाहरण: जॉन, पेरिस, द ग्रेट गैट्सबी</strong>
-					</p>
-				</div>
-				<div className="mt-3">
-					<h2 className="md:text-xl font-bold underline mb-2">
-						# Concrete Noun (सांकेतिक संज्ञा):-
-					</h2>
-					<p>
-						These are nouns that represent physical objects that can be seen,
-						heard, touched, tasted, or smelled.
-						<br />
-						<strong>Example: table, apple, car</strong>
-						<br />
-						ये वे संज्ञाएं हैं जो भौतिक वस्तुओं का प्रतिनिधित्व करती हैं जिन्हें
-						देखा, सुना, छुआ, चखा या सूंघा जा सकता है।
-						<br />
-						<strong>उदाहरण: टेबल, सेब, कार</strong>
-					</p>
-				</div>
-				<div className="mt-3">
-					<h2 className="md:text-xl font-bold underline mb-2">
-						# Abstract Noun (भाववाचक संज्ञा):-
-					</h2>
-					<p>
-						These are nouns that represent ideas, qualities, or states rather
-						than physical objects.
-						<br />
-						<strong>Example: love, courage, freedom</strong>
-						<br />
-						ये वे संज्ञाएं हैं जो भौतिक वस्तुओं के बजाय विचारों, गुणों या
-						अवस्थाओं का प्रतिनिधित्व करती हैं।
-						<br />
-						<strong>उदाहरण: प्रेम, साहस, स्वतंत्रता</strong>
-					</p>
-				</div>
-				<div className="mt-3">
-					<h2 className="md:text-xl font-bold underline mb-2">
-						# Countable Noun (गिनने योग्य संज्ञा):-
-					</h2>
-					<p>
-						These are nouns that can be counted as individual units and can have
-						both singular and plural forms.
-						<br />
-						<strong>Example: book (singular), books (plural)</strong>
-						<br />
-						ये ऐसी संज्ञाएं हैं जिन्हें व्यक्तिगत इकाइयों के रूप में गिना जा
-						सकता है और इनमें एकवचन और बहुवचन दोनों रूप हो सकते हैं।
-						<br />
-						<strong>उदाहरण: किताब (एकवचन), किताबें (बहुवचन)</strong>
-					</p>
-				</div>
-				<div className="mt-3">
-					<h2 className="md:text-xl font-bold underline mb-2">
-						# Uncountable Noun (अगिनने योग्य संज्ञा):-
-					</h2>
-					<p>
-						These are nouns that cannot be counted as individual units and
-						typically represent substances, concepts, or qualities.
-						<br />
-						<strong>Example: water, information, happiness</strong>
-						<br />
-						ये ऐसी संज्ञाएं हैं जिन्हें व्यक्तिगत इकाइयों के रूप में नहीं गिना
-						जा सकता है और ये आमतौर पर पदार्थों, अवधारणाओं या गुणों का
-						प्रतिनिधित्व करती हैं।
-						<br />
-						<strong>उदाहरण: पानी, सूचना, ख़ुशी</strong>
-					</p>
-				</div>
-				<div className="mt-3">
-					<h2 className="md:text-xl font-bold underline mb-2">
-						# Collective Noun (समूह संज्ञा):-
-					</h2>
-					<p>
-						These are nouns that refer to groups of people, animals, or things
-						as a single entity.
-						<br />
-						<strong>Example: team, herd, family</strong>
-						<br />
-						ये वे संज्ञाएं हैं जो लोगों, जानवरों या चीज़ों के समूह को एक इकाई के
-						रूप में संदर्भित करती हैं।
-						<br />
-						<strong>उदाहरण: टीम, झुंड, परिवार</strong>
-					</p>
-				</div>
+				{data.speech[0].nouns.map((item, index) => (
+					<div className="mt-3">
+						<h2 className="md:md:text-xl font-bold hover:text-[#04aa6d] mb-2">
+							{index + 1 + " " + item.category}
+						</h2>
+						<p>
+							{item.description}
+							<br />
+							{item.translation}
+							<br />
+							<strong>Example: {item.example.toUpperCase()}</strong>
+							<br />
+							<strong>उदाहरण: {item.hinExample}</strong>
+						</p>
+					</div>
+				))}
 				<hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-gray-700"></hr>
 			</div>
 			{/* pronoun */}
 			<div className="m-10 p-10 border border-gray-300 bg-gray-200 text-justify font-serif">
-				<h1 className="text-3xl font-bold text-center">Pronoun (सर्वनाम)</h1>
+				<h1 className="md:text-3xl font-bold text-center hover:text-[#04aa6d]">
+					Pronoun (सर्वनाम)
+				</h1>
 				<p className="text-center m-2">
 					A pronoun is a part of speech that takes the place of a noun in a
 					sentence. It's used to avoid repetition and make sentences less
@@ -207,131 +115,29 @@ const Speech = () => {
 					</strong>
 				</h5>
 				{/* pronoun */}
-				<div className="mt-3">
-					<h2 className="md:text-xl font-bold underline mb-2">
-						# Personal Pronoun (सामान्य संज्ञा):-
-					</h2>
-					<p>
-						These pronouns refer to specific people or things and change
-						depending on their role in the sentence (subject, object,
-						possessive).
-						<br />
-						<strong>Example: I, you, he, she, it, we, they </strong>
-						<br />
-						ये सर्वनाम विशिष्ट लोगों या चीज़ों को संदर्भित करते हैं और वाक्य में
-						उनकी भूमिका (विषय, वस्तु, स्वामित्व) के आधार पर बदलते हैं।
-						<br />
-						<strong>उदाहरण: मैं, तुम, वह, वह, यह, हम, वे </strong>
-					</p>
-				</div>
-				<div className="mt-3">
-					<h2 className="md:text-xl font-bold underline mb-2">
-						# Possessive Pronoun (स्वामित्व सर्वनाम):-
-					</h2>
-					<p>
-						These pronouns show ownership or possession.
-						<br />
-						<strong>Example: mine, yours, his, hers, its, ours, theirs</strong>
-						<br />
-						ये सर्वनाम स्वामित्व या कब्ज़ा दर्शाते हैं।
-						<br />
-						<strong>
-							उदाहरण: मेरा, तुम्हारा, उसका, उसका, उसका, हमारा, उनका
-						</strong>
-					</p>
-				</div>
-				<div className="mt-3">
-					<h2 className="md:text-xl font-bold underline mb-2">
-						# Reflexive Pronoun (कर्मकर्त्ता सर्वनाम):-
-					</h2>
-					<p>
-						These pronouns reflect back to the subject and are used when the
-						subject and object of a sentence are the same.
-						<br />
-						<strong>
-							Example: myself, yourself, himself, herself, itself, ourselves,
-							yourselves, themselves
-						</strong>
-						<br />
-						ये सर्वनाम विषय को प्रतिबिंबित करते हैं और इनका उपयोग तब किया जाता
-						है जब वाक्य का विषय और वस्तु समान होते हैं।
-						<br />
-						<strong>
-							उदाहरण: मैं, स्वयं, स्वयं, स्वयं, स्वयं, स्वयं, आप ही
-						</strong>
-					</p>
-				</div>
-				<div className="mt-3">
-					<h2 className="md:text-xl font-bold underline mb-2">
-						# Demonstrative Pronoun (संकेतवाचक सर्वनाम):-
-					</h2>
-					<p>
-						These pronouns point to specific people or things and indicate their
-						relative distance in space or time.
-						<br />
-						<strong>Example: this, that, these, those</strong>
-						<br />
-						ये सर्वनाम विशिष्ट लोगों या चीज़ों की ओर संकेत करते हैं और स्थान या
-						समय में उनकी सापेक्ष दूरी का संकेत देते हैं।
-						<br />
-						<strong>उदाहरण: यह, वह, ये, वो</strong>
-					</p>
-				</div>
-				<div className="mt-3">
-					<h2 className="md:text-xl font-bold underline mb-2">
-						# Relative Pronoun (सम्बंध सर्वनाम):-
-					</h2>
-					<p>
-						These pronouns introduce relative clauses and connect them to the
-						noun or pronoun they modify.
-						<br />
-						<strong>Example: who, whom, whose, which, that</strong>
-						<br />
-						ये सर्वनाम सापेक्ष उपवाक्य प्रस्तुत करते हैं और उन्हें उस संज्ञा या
-						सर्वनाम से जोड़ते हैं जिसे वे संशोधित करते हैं।
-						<br />
-						<strong>उदाहरण: कौन, किसको, किसका, कौन, वह</strong>
-					</p>
-				</div>
-				<div className="mt-3">
-					<h2 className="md:text-xl font-bold underline mb-2">
-						# Interrogative Pronoun (प्रश्नवाचक सर्वनाम):-
-					</h2>
-					<p>
-						These pronouns are used to ask questions.
-						<br />
-						<strong>Example: who, whom, whose, which, what</strong>
-						<br />
-						इन सर्वनामों का प्रयोग प्रश्न पूछने के लिए किया जाता है।
-						<br />
-						<strong>उदाहरण: कौन, किसका, किसका, कौन सा, क्या</strong>
-					</p>
-				</div>
-				<div className="mt-3">
-					<h2 className="md:text-xl font-bold underline mb-2">
-						# Indefinite Pronoun (अनिश्चितकालीन सर्वनाम):-
-					</h2>
-					<p>
-						These pronouns refer to non-specific people or things.
-						<br />
-						<strong>
-							Example: anybody, everyone, someone, nobody, anything, everything,
-							something, nothing
-						</strong>
-						<br />
-						ये सर्वनाम गैर-विशिष्ट लोगों या चीज़ों को संदर्भित करते हैं।
-						<br />
-						<strong>
-							उदाहरण: कोई भी, हर कोई, कोई, कोई नहीं, कुछ भी, सब कुछ, कुछ, कुछ
-							नहीं
-						</strong>
-					</p>
-				</div>
+				{data.speech[0].pronoun.map((item, index) => (
+					<div className="mt-3">
+						<h2 className="md:md:text-xl font-bold hover:text-[#04aa6d] mb-2">
+							{index + 1 + " " + item.category}
+						</h2>
+						<p>
+							{item.description}
+							<br />
+							{item.translation}
+							<br />
+							<strong>Example: {item.example.toUpperCase()}</strong>
+							<br />
+							<strong>उदाहरण: {item.hinExample}</strong>
+						</p>
+					</div>
+				))}
 				<hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-gray-700"></hr>
 			</div>
 			{/* adjective */}
 			<div className="m-10 p-10 border border-gray-300 bg-gray-200 text-justify font-serif">
-				<h1 className="text-3xl font-bold text-center">Adjective (विशेषण)</h1>
+				<h1 className="md:text-3xl font-bold text-center hover:text-[#04aa6d]">
+					Adjective (विशेषण)
+				</h1>
 				<p className="text-center m-2">
 					An adjective is a part of speech that modifies or describes a noun or
 					pronoun. It gives more information about a noun (a person, place,
@@ -352,112 +158,29 @@ const Speech = () => {
 						विशेषण के 6 प्रकार या भाग होते हैं:
 					</strong>
 				</h5>
-				<div className="mt-3">
-					<h2 className="md:text-xl font-bold underline mb-2">
-						# Descriptive Adjectives (वर्णानात्मक विशेषण):-
-					</h2>
-					<p>
-						These adjectives provide specific details about the qualities or
-						characteristics of a noun.
-						<br />
-						<strong>Example: beautiful flowers, blue sky, tall building</strong>
-						<br />
-						ये विशेषण किसी संज्ञा के गुणों या विशेषताओं के बारे में विशिष्ट
-						विवरण प्रदान करते हैं।
-						<br />
-						<strong>उदाहरण: सुंदर फूल, नीला आकाश, ऊंची इमारत</strong>
-					</p>
-				</div>
-				<div className="mt-3">
-					<h2 className="md:text-xl font-bold underline mb-2">
-						# Quantitative Adjectives (मात्रात्मक विशेषण):-
-					</h2>
-					<p>
-						These adjectives indicate the quantity or amount of a noun.
-						<br />
-						<strong>Example: three apples, many books, few people</strong>
-						<br />
-						ये विशेषण संज्ञा की मात्रा या राशि का बोध कराते हैं।
-						<br />
-						<strong>उदाहरण: तीन सेब, ढेर सारी किताबें, कुछ लोग</strong>
-					</p>
-				</div>
-				<div className="mt-3">
-					<h2 className="md:text-xl font-bold underline mb-2">
-						# Demonstrative Adjectives (प्रदर्शनात्मक विशेषण):-
-					</h2>
-					<p>
-						These adjectives point out or identify specific nouns.
-						<br />
-						<strong>
-							Example: this book, that house, these cookies, those mountains
-						</strong>
-						<br />
-						ये विशेषण विशिष्ट संज्ञाओं की ओर संकेत करते हैं या उनकी पहचान कराते
-						हैं।
-						<br />
-						<strong>उदाहरण: यह किताब, वह घर, ये कुकीज़, वो पहाड़</strong>
-					</p>
-				</div>
-				<div className="mt-3">
-					<h2 className="md:text-xl font-bold underline mb-2">
-						# Possessive Adjectives (संबंधवाचक विशेषण):-
-					</h2>
-					<p>
-						These adjectives show ownership or possession.
-						<br />
-						<strong>
-							Example: my car, your house, his book, our family, their cat
-						</strong>
-						<br />
-						ये विशेषण स्वामित्व या कब्ज़ा दर्शाते हैं।
-						<br />
-						<strong>
-							उदाहरण: मेरी कार, आपका घर, उसकी किताब, हमारा परिवार, उनकी बिल्ली
-						</strong>
-					</p>
-				</div>
-				<div className="mt-3">
-					<h2 className="md:text-xl font-bold underline mb-2">
-						# Interrogative Adjectives (प्रश्नवाचक विशेषण):-
-					</h2>
-					<p>
-						These adjectives are used to ask questions about nouns.
-						<br />
-						<strong>Example: which book, what color, whose bag</strong>
-						<br />
-						इन विशेषणों का प्रयोग संज्ञा के बारे में प्रश्न पूछने के लिए किया
-						जाता है।
-						<br />
-						<strong>उदाहरण: कौन सी किताब, कौन सा रंग, किसका बैग</strong>
-					</p>
-				</div>
-				<div className="mt-3">
-					<h2 className="md:text-xl font-bold underline mb-2">
-						# Comparative and Superlative Adjectives (तुलनात्मक और उच्चतम शिखर
-						विशेषण):-
-					</h2>
-					<p>
-						These adjectives are used to compare two or more things.
-						<br />
-						<strong>
-							Example: taller than, more beautiful than, the tallest, the most
-							beautiful
-						</strong>
-						<br />
-						इन विशेषणों का प्रयोग दो या दो से अधिक चीजों की तुलना करने के लिए
-						किया जाता है।
-						<br />
-						<strong>
-							उदाहरण: इससे ऊँचा, उससे भी अधिक सुन्दर, सबसे ऊँचा, सबसे सुन्दर
-						</strong>
-					</p>
-				</div>
+				{data.speech[0].adjective.map((item, index) => (
+					<div className="mt-3">
+						<h2 className="md:md:text-xl font-bold hover:text-[#04aa6d] mb-2">
+							{index + 1 + " " + item.category}
+						</h2>
+						<p>
+							{item.description}
+							<br />
+							{item.translation}
+							<br />
+							<strong>Example: {item.example.toUpperCase()}</strong>
+							<br />
+							<strong>उदाहरण: {item.hinExample}</strong>
+						</p>
+					</div>
+				))}
 				<hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-gray-700"></hr>
 			</div>
 			{/* verb */}
 			<div className="m-10 p-10 border border-gray-300 bg-gray-200 text-justify font-serif">
-				<h1 className="text-3xl font-bold text-center">Verb (क्रिया)</h1>
+				<h1 className="md:text-3xl font-bold text-center hover:text-[#04aa6d]">
+					Verb (क्रिया)
+				</h1>
 				<p className="text-center m-2">
 					A verb is a word that expresses an action, occurrence, or state of
 					being. In a sentence, a verb typically indicates what the subject is
@@ -476,61 +199,13 @@ const Speech = () => {
 					भाषा में सार्थक वाक्यों के निर्माण में क्रियाएँ केंद्रीय होती हैं। वे
 					तनाव, पहलू, मनोदशा और आवाज भी व्यक्त कर सकते हैं।
 				</p>
-				<div className="grid grid-cols-1 bg-slate-400">
-					<div className="border border-black p-2 font-bold uppercase">
-						Examples
-					</div>
-				</div>
-				<div className="grid grid-cols-1">
-					<div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
-						<div className="col-span-2">
-							Read: She reads novels every night before bed. (पढ़ना:: वह हर रात
-							सोने से पहले उपन्यास पढ़ती है।)
-						</div>
-						<div className="col-span-2">
-							Swim: We swim in the lake during the summer. (तैरना: हम गर्मियों
-							के दौरान झील में तैरते हैं।)
-						</div>
-						<div className="col-span-2">
-							Paint: He paints landscapes in his spare time. (रँगना:: वह अपने
-							खाली समय में भूदृश्यों को चित्रित करता है।)
-						</div>
-						<div className="col-span-2">
-							Talk: They talk on the phone for hours. (बात करना:: वे घंटों फोन
-							पर बात करते हैं।)
-						</div>
-						<div className="col-span-2">
-							Dance: The couple dances gracefully at the wedding. (नृत्य: जोड़े
-							ने शादी में शानदार नृत्य किया।)
-						</div>
-						<div className="col-span-2">
-							Sleep: The baby sleeps peacefully in the crib. (नींद: बच्चा पालने
-							में शांति से सोता है।)
-						</div>
-						<div className="col-span-2">
-							Play: The children play soccer in the park. (खेलना: बच्चे पार्क
-							में फुटबॉल खेलते हैं।)
-						</div>
-						<div className="col-span-2">
-							Cook: She cooks dinner for her family every evening. (पकाना:: वह
-							हर शाम अपने परिवार के लिए रात का खाना बनाती है।)
-						</div>
-					</div>
-				</div>
-
-				<div>
-					For more verb you can go to
-					<a href="/verb" className="font-bold text-red-500">
-						Verbs
-					</a>
-					page
-				</div>
+				<TableReact products={data.speech[0].verbs} />
 
 				<hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-gray-700"></hr>
 			</div>
 			{/* adverb */}
 			<div className="m-10 p-10 border border-gray-300 bg-gray-200 text-justify font-serif">
-				<h1 className="text-3xl font-bold text-center">
+				<h1 className="md:text-3xl font-bold text-center hover:text-[#04aa6d]">
 					Adverb (क्रिया-विशेषण)
 				</h1>
 				<p className="text-center m-2">
@@ -549,80 +224,24 @@ const Speech = () => {
 					सवालों का जवाब दे सकते हैं। यहां क्रियाविशेषणों के कुछ उदाहरण उनके
 					उपयोग सहित दिए गए हैं:
 				</p>
-				<div className="mt-3">
-					<h2 className="md:text-xl font-bold underline mb-2">
-						# Manner Adverbs
-					</h2>
-					<p>
-						<strong>Quickly:</strong> She ran quickly to catch the bus. <br />
-						<strong>Carefully:</strong> He handled the fragile vase carefully.
-						<br />
-						<strong>Bravely:</strong> She spoke bravely in front of the
-						audience.
-					</p>
-				</div>
-				<div className="mt-3">
-					<h2 className="md:text-xl font-bold underline mb-2">
-						# Place Adverbs
-					</h2>
-					<p>
-						<strong>Here:</strong> Please come here and sit next to me. <br />
-						<strong>Everywhere:</strong> The children searched everywhere for
-						their lost dog. <br />
-						<strong>Upstairs:</strong>They live upstairs in the apartment
-						building
-					</p>
-				</div>
-				<div className="mt-3">
-					<h2 className="md:text-xl font-bold underline mb-2">
-						# Time Adverbs
-					</h2>
-					<p>
-						<strong>Now:</strong> We need to leave now to make it on time.
-						<br />
-						<strong>Yesterday:</strong> They went to the beach yesterday. <br />
-						<strong>Soon:</strong> He will arrive soon to pick you up.
-					</p>
-				</div>
-				<div className="mt-3">
-					<h2 className="md:text-xl font-bold underline mb-2">
-						# Frequency Adverbs
-					</h2>
-					<p>
-						<strong>Always:</strong> She always arrives early for meetings.
-						<br />
-						<strong>Often:</strong> They often go hiking on weekends <br />
-						<strong>Rarely:</strong> He rarely eats fast food.
-					</p>
-				</div>
-				<div className="mt-3">
-					<h2 className="md:text-xl font-bold underline mb-2">
-						# Degree Adverbs
-					</h2>
-					<p>
-						<strong>Very:</strong> It was a very hot day. <br />
-						<strong>Extremely:</strong> The movie was extremely boring. <br />
-						<strong>Quite:</strong> She's quite tall for her age.
-					</p>
-				</div>
-				<div className="mt-3">
-					<h2 className="md:text-xl font-bold underline mb-2">
-						# Certainty Adverbs
-					</h2>
-					<p>
-						<strong>Certainly:</strong> She will certainly be there to support
-						you. <br />
-						<strong>Definitely:</strong> He's definitely coming to the party.
-						<br />
-						<strong>Probably:</strong> They probably won't be able to make it to
-						the event.
-					</p>
-				</div>
+				{data.speech[0].adverb.map((item, index) => (
+					<div className="mt-3">
+						<h2 className="md:md:text-xl font-bold hover:text-[#04aa6d] mb-2">
+							{index + 1 + " " + item.category}
+						</h2>
+						<p>
+							<strong>{item.example1}</strong> ({item.hinExampl1}) <br />
+							<strong>{item.example2}</strong> ({item.hinExampl2})
+							<br />
+							<strong>{item.example3}</strong> ({item.hinExampl3})
+						</p>
+					</div>
+				))}
 				<hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-gray-700"></hr>
 			</div>
 			{/* Preposition */}
 			<div className="m-10 p-10 border border-gray-300 bg-gray-200 text-justify font-serif">
-				<h1 className="text-3xl font-bold text-center">
+				<h1 className="md:text-3xl font-bold text-center hover:text-[#04aa6d]">
 					Preposition (सम्बंध-सूचक)
 				</h1>
 				<p className="text-center m-2">
@@ -637,85 +256,31 @@ const Speech = () => {
 					आमतौर पर एक वाक्य में स्थान, दिशा, समय या दो तत्वों के बीच संबंध को
 					इंगित करती है।
 				</p>
-				<div className="mt-3">
-					<h2 className="md:text-xl font-bold underline mb-2">
-						# Location Prepositions
-					</h2>
-					<h3 className="text-md font-bold">
-						Above (ऊपर), Across (पार), Against (के खिलाफ), Along (के साथ), Among
-						(बीच में), Around (आस-पास), Before (से पहले), Behind (पीछे), Below
-						(नीचे), Beneath (नीचे), Beside (पास), Between (बीच में), Beyond
-						(बाहर), By (द्वारा), Down (नीचे), In (में), Inside (अंदर), Into
-						(में), Near (पास), Off (बाहर), On (पर), Onto (पर), Out (बाहर),
-						Outside (बाहर), Over (ऊपर), Through (के माध्यम से), Throughout
-						(पूरे), To (को), Toward (की ओर), Under (नीचे), Underneath (नीचे), Up
-						(ऊपर), With (साथ), Within (भीतर).
-						<br />
-						Example :-
-					</h3>
-					<p>
-						<strong>On:</strong> The book is on the table. <br />
-						<strong>Under:</strong> The cat is under the chair. <br />
-						<strong>In:</strong> The keys are in the drawer.
-					</p>
-				</div>
-				<div className="mt-3">
-					<h2 className="md:text-xl font-bold underline mb-2">
-						# Direction Prepositions
-					</h2>
-					<h3 className="text-md font-bold">
-						Above (ऊपर), Across (द्वारा), Along (के साथ), Down (नीचे), Into
-						(में), Onto (पर), Out (बाहर), Through (के माध्यम से), Towards (की
-						ओर), Up (ऊपर).
-						<br />
-						Example :-
-					</h3>
-					<p>
-						<strong>To:</strong>She went to the store. <br />
-						<strong>From:</strong>He came from the office. <br />
-						<strong>Toward:</strong>The bird flew toward the tree.
-					</p>
-				</div>
-				<div className="mt-3">
-					<h2 className="md:text-xl font-bold underline mb-2">
-						# Time Prepositions
-					</h2>
-					<h3 className="text-md font-bold">
-						After (बाद), At (पर), Before (से पहले), By (के द्वारा), During (के
-						दौरान), For (के लिए), From (से), In (में), On (पर), Since (से),
-						Through (के माध्यम से), Till (तक), Until (तक), With (साथ).
-						<br />
-						Example :-
-					</h3>
-					<p>
-						<strong>Before:</strong> We arrived before the movie started. <br />
-						<strong>After:</strong> They went home after the party. <br />
-						<strong>During:</strong> He slept during the flight.
-					</p>
-				</div>
-				<div className="mt-3">
-					<h2 className="md:text-xl font-bold underline mb-2">
-						# Relationship Prepositions
-					</h2>
-					<h3 className="text-md font-bold">
-						About (लगभग), Against (विरोध में), Among (बीच में), Between (बीच
-						में), By (द्वारा), For (के लिए), From (से), In (में), Of (का, की,
-						के), Off (से दूर), On (पर), Over (ऊपर), Through (के माध्यम से), To
-						(को, के लिए), With (साथ).
-						<br />
-						Example :-
-					</h3>
-					<p>
-						<strong>Of:</strong> The color of the sky is blue. <br />
-						<strong>With:</strong> She's friends with Sarah. <br />
-						<strong>By:</strong> The letter was written by John.
-					</p>
-				</div>
+				{data.speech[0].preposition.map((item, index) => (
+					<div className="mt-3">
+						<h2 className="md:md:text-xl font-bold hover:text-[#04aa6d] mb-2">
+							{index + 1 + " " + item.category}
+						</h2>
+						<h3 className="text-md font-bold">
+							{item.categoryExample}
+							<br />
+							Example :-
+						</h3>
+						<p>
+							<strong>{item.example1}</strong> ({item.hinExampl1}) <br />
+							<strong>{item.example2}</strong> ({item.hinExampl2})
+							<br />
+							<strong>{item.example3}</strong> ({item.hinExampl3})
+						</p>
+					</div>
+				))}
 				<hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-gray-700"></hr>
 			</div>
 			{/* Conjuction */}
 			<div className="m-10 p-10 border border-gray-300 bg-gray-200 text-justify font-serif">
-				<h1 className="text-3xl font-bold text-center">Conjuction (संयोजक)</h1>
+				<h1 className="md:text-3xl font-bold text-center hover:text-[#04aa6d]">
+					Conjuction (संयोजक)
+				</h1>
 				<p className="text-center m-2">
 					A conjunction is a word that connects words, phrases, or clauses
 					within a sentence. Conjunctions are used to show relationships between
@@ -729,8 +294,8 @@ const Speech = () => {
 					किया जाता है। संयोजक के तीन मुख्य प्रकार हैं:
 				</p>
 				<div className="mt-3">
-					<h2 className="md:text-xl font-bold underline mb-2">
-						# Coordinating Conjunctions:
+					<h2 className="md:text-xl font-bold hover:text-[#04aa6d] mb-2">
+						1 Coordinating Conjunctions:
 					</h2>
 					<h3 className="text-md font-bold">
 						And (और), But (लेकिन), Or (या), Nor (नहीं), For (क्योंकि), So
@@ -738,7 +303,7 @@ const Speech = () => {
 						<br />
 						Example :-
 					</h3>
-					<p>
+					<p className="">
 						<strong>And:</strong> She likes to read and write. (वह पढ़ने और
 						लिखने का शौक रखती है।)
 						<br />
@@ -756,8 +321,8 @@ const Speech = () => {
 					</p>
 				</div>
 				<div className="mt-3">
-					<h2 className="md:text-xl font-bold underline mb-2">
-						# Subordinating Conjunctions:
+					<h2 className="md:text-xl font-bold hover:text-[#04aa6d] mb-2">
+						2 Subordinating Conjunctions:
 					</h2>
 					<h3 className="text-md font-bold">
 						After (बाद), Although (हालांकि), As (क्योंकि), Because (क्योंकि),
@@ -767,7 +332,7 @@ const Speech = () => {
 						<br />
 						Example :-
 					</h3>
-					<p>
+					<p className="">
 						<strong>Because:</strong>She stayed home because it was raining.
 						(बारिश होने के कारण वह घर पर ही रुकी रही।)
 						<br />
@@ -786,8 +351,8 @@ const Speech = () => {
 					</p>
 				</div>
 				<div className="mt-3">
-					<h2 className="md:text-xl font-bold underline mb-2">
-						# Correlative Conjunctions:
+					<h2 className="md:text-xl font-bold hover:text-[#04aa6d] mb-2">
+						3 Correlative Conjunctions:
 					</h2>
 					<h3 className="text-md font-bold">
 						Both...and (दोनों...और), Either...or (या तो...या), Neither...nor (न
@@ -796,7 +361,7 @@ const Speech = () => {
 						<br />
 						Example :-
 					</h3>
-					<p>
+					<p className="">
 						<strong>Both...and:</strong>She is both smart and kind. (वह चतुर और
 						दयालु दोनों है।) <br />
 						<strong>Either...or:</strong>You can either come with us or stay
@@ -816,7 +381,7 @@ const Speech = () => {
 			</div>
 			{/* interjection */}
 			<div className="m-10 p-10 border border-gray-300 bg-gray-200 text-justify font-serif">
-				<h1 className="text-3xl font-bold text-center">
+				<h1 className="md:text-3xl font-bold text-center hover:text-[#04aa6d]">
 					Interjection (विस्मयादिबोधक शब्द)
 				</h1>
 				<p className="text-center m-2">
@@ -841,7 +406,7 @@ const Speech = () => {
 						<br />
 						Example :-
 					</h3>
-					<p>
+					<p className="">
 						<strong>Wow:</strong> Wow, that's incredible! (वाह! यह अद्भुत है!)
 						<br />
 						<strong>Ouch:</strong> Ouch, that hurt! (आउच! वह चोट लगी!) <br />
