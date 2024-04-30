@@ -82,7 +82,7 @@ const Home = () => {
 					</div>
 				</div>
 				<h1 className="md:text-5xl text-3xl text-center font-bold mt-[50px]">
-					Welcome to GrammerGuide
+					Welcome to GrammarGuide
 				</h1>
 				<h4 className="md:text-4xl mt-5 text-center text-2xl">
 					Want to learn English Speaking Easily

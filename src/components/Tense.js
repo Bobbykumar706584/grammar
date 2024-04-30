@@ -961,10 +961,12 @@ const Tenses = () => {
 						1. Simple Future Tense (सरल भविष्यकाल):-
 					</h2>
 					<p className="text-justify font-serif">
-						The simple future is a verb tense that's used to talk about things
-						that haven't happened yet. <br />
-						सरल भविष्य एक क्रिया काल है जिसका उपयोग उन चीजों के बारे में बात
-						करने के लिए किया जाता है जो अभी तक नहीं हुई हैं।
+						By reading Hindi sentences of this tense, we come to know that the
+						action will happen in the future. At the end of Hindi sentences in
+						this tense, words like (गा, गे, गी,) etc. come. <br />
+						इस tense के हिन्दी वाक्यों को पढकर पता चलता है कि कार्य भविष्य में
+						होगा | इस tense के हिन्दी वाक्यों के अन्त में (गा, गे, गी,) आदि शब्द
+						आते हैं |
 					</p>
 					<div className="grid md:grid-cols-2 gap-8 mt-4 md:text-sm">
 						<div className="cols-span-1 text-center">
@@ -981,19 +983,36 @@ const Tenses = () => {
 							<div className="grid grid-cols-1">
 								<div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
 									<div className="col-span-2">
-										She wrote a letter. (उसने एक ख़त लिखी।)
+										Now I will go home. (अब मैं घर जाऊँगा।)
 									</div>
 									<div className="col-span-2">
-										Govind ate an apple. (गोविंद ने एक सेब खाया)
+										Mother will eat food. (माताजी खाना खायेंगी।)
 									</div>
 									<div className="col-span-2">
-										I slept at 9. (वे 9 बजे सोये)
+										Guests will come to our house today. (आज हमारे घर महमान
+										आयेंगे।)
 									</div>
 									<div className="col-span-2">
-										we loved him/her (मैंने उसे प्यार किया।)
+										The boys will play hockey in the field. (लड़के मैदान में
+										हॉकी खेलेंगे।)
 									</div>
 									<div className="col-span-2">
-										He/she made a mistake. (उसने गलती की)
+										The girls will sing in the classroom. (लड़कियाँ कक्षा में
+										गाना गायेंगी।)
+									</div>
+									<div className="col-span-2">
+										We will go to school together. (हम साथ साथ स्कूल जायेंगे।)
+									</div>
+									<div className="col-span-2">
+										Ravi will fly kites on the roof. (रवि छत पर पतंग उडायेगा।)
+									</div>
+									<div className="col-span-2">
+										You will remember me for a lifetime. (तुम मुझे ज़िन्दगी भर
+										याद करोगे।)
+									</div>
+									<div className="col-span-2">
+										She will go to America by airplane. (वह हवाई जहाज से अमेरिका
+										जायेगी।)
 									</div>
 								</div>
 							</div>
@@ -1001,7 +1020,7 @@ const Tenses = () => {
 						<div className="cols-span-1 text-center">
 							<h4 className="font-bold">2. Negative (नकारात्म क वाक्य) </h4>
 							<div className="md:font-bold">
-								Rule: Subject + will + 1st form verb + Object
+								Rule: Subject + will + not + 1st form verb + Object
 							</div>
 
 							<div className="grid grid-cols-1 bg-slate-400">
@@ -1012,19 +1031,38 @@ const Tenses = () => {
 							<div className="grid grid-cols-1">
 								<div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
 									<div className="col-span-2">
-										She did not write a letter. (उसने कोई ख़त नहीं लिखी।)
+										Now I will not go home. (अब मैं घर नहीं जाऊँगा।)
 									</div>
 									<div className="col-span-2">
-										Govind did not eat an apple.(गोविंद ने एक सेब नहीं खाया)
+										Mother will not eat food. (माताजी खाना नहीं खायेंगी।)
 									</div>
 									<div className="col-span-2">
-										I did not sleep at 9. (मैं 9 बजे सोया नहीं)
+										Guests will not come to our house today. (आज हमारे घर महमान
+										नहीं आयेंगे।)
 									</div>
 									<div className="col-span-2">
-										I did not love him/her. (मैंने उसे प्यार नहीं किया।)
+										The boys will not play hockey in the field. (लड़के मैदान में
+										हॉकी नहीं खेलेंगे।)
 									</div>
 									<div className="col-span-2">
-										He/she did not make a mistake. (उसने कोई गलती नहीं की।)
+										The girls will not sing in the classroom. (लड़कियाँ कक्षा
+										में गाना नहीं गायेंगी।)
+									</div>
+									<div className="col-span-2">
+										We will not go to school together. (हम साथ साथ स्कूल नहीं
+										जायेंगे।)
+									</div>
+									<div className="col-span-2">
+										Ravi will not fly kites on the roof. (रवि छत पर पतंग नहीं
+										उडायेगा।)
+									</div>
+									<div className="col-span-2">
+										You will not remember me for a lifetime. (तुम मुझे ज़िन्दगी
+										भर नहीं याद करोगे।)
+									</div>
+									<div className="col-span-2">
+										She will not go to America by airplane. (वह हवाई जहाज से
+										अमेरिका नहीं जायेगी।)
 									</div>
 								</div>
 							</div>
@@ -1043,19 +1081,38 @@ const Tenses = () => {
 							<div className="grid grid-cols-1">
 								<div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
 									<div className="col-span-2">
-										Did she write a letter? (क्या उसने कोई पत्र लिखा?)
+										Now will I go home? (क्या अब मैं घर जाऊँगा?)
 									</div>
 									<div className="col-span-2">
-										Did Govind eat an apple? (क्या गोविंद ने सेब खाया?)
+										Will Mother eat food? (क्या माताजी खाना खायेंगी?)
 									</div>
 									<div className="col-span-2">
-										Did I sleep at 9? (क्या मैं 9 बजे सो गया?)
+										Will guests come to our house today? (क्या आज हमारे घर महमान
+										आयेंगे?)
 									</div>
 									<div className="col-span-2">
-										Did I love him/her (क्या मैंने उसे प्यार किया?)
+										Will the boys play hockey in the field? (क्या लड़के मैदान
+										में हॉकी खेलेंगे?)
 									</div>
 									<div className="col-span-2">
-										Did he/she make a mistake? (क्या उसने कोई गलती की है?)
+										Will the girls sing in the classroom? (क्या लड़कियाँ कक्षा
+										में गाना गायेंगी?)
+									</div>
+									<div className="col-span-2">
+										Will we go to school together? (क्या हम साथ साथ स्कूल
+										जायेंगे?)
+									</div>
+									<div className="col-span-2">
+										Will Ravi fly kites on the roof? (क्या रवि छत पर पतंग
+										उडायेगा?)
+									</div>
+									<div className="col-span-2">
+										Will you remember me for a lifetime? (क्या तुम मुझे ज़िन्दगी
+										भर याद करोगे?)
+									</div>
+									<div className="col-span-2">
+										Will she go to America by airplane? (क्या वह हवाई जहाज से
+										अमेरिका जायेगी?)
 									</div>
 								</div>
 							</div>
@@ -1076,42 +1133,66 @@ const Tenses = () => {
 							<div className="grid grid-cols-1">
 								<div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
 									<div className="col-span-2">
-										Did she not write a letter? (क्या उसने पत्र नहीं लिखा?)
+										Now will I not go home? (क्या अब मैं घर नहीं जाऊँगा?)
 									</div>
 									<div className="col-span-2">
-										Did Govind not eat an apple? (क्या गोविंद ने सेब नहीं खाया?)
+										Will Mother not eat food? (क्या माताजी खाना नहीं खायेंगी?)
 									</div>
 									<div className="col-span-2">
-										Did I not sleep at 9? (क्या मैं 9 बजे नहीं सोया?)
+										Will guests not come to our house today? (क्या आज हमारे घर
+										महमान नहीं आयेंगे?)
 									</div>
 									<div className="col-span-2">
-										Did I not love him/her (क्या मैंने उसे प्यार नहीं किया?)
+										Will the boys not play hockey in the field? (क्या लड़के
+										मैदान में हॉकी नहीं खेलेंगे?)
 									</div>
 									<div className="col-span-2">
-										Did he/she not make a mistake? (क्या उसने कोई गलती नहीं की
-										है?)
+										Will the girls not sing in the classroom? (क्या लड़कियाँ
+										कक्षा में गाना नहीं गायेंगी?)
+									</div>
+									<div className="col-span-2">
+										Will we not go to school together? (क्या हम साथ साथ स्कूल
+										नहीं जायेंगे?)
+									</div>
+									<div className="col-span-2">
+										Will Ravi not fly kites on the roof? (क्या रवि छत पर पतंग
+										नहीं उडायेगा?)
+									</div>
+									<div className="col-span-2">
+										Will you not remember me for a lifetime? (क्या तुम मुझे
+										ज़िन्दगी भर नहीं याद करोगे?)
+									</div>
+									<div className="col-span-2">
+										Will she not go to America by airplane? (क्या वह हवाई जहाज
+										से अमेरिका नहीं जायेगी?)
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-					{/* <div className="mt-5">
+					<div className="mt-5">
 						<h1 className="font-bold md:text-2xl">Practice (अभ्यास) :-</h1>
 						<p className="md:text-xl">
 							Hindi to English Translate (हिंदी से अंग्रेजी अनुवाद)
 						</p>
 						<p className="font-bold">Example:-</p>
 						<ul className="list-disc ml-10">
-							<li>उसने किताब पढ़ी।</li>
-							<li>मैंने कल फिल्म देखी।</li>
-							<li>लोग स्टेज़ पर नहीं गये।</li>
-							<li>राम घूमने नहीं गया।</li>
-							<li>क्या आपने अपना होमवर्क पूरा किया?</li>
-							<li>क्या वे पार्क गए थे?</li>
-							<li>उसने ऐसा क्यों नहीं किया?</li>
-							<li>क्या मैंने बोतल से पानी नहीं पिया?</li>
+							<li>वह तुम्हारा दिल नहीं तोड़ेगा।</li>
+							<li>पंछी आकाश में उड़ जाएँगे।</li>
+							<li>वह सारा पैसा बर्बाद नहीं करेगा।</li>
+							<li>हम बाद में आराम करेंगे।</li>
+							<li>अब हम उस गली में नहीं जाएँगे।</li>
+							<li>मैं इस खिड़की से कभी नहीं झांकूंगा।</li>
+							<li>मैं यह बॉल उधार नहीं फेकूंगा।</li>
+							{/* <li>He will not break your heart.</li> */}
+							{/* <li>The birds will fly in the sky.</li>
+							<li>He will not waste all the money.</li>
+							<li>We will rest later.</li>
+							<li>Now we will not go in that lane.</li>
+							<li>I will never peep through this window.</li>
+							<li>I will not throw this ball there.</li> */}
 						</ul>
-					</div> */}
+					</div>
 					<hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-gray-700"></hr>
 				</div>
 				{/* future continuous tense */}
