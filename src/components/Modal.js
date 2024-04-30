@@ -3,6 +3,7 @@
 import React from "react";
 import Header from "./Nav/Header";
 import Data from "../JsonData/Common.json";
+import Footer from "./Nav/Footer";
 
 const Modal = () => {
 	return (
@@ -575,6 +576,7 @@ const Modal = () => {
 					</div>
 				</div>
 			</div>
+			<Footer />
 		</>
 	);
 };

@@ -2,6 +2,7 @@
 
 import React from "react";
 import Header from "./Nav/Header";
+import Footer from "./Nav/Footer";
 
 const Tenses = () => {
 	return (
@@ -1115,6 +1116,7 @@ const Tenses = () => {
 				</div>
 				{/* future continuous tense */}
 			</div>
+			<Footer />
 		</>
 	);
 };

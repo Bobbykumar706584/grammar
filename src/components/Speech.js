@@ -4,6 +4,7 @@ import React from "react";
 import Header from "./Nav/Header";
 import data from "../JsonData/Common.json";
 import TableReact from "./Nav/customTable";
+import Footer from "./Nav/Footer";
 
 const Speech = () => {
 	return (
@@ -431,6 +432,7 @@ const Speech = () => {
 				</div>
 				<hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-gray-700"></hr>
 			</div>
+			<Footer />
 		</>
 	);
 };

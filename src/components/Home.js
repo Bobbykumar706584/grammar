@@ -5,6 +5,7 @@ import Axios from "axios";
 import Header from "./Nav/Header";
 import Banner from "./Nav/Banner";
 import { HiOutlineSpeakerWave } from "react-icons/hi2";
+import Footer from "./Nav/Footer";
 
 const Home = () => {
 	const [data, setData] = useState("");
@@ -47,7 +48,7 @@ const Home = () => {
 							class="bg-gray-50 border span w-full border-gray-300 text-gray-900 rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
 						/>
 						<button
-							className="bg-blue-500 p-2.5 mt-5 md:w-full w-[200px] rounded-md"
+							className="bg-[#04aa6d] p-2.5 mt-5 md:w-full w-[200px] rounded-md"
 							onClick={() => {
 								getMeaning();
 							}}>
@@ -102,21 +103,21 @@ const Home = () => {
 				</p>
 
 				<div className="grid md:grid-cols-4 text-cente p-2 gap-5 mx-5">
-					<button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+					<button className="bg-transparent hover:bg-[#04aa6d] text-blue-700 font-semibold hover:text-white py-2 px-4 border border-[#04aa6d] hover:border-transparent rounded">
 						<a href="/verb">Verb (क्रिया)</a>
 					</button>
-					<button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+					<button className="bg-transparent hover:bg-[#04aa6d] text-blue-700 font-semibold hover:text-white py-2 px-4 border border-[#04aa6d] hover:border-transparent rounded">
 						<a href="/tense">Tenses (काल)</a>
 					</button>
-					<button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+					<button className="bg-transparent hover:bg-[#04aa6d] text-blue-700 font-semibold hover:text-white py-2 px-4 border border-[#04aa6d] hover:border-transparent rounded">
 						<a href="/modal">Modals (मोडाल्स)</a>
 					</button>
-					<button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+					<button className="bg-transparent hover:bg-[#04aa6d] text-blue-700 font-semibold hover:text-white py-2 px-4 border border-[#04aa6d] hover:border-transparent rounded">
 						<a href="/speech">Parts of Speech (शब्दभेद)</a>
 					</button>
 				</div>
 			</div>
-
+			<Footer />
 			{/* <button data-drawer-target="sidebar-multi-level-sidebar" data-drawer-toggle="sidebar-multi-level-sidebar" aria-controls="sidebar-multi-level-sidebar" type="button" class="inline-flex items-center p-2 mt-2 ms-3 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
    <span class="sr-only">Open sidebar</span>
    <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">

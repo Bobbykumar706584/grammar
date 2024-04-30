@@ -4,6 +4,7 @@ import React from "react";
 import Header from "./Nav/Header";
 import data from "../JsonData/Common.json";
 import TableReact from "./Nav/customTable";
+import Footer from "./Nav/Footer";
 
 const Verb = () => {
 	return (
@@ -51,6 +52,7 @@ const Verb = () => {
             </div>
             ))} */}
 			</div>
+			<Footer />
 		</>
 	);
 };
