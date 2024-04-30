@@ -8,8 +8,10 @@ const Tenses = () => {
 		<>
 			<Header />
 			<div className="font-serif mt-[100px] p-10 text-justify text-[#231f45]">
-				<h1 className="text-5xl text-center font-bold">Tenses (काल)</h1>
-				<p className="p-2 text-xl">
+				<h1 className="md:text-5xl text-3xl text-center font-bold">
+					Tenses (काल)
+				</h1>
+				<p className="p-2 md:text-xl text-justify">
 					Tenses refer to the grammatical structures in languages that indicate
 					the time at which an action or state of being occurs. They help to
 					establish the timing of events or actions in relation to the present,
@@ -21,7 +23,7 @@ const Tenses = () => {
 					continuous, perfect, and perfect continuous, each serving specific
 					purposes in expressing time-related information.
 				</p>
-				<p className="p-2 text-xl font-sans">
+				<p className="p-2 md:text-xl text-justify">
 					काल भाषाओं में व्याकरणिक संरचनाओं को संदर्भित करता है जो उस समय को
 					इंगित करता है जब कोई क्रिया या होने की स्थिति होती है। वे वर्तमान,
 					अतीत या भविष्य के संबंध में घटनाओं या कार्यों का समय स्थापित करने में
@@ -33,7 +35,7 @@ const Tenses = () => {
 					पूर्ण और पूर्ण निरंतर, प्रत्येक समय-संबंधी जानकारी व्यक्त करने में
 					विशिष्ट उद्देश्यों की पूर्ति करता है।
 				</p>
-				<p className="mt-5 p-2 text-gray-600">
+				<p className="p-2 md:text-xl text-justify">
 					Tenses are typically categorized into three main types: past, present,
 					and future. Within these categories, there are various forms or
 					aspects of tenses. Here's a breakdown of the types of tenses: <br />
@@ -41,28 +43,28 @@ const Tenses = () => {
 					वर्तमान और भविष्य। इन श्रेणियों के अंतर्गत काल के विभिन्न रूप या पहलू
 					होते हैं। यहां काल के प्रकारों का विवरण दिया गया है:)
 				</p>
-				<div className="grid grid-cols-1 border text-center text-2xl mt-2 border-black p-2 mx-5 bg-slate-400 font-bold">
-					<div className="sm:text-xl">
+				<div className="grid border text-center md:text-2xl mt-2 border-black p-2 md:mx-5 bg-slate-400 font-bold">
+					<div className="">
 						Type of Tenses <br />
 						(काल के प्रकार)
 					</div>
 				</div>
-				<div className="grid grid-cols-3 border text-center border-black p-2 mx-5">
-					<div className="p-2 font-bold">Past Tense (भूतकाल)</div>
-					<div className="p-2 font-bold">Present Tense (वर्तमान - काल)</div>
-					<div className="p-2 font-bold">Future Tense (भविष्यकाल)</div>
+				<div className="grid grid-cols-3 border text-center border-black p-2 md:mx-5">
+					<div className="md:p-2 font-bold">Past Tense (भूतकाल)</div>
+					<div className="md:p-2 font-bold">Present Tense (वर्तमान - काल)</div>
+					<div className="md:p-2 font-bold">Future Tense (भविष्यकाल)</div>
 				</div>
-				<div className="grid grid-cols-3 text-center border border-black p-2 mx-5">
-					<div className="col-span-1">
-						<div className="grid gap-3">
+				<div className="grid grid-cols-3 text-center border border-black md:p-2 md:mx-5">
+					<div className="col-span-1 bg-slate-200">
+						<div className="grid gap-3 border border-black md:p-3">
 							<div>Simple Past Tense (सरल भूतकाल)</div>
 							<div>Past Continuous Tense (भूत अपूर्ण काल)</div>
 							<div>Past Perfect Tense(पूर्ण भूत काल)</div>
 							<div>Past Perfect Continuous Tense (भूतकाल पूर्ण सतत काल)</div>
 						</div>
 					</div>
-					<div className="col-span-1">
-						<div className="grid gap-3">
+					<div className="col-span-1 bg-slate-200">
+						<div className="grid gap-3 border border-black md:p-3">
 							<div>Simple Present Tense (साधारण वर्तमान काल)</div>
 							<div>Present Continuous Tense (वर्तमान निरंतर काल)</div>
 							<div>Present Perfect Tense (वर्तमान पूर्ण काल)</div>
@@ -71,8 +73,8 @@ const Tenses = () => {
 							</div>
 						</div>
 					</div>
-					<div className="col-span-1">
-						<div className="grid gap-3">
+					<div className="col-span-1 bg-slate-200">
+						<div className="grid gap-3 border border-black md:p-3">
 							<div>Simple Future Tense (सरल भविष्य काल)</div>
 							<div>Future Continuous (भविष्य सतत काल)</div>
 							<div>Future Perfect Tense (भविष्य पूर्ण काल)</div>
@@ -133,15 +135,15 @@ const Tenses = () => {
 			</div>
 			{/* Present tense */}
 			<div className="m-10 p-10 border border-gray-300 bg-gray-200 text-justify font-serif">
-				<h1 className="text-3xl font-bold text-center hover:text-[#04aa6d]">
+				<h1 className="md:text-3xl text-xl font-bold text-center hover:text-[#04aa6d]">
 					Present Tense (वर्तमानकाल)
 				</h1>
-				<p className="text-center m-2">
+				<p className="text-justify mt-2">
 					Present tense refers to the form of a verb that indicates an action or
 					state that is happening now, at the present time. It is used to
 					describe actions that are ongoing, habitual, or generally true.
 				</p>
-				<p className="text-center m-2">
+				<p className="text-justify mt-2">
 					वर्तमान काल से तात्पर्य क्रिया के उस रूप से है जो किसी क्रिया या
 					स्थिति को इंगित करता है जो अभी, वर्तमान समय में घटित हो रही है। इसका
 					उपयोग उन कार्यों का वर्णन करने के लिए किया जाता है जो चल रहे हैं,
@@ -149,10 +151,10 @@ const Tenses = () => {
 				</p>
 				{/* simple present tense */}
 				<div className="mt-5">
-					<h2 className="text-2xl font-bold mb-2 hover:text-[#04aa6d]">
+					<h2 className="md:text-2xl font-bold mb-2 hover:text-[#04aa6d]">
 						1. Simple Present Tense (सरल वर्तमानकाल):-
 					</h2>
-					<p>
+					<p className="text-justify font-serif">
 						Used to describe habitual actions, general truths, and scheduled
 						events. <br /> आदतन कार्यों, सामान्य सत्य और निर्धारित घटनाओं का
 						वर्णन करने के लिए उपयोग किया जाता है।
@@ -193,13 +195,13 @@ const Tenses = () => {
 							<strong>Ex :- Reply {"->"} Replies</strong>
 						</li>
 					</ul>
-					<div className="grid md:grid-cols-2 gap-8 mt-4 md:text-sm">
+					<div className="grid md:grid-cols-2 gap-8 mt-4 text-sm">
 						<div className="cols-span-1 text-center">
 							<h4 className="font-bold">1. Affirmative (सकारात्मक वाक्य) </h4>
-							<div className="font-bold">
+							<div className="md:font-bold">
 								Rule 1: - Subject 1 + 1st form verb + Object
 							</div>
-							<div className="font-bold">
+							<div className="md:font-bold">
 								Rule 2: - Subject 2 + 1st form verb + s/es + Object
 							</div>
 							<div className="grid grid-cols-1 bg-slate-400">
@@ -227,10 +229,10 @@ const Tenses = () => {
 						</div>
 						<div className="cols-span-1 text-center">
 							<h4 className="font-bold">2. Negative (नकारात्म क वाक्य) </h4>
-							<div className="font-bold">
+							<div className="md:font-bold">
 								Rule 1: - Subject 1 + do not + 1st form verb + Object
 							</div>
-							<div className="font-bold">
+							<div className="md:font-bold">
 								Rule 2: - Subject 2 + does not + 1st form verb + Object
 							</div>
 							<div className="grid grid-cols-1 bg-slate-400">
@@ -261,10 +263,10 @@ const Tenses = () => {
 						</div>
 						<div className="cols-span-1 text-center">
 							<h4 className="font-bold">Interrogative (प्रश्नवाचक वाक्य)</h4>
-							<div className="font-bold">
+							<div className="md:font-bold">
 								Rule 1: - Do + Subject 1 + 1st form verb + Object?
 							</div>
-							<div className="font-bold">
+							<div className="md:font-bold">
 								Rule 2: - Does + Subject 2 + 1st form verb + Object?
 							</div>
 							<div className="grid grid-cols-1 bg-slate-400">
@@ -296,10 +298,10 @@ const Tenses = () => {
 							<h4 className="font-bold">
 								Negative Interrogative (नकारात्मक प्रश्नवाचक वाक्य)
 							</h4>
-							<div className="font-bold">
+							<div className="md:font-bold">
 								Rule 1: - Do + Subject 1 + not + 1st form verb + Object?
 							</div>
-							<div className="font-bold">
+							<div className="md:font-bold">
 								Rule 2: - Does + Subject 2 + not + 1st form verb + Object?
 							</div>
 							<div className="grid grid-cols-1 bg-slate-400">
@@ -330,8 +332,8 @@ const Tenses = () => {
 						</div>
 					</div>
 					<div className="mt-5">
-						<h1 className="font-bold text-2xl">Practice (अभ्यास) :-</h1>
-						<p className="text-xl">
+						<h1 className="font-bold md:text-2xl">Practice (अभ्यास) :-</h1>
+						<p className="md:text-xl">
 							Hindi to English Translate (हिंदी से अंग्रेजी अनुवाद)
 						</p>
 						<p className="font-bold">Example:-</p>
@@ -353,7 +355,7 @@ const Tenses = () => {
 				</div>
 				{/* present continuous tense */}
 				<div className="mt-5">
-					<h2 className="text-2xl font-bold hover:text-[#04aa6d]">
+					<h2 className="md:text-2xl font-bold hover:text-[#04aa6d]">
 						2. Present Continuous Tense (वर्तमान काल):-
 					</h2>
 					<p>
@@ -373,13 +375,13 @@ const Tenses = () => {
 					<div className="grid md:grid-cols-2 gap-8 mt-4">
 						<div className="cols-span-1 text-center">
 							<h4 className="font-bold">1. Affirmative (सकारात्मक वाक्य) </h4>
-							<div className="font-bold">
+							<div className="md:font-bold">
 								Rule 1: - I + am + 1st form verb + ing + Object
 							</div>
-							<div className="font-bold">
+							<div className="md:font-bold">
 								Rule 2: - Subject 1 + is + 1st form verb + ing + Object
 							</div>
-							<div className="font-bold">
+							<div className="md:font-bold">
 								Rule 3: - Subject 2 + are + 1st form verb + ing + Object
 							</div>
 
@@ -408,13 +410,13 @@ const Tenses = () => {
 						</div>
 						<div className="cols-span-1 text-center">
 							<h4 className="font-bold">2. Negative (नकारात्म क वाक्य) </h4>
-							<div className="font-bold">
+							<div className="md:font-bold">
 								Rule 1: - I + am + not + 1st form verb + ing + Object
 							</div>
-							<div className="font-bold">
+							<div className="md:font-bold">
 								Rule 2: - Subject 1 + is + not + 1st form verb + ing + Object
 							</div>
-							<div className="font-bold">
+							<div className="md:font-bold">
 								Rule 3: - Subject 2 + are + not + 1st form verb + ing + Object
 							</div>
 
@@ -443,13 +445,13 @@ const Tenses = () => {
 						</div>
 						<div className="cols-span-1 text-center">
 							<h4 className="font-bold">Interrogative (प्रश्नवाचक वाक्य)</h4>
-							<div className="font-bold">
+							<div className="md:font-bold">
 								Rule 1: - Am + I + 1st form verb + ing + Object?
 							</div>
-							<div className="font-bold">
+							<div className="md:font-bold">
 								Rule 2: - Is + Subject 1 + 1st form verb + ing + Object?
 							</div>
-							<div className="font-bold">
+							<div className="md:font-bold">
 								Rule 3: - Are + Subject 2 + 1st form verb + ing + Object?
 							</div>
 
@@ -480,13 +482,13 @@ const Tenses = () => {
 							<h4 className="font-bold">
 								Negative Interrogative (नकारात्मक प्रश्नवाचक वाक्य)
 							</h4>
-							<div className="font-bold">
+							<div className="md:font-bold">
 								Rule 1: - Am + I + not + 1st form verb + ing + Object?
 							</div>
-							<div className="font-bold">
+							<div className="md:font-bold">
 								Rule 2: - Is + Subject 1 + not + 1st form verb + ing + Object?
 							</div>
-							<div className="font-bold">
+							<div className="md:font-bold">
 								Rule 3: - Are + Subject 2 + not + 1st form verb + ing + Object?
 							</div>
 
@@ -516,8 +518,8 @@ const Tenses = () => {
 						</div>
 					</div>
 					<div className="mt-5">
-						<h1 className="font-bold text-2xl">Practice (अभ्यास) :-</h1>
-						<p className="text-xl">
+						<h1 className="font-bold md:text-2xl">Practice (अभ्यास) :-</h1>
+						<p className="md:text-xl">
 							Hindi to English Translate (हिंदी से अंग्रेजी अनुवाद)
 						</p>
 						<p className="font-bold">Example:-</p>
@@ -548,10 +550,10 @@ const Tenses = () => {
 			</div>
 			{/* past tense */}
 			<div className="m-10 p-10 border border-gray-300 bg-gray-200 text-justify font-serif">
-				<h1 className="text-3xl font-bold text-center hover:text-[#04aa6d]">
+				<h1 className="md:text-3xl text-xl font-bold text-center hover:text-[#04aa6d]">
 					Past Tense (भूतकाल)
 				</h1>
-				<p className="text-center m-2">
+				<p className="text-justify mt-2">
 					Past tense is a grammatical form used to indicate actions, events, or
 					states that have already occurred or happened in the past. In English
 					grammar, verbs can be conjugated to express past tense. The past tense
@@ -559,7 +561,7 @@ const Tenses = () => {
 					form of the verb (e.g., walked, talked, played), while irregular verbs
 					have unique past tense forms (e.g., went, ate, saw).
 				</p>
-				<p className="text-center m-2">
+				<p className="text-justify mt-2">
 					भूतकाल एक व्याकरणिक रूप है जिसका उपयोग उन कार्यों, घटनाओं या अवस्थाओं
 					को इंगित करने के लिए किया जाता है जो पहले ही घटित हो चुके हैं या अतीत
 					में घटित हो चुके हैं। अंग्रेजी व्याकरण में, क्रियाओं को भूतकाल को
@@ -570,10 +572,10 @@ const Tenses = () => {
 				</p>
 				{/* simple past tense */}
 				<div className="mt-5">
-					<h2 className="text-2xl font-bold mb-2 hover:text-[#04aa6d]">
+					<h2 className="md:text-2xl font-bold mb-2 hover:text-[#04aa6d]">
 						1. Simple Past Tense (सरल भूतकाल):-
 					</h2>
-					<p>
+					<p className="text-justify font-serif">
 						In this tense, the auxiliary verbs "गया" (gaya), "लिया" (liya),
 						"दिया" (diya), "सोया" (soya), "दी" (di), "ली" (li), "की" (ki), etc.
 						are used with the main verb. In this tense, "है" (hai), "हैं"
@@ -588,7 +590,7 @@ const Tenses = () => {
 					<div className="grid md:grid-cols-2 gap-8 mt-4 md:text-sm">
 						<div className="cols-span-1 text-center">
 							<h4 className="font-bold">1. Affirmative (सकारात्मक वाक्य) </h4>
-							<div className="font-bold">
+							<div className="md:font-bold">
 								Rule: - Subject + 2nd form verb + Object
 							</div>
 
@@ -619,7 +621,7 @@ const Tenses = () => {
 						</div>
 						<div className="cols-span-1 text-center">
 							<h4 className="font-bold">2. Negative (नकारात्म क वाक्य) </h4>
-							<div className="font-bold">
+							<div className="md:font-bold">
 								Rule: Subject + did not + 1st form verb + Object.
 							</div>
 
@@ -650,7 +652,7 @@ const Tenses = () => {
 						</div>
 						<div className="cols-span-1 text-center">
 							<h4 className="font-bold">Interrogative (प्रश्नवाचक वाक्य)</h4>
-							<div className="font-bold">
+							<div className="md:font-bold">
 								Rule: + did + subject + 1st form verb + Object?
 							</div>
 
@@ -684,7 +686,7 @@ const Tenses = () => {
 							<h4 className="font-bold">
 								Negative Interrogative (नकारात्मक प्रश्नवाचक वाक्य)
 							</h4>
-							<div className="font-bold">
+							<div className="md:font-bold">
 								Rule: + Did + Subject + not + 1st form verb + Object?
 							</div>
 
@@ -716,8 +718,8 @@ const Tenses = () => {
 						</div>
 					</div>
 					<div className="mt-5">
-						<h1 className="font-bold text-2xl">Practice (अभ्यास) :-</h1>
-						<p className="text-xl">
+						<h1 className="font-bold md:text-2xl">Practice (अभ्यास) :-</h1>
+						<p className="md:text-xl">
 							Hindi to English Translate (हिंदी से अंग्रेजी अनुवाद)
 						</p>
 						<p className="font-bold">Example:-</p>
@@ -736,10 +738,10 @@ const Tenses = () => {
 				</div>
 				{/* past continuous tense */}
 				<div className="mt-5">
-					<h2 className="text-2xl font-bold hover:text-[#04aa6d]">
+					<h2 className="md:text-2xl font-bold hover:text-[#04aa6d]">
 						2. Past Continuous Tense (भूत अपूर्ण काल):-
 					</h2>
-					<p>
+					<p className="text-justify font-serif">
 						Past Continuous Tense, also known as the past progressive tense, is
 						used to describe ongoing or continuous actions that were happening
 						at a specific point in the past. In this tense, the action is
@@ -757,10 +759,10 @@ const Tenses = () => {
 					<div className="grid md:grid-cols-2 gap-8 mt-4">
 						<div className="cols-span-1 text-center">
 							<h4 className="font-bold">1. Affirmative (सकारात्मक वाक्य) </h4>
-							<div className="font-bold">
+							<div className="md:font-bold">
 								Rule 1: - Subject 1 + was + 1st form verb + ing + Object
 							</div>
-							<div className="font-bold">
+							<div className="md:font-bold">
 								Rule 2: - Subject 2 + were + 1st form verb + ing + Object
 							</div>
 
@@ -788,10 +790,10 @@ const Tenses = () => {
 						</div>
 						<div className="cols-span-1 text-center">
 							<h4 className="font-bold">2. Negative (नकारात्म क वाक्य) </h4>
-							<div className="font-bold">
+							<div className="md:font-bold">
 								Rule 1: - Subject 1 + was + not + 1st form verb + ing + Object
 							</div>
-							<div className="font-bold">
+							<div className="md:font-bold">
 								Rule 2: - Subject 2 + were + not + 1st form verb + ing + Object
 							</div>
 
@@ -820,10 +822,10 @@ const Tenses = () => {
 						</div>
 						<div className="cols-span-1 text-center">
 							<h4 className="font-bold">Interrogative (प्रश्नवाचक वाक्य)</h4>
-							<div className="font-bold">
+							<div className="md:font-bold">
 								Rule 1: - Was + (Subject 1) + 1st form verb + ing + Object?
 							</div>
-							<div className="font-bold">
+							<div className="md:font-bold">
 								Rule 2: - Were + (Subject 2) + 1st form verb + ing + Object?
 							</div>
 							<div className="grid grid-cols-1 bg-slate-400">
@@ -853,11 +855,11 @@ const Tenses = () => {
 							<h4 className="font-bold">
 								Negative Interrogative (नकारात्मक प्रश्नवाचक वाक्य)
 							</h4>
-							<div className="font-bold">
+							<div className="md:font-bold">
 								Rule 1: - Was + (Subject 1) + not + 1st form verb + ing +
 								Object?
 							</div>
-							<div className="font-bold">
+							<div className="md:font-bold">
 								Rule 2: - Were + (Subject 2) + not + 1st form verb + ing +
 								Object?
 							</div>
@@ -887,8 +889,8 @@ const Tenses = () => {
 						</div>
 					</div>
 					<div className="mt-5">
-						<h1 className="font-bold text-2xl">Practice (अभ्यास) :-</h1>
-						<p className="text-xl">
+						<h1 className="font-bold md:text-2xl">Practice (अभ्यास) :-</h1>
+						<p className="md:text-xl">
 							Hindi to English Translate (हिंदी से अंग्रेजी अनुवाद)
 						</p>
 						<p className="font-bold">Example:-</p>
@@ -933,10 +935,10 @@ const Tenses = () => {
 
 			{/* future tense */}
 			<div className="m-10 p-10 border border-gray-300 bg-gray-200 text-justify font-serif">
-				<h1 className="text-3xl font-bold text-center hover:text-[#04aa6d]">
+				<h1 className="md:text-3xl text-xl font-bold text-center hover:text-[#04aa6d]">
 					Future Tense (भविष्यकाल)
 				</h1>
-				<p className="text-center m-2">
+				<p className="text-justify m-2">
 					In simple terms, the future tense is a way of talking about things
 					that haven't happened yet, but are expected to happen in the future.
 					It's like predicting or planning for what will come next. For example,
@@ -944,7 +946,7 @@ const Tenses = () => {
 					later" are both examples of sentences in the future tense. It's all
 					about talking about what will happen later on.
 				</p>
-				<p className="text-center m-2">
+				<p className="text-justify m-2">
 					सरल शब्दों में, भविष्य काल उन चीजों के बारे में बात करने का एक तरीका
 					है जो अभी तक नहीं हुई हैं, लेकिन भविष्य में होने की उम्मीद है। यह आगे
 					क्या होगा इसकी भविष्यवाणी करने या योजना बनाने जैसा है। उदाहरण के लिए,
@@ -954,10 +956,10 @@ const Tenses = () => {
 				</p>
 				{/* simple past tense */}
 				<div className="mt-5">
-					<h2 className="text-2xl font-bold mb-2 hover:text-[#04aa6d]">
+					<h2 className="md:text-2xl font-bold mb-2 hover:text-[#04aa6d]">
 						1. Simple Future Tense (सरल भविष्यकाल):-
 					</h2>
-					<p>
+					<p className="text-justify font-serif">
 						The simple future is a verb tense that's used to talk about things
 						that haven't happened yet. <br />
 						सरल भविष्य एक क्रिया काल है जिसका उपयोग उन चीजों के बारे में बात
@@ -966,7 +968,7 @@ const Tenses = () => {
 					<div className="grid md:grid-cols-2 gap-8 mt-4 md:text-sm">
 						<div className="cols-span-1 text-center">
 							<h4 className="font-bold">1. Affirmative (सकारात्मक वाक्य) </h4>
-							<div className="font-bold">
+							<div className="md:font-bold">
 								Rule: - Subject + will + 1st form verb + Object
 							</div>
 
@@ -997,7 +999,7 @@ const Tenses = () => {
 						</div>
 						<div className="cols-span-1 text-center">
 							<h4 className="font-bold">2. Negative (नकारात्म क वाक्य) </h4>
-							<div className="font-bold">
+							<div className="md:font-bold">
 								Rule: Subject + will + 1st form verb + Object
 							</div>
 
@@ -1028,7 +1030,7 @@ const Tenses = () => {
 						</div>
 						<div className="cols-span-1 text-center">
 							<h4 className="font-bold">Interrogative (प्रश्नवाचक वाक्य)</h4>
-							<div className="font-bold">
+							<div className="md:font-bold">
 								Rule: + will + subject + 1st form verb + Object?
 							</div>
 
@@ -1061,7 +1063,7 @@ const Tenses = () => {
 							<h4 className="font-bold">
 								Negative Interrogative (नकारात्मक प्रश्नवाचक वाक्य)
 							</h4>
-							<div className="font-bold">
+							<div className="md:font-bold">
 								Rule: + Will + Subject + not + 1st form verb + Object?
 							</div>
 
@@ -1093,8 +1095,8 @@ const Tenses = () => {
 						</div>
 					</div>
 					{/* <div className="mt-5">
-						<h1 className="font-bold text-2xl">Practice (अभ्यास) :-</h1>
-						<p className="text-xl">
+						<h1 className="font-bold md:text-2xl">Practice (अभ्यास) :-</h1>
+						<p className="md:text-xl">
 							Hindi to English Translate (हिंदी से अंग्रेजी अनुवाद)
 						</p>
 						<p className="font-bold">Example:-</p>

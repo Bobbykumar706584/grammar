@@ -57,26 +57,24 @@ const Speech = () => {
 				<h1 className="md:text-3xl font-bold text-center hover:text-[#04aa6d]">
 					Noun (संज्ञा)
 				</h1>
-				<p className="text-center m-2 md:text-xl">
+				<p className="text-justify m-2 md:text-xl">
 					A noun is a part of speech that names a person, place, thing, or idea.
 					It's a fundamental building block of a sentence and often serves as
 					the subject or object of a verb.
 				</p>
-				<p className="text-center m-2">
+				<p className="text-justify m-2">
 					संज्ञा वाणी का वह भाग है जो किसी व्यक्ति, स्थान, वस्तु या विचार का नाम
 					बताता है। यह एक वाक्य का मूलभूत निर्माण खंड है और अक्सर क्रिया के विषय
 					या वस्तु के रूप में कार्य करता है।
 				</p>
 				<h5 className="">
-					<strong>
-						There are several types or parts of nouns: <br />
-						संज्ञा के कई प्रकार या भाग होते हैं:
-					</strong>
+					There are several types or parts of nouns: <br />
+					संज्ञा के कई प्रकार या भाग होते हैं:
 				</h5>
 				{/* Noun */}
 				{data.speech[0].nouns.map((item, index) => (
 					<div className="mt-3">
-						<h2 className="md:md:text-xl font-bold hover:text-[#04aa6d] mb-2">
+						<h2 className="md:text-xl md:font-bold font-semibold hover:text-[#04aa6d] mb-2">
 							{index + 1 + " " + item.category}
 						</h2>
 						<p>
@@ -84,9 +82,9 @@ const Speech = () => {
 							<br />
 							{item.translation}
 							<br />
-							<strong>Example: {item.example.toUpperCase()}</strong>
+							Example: {item.example.toUpperCase()}
 							<br />
-							<strong>उदाहरण: {item.hinExample}</strong>
+							उदाहरण: {item.hinExample}
 						</p>
 					</div>
 				))}
@@ -97,27 +95,25 @@ const Speech = () => {
 				<h1 className="md:text-3xl font-bold text-center hover:text-[#04aa6d]">
 					Pronoun (सर्वनाम)
 				</h1>
-				<p className="text-center m-2">
+				<p className="text-justify m-2">
 					A pronoun is a part of speech that takes the place of a noun in a
 					sentence. It's used to avoid repetition and make sentences less
 					cumbersome. Pronouns can refer to people, places, things, or ideas.
 				</p>
-				<p className="text-center m-2">
+				<p className="text-justify m-2">
 					सर्वनाम वाणी का वह भाग है जो वाक्य में संज्ञा का स्थान लेता है। इसका
 					उपयोग पुनरावृत्ति से बचने और वाक्यों को कम बोझिल बनाने के लिए किया
 					जाता है। सर्वनाम लोगों, स्थानों, चीज़ों या विचारों को संदर्भित कर सकते
 					हैं।
 				</p>
 				<h5 className="">
-					<strong>
-						There are several types or parts of pronouns: <br />
-						सर्वनाम के कई प्रकार या भाग होते हैं:
-					</strong>
+					There are several types or parts of pronouns: <br />
+					सर्वनाम के कई प्रकार या भाग होते हैं:
 				</h5>
 				{/* pronoun */}
 				{data.speech[0].pronoun.map((item, index) => (
 					<div className="mt-3">
-						<h2 className="md:md:text-xl font-bold hover:text-[#04aa6d] mb-2">
+						<h2 className="md:text-xl md:font-bold font-semibold hover:text-[#04aa6d] mb-2">
 							{index + 1 + " " + item.category}
 						</h2>
 						<p>
@@ -125,9 +121,9 @@ const Speech = () => {
 							<br />
 							{item.translation}
 							<br />
-							<strong>Example: {item.example.toUpperCase()}</strong>
+							Example: {item.example.toUpperCase()}
 							<br />
-							<strong>उदाहरण: {item.hinExample}</strong>
+							उदाहरण: {item.hinExample}
 						</p>
 					</div>
 				))}
@@ -138,14 +134,14 @@ const Speech = () => {
 				<h1 className="md:text-3xl font-bold text-center hover:text-[#04aa6d]">
 					Adjective (विशेषण)
 				</h1>
-				<p className="text-center m-2">
+				<p className="text-justify m-2">
 					An adjective is a part of speech that modifies or describes a noun or
 					pronoun. It gives more information about a noun (a person, place,
 					thing, or idea) or a pronoun. Adjectives help us understand the
 					qualities, characteristics, or features of the noun or pronoun they
 					describe.
 				</p>
-				<p className="text-center m-2">
+				<p className="text-justify m-2">
 					विशेषण भाषण का एक हिस्सा है जो संज्ञा या सर्वनाम को संशोधित या वर्णित
 					करता है। यह किसी संज्ञा (किसी व्यक्ति, स्थान, चीज़ या विचार) या
 					सर्वनाम के बारे में अधिक जानकारी देता है। विशेषण हमें उनके द्वारा
@@ -153,14 +149,12 @@ const Speech = () => {
 					मदद करते हैं।
 				</p>
 				<h5 className="">
-					<strong>
-						There are 6 types or parts of adjectives: <br />
-						विशेषण के 6 प्रकार या भाग होते हैं:
-					</strong>
+					There are 6 types or parts of adjectives: <br />
+					विशेषण के 6 प्रकार या भाग होते हैं:
 				</h5>
 				{data.speech[0].adjective.map((item, index) => (
 					<div className="mt-3">
-						<h2 className="md:md:text-xl font-bold hover:text-[#04aa6d] mb-2">
+						<h2 className="md:text-xl md:font-bold font-semibold hover:text-[#04aa6d] mb-2">
 							{index + 1 + " " + item.category}
 						</h2>
 						<p>
@@ -168,9 +162,9 @@ const Speech = () => {
 							<br />
 							{item.translation}
 							<br />
-							<strong>Example: {item.example.toUpperCase()}</strong>
+							Example: {item.example.toUpperCase()}
 							<br />
-							<strong>उदाहरण: {item.hinExample}</strong>
+							उदाहरण: {item.hinExample}
 						</p>
 					</div>
 				))}
@@ -181,7 +175,7 @@ const Speech = () => {
 				<h1 className="md:text-3xl font-bold text-center hover:text-[#04aa6d]">
 					Verb (क्रिया)
 				</h1>
-				<p className="text-center m-2">
+				<p className="text-justify m-2">
 					A verb is a word that expresses an action, occurrence, or state of
 					being. In a sentence, a verb typically indicates what the subject is
 					doing (action) or what is happening to the subject (occurrence or
@@ -190,7 +184,7 @@ const Speech = () => {
 					Verbs are central to constructing meaningful sentences in any
 					language. They can also convey tense, aspect, mood, and voice.
 				</p>
-				<p className="text-center m-2">
+				<p className="text-justify m-2">
 					क्रिया एक ऐसा शब्द है जो किसी क्रिया, घटना या होने की स्थिति को व्यक्त
 					करता है। एक वाक्य में, एक क्रिया आमतौर पर इंगित करती है कि विषय क्या
 					कर रहा है (क्रिया) या विषय के साथ क्या हो रहा है (घटना या होने की
@@ -208,7 +202,7 @@ const Speech = () => {
 				<h1 className="md:text-3xl font-bold text-center hover:text-[#04aa6d]">
 					Adverb (क्रिया-विशेषण)
 				</h1>
-				<p className="text-center m-2">
+				<p className="text-justify m-2">
 					An adverb is a word that modifies or describes a verb, adjective, or
 					another adverb. Adverbs often provide information about the manner,
 					place, time, frequency, degree, or certainty of an action or
@@ -216,7 +210,7 @@ const Speech = () => {
 					to what extent. Here are some examples of adverbs along with their
 					usage:
 				</p>
-				<p className="text-center m-2">
+				<p className="text-justify m-2">
 					क्रिया विशेषण एक ऐसा शब्द है जो क्रिया, विशेषण या किसी अन्य क्रिया
 					विशेषण को संशोधित या वर्णित करता है। क्रियाविशेषण अक्सर किसी क्रिया या
 					स्थिति के तरीके, स्थान, समय, आवृत्ति, डिग्री या निश्चितता के बारे में
@@ -226,7 +220,7 @@ const Speech = () => {
 				</p>
 				{data.speech[0].adverb.map((item, index) => (
 					<div className="mt-3">
-						<h2 className="md:md:text-xl font-bold hover:text-[#04aa6d] mb-2">
+						<h2 className="md:text-xl md:font-bold font-semibold hover:text-[#04aa6d] mb-2">
 							{index + 1 + " " + item.category}
 						</h2>
 						<p>
@@ -244,13 +238,13 @@ const Speech = () => {
 				<h1 className="md:text-3xl font-bold text-center hover:text-[#04aa6d]">
 					Preposition (सम्बंध-सूचक)
 				</h1>
-				<p className="text-center m-2">
+				<p className="text-justify m-2">
 					A preposition is a word that typically comes before a noun or pronoun
 					and expresses a relationship to another word in a sentence.
 					Prepositions usually indicate location, direction, time, or the
 					relationship between two elements in a sentence.
 				</p>
-				<p className="text-center m-2">
+				<p className="text-justify m-2">
 					प्रीपोज़िशन एक ऐसा शब्द है जो आम तौर पर संज्ञा या सर्वनाम से पहले आता
 					है और एक वाक्य में दूसरे शब्द से संबंध व्यक्त करता है। प्रस्तावना
 					आमतौर पर एक वाक्य में स्थान, दिशा, समय या दो तत्वों के बीच संबंध को
@@ -258,7 +252,7 @@ const Speech = () => {
 				</p>
 				{data.speech[0].preposition.map((item, index) => (
 					<div className="mt-3">
-						<h2 className="md:md:text-xl font-bold hover:text-[#04aa6d] mb-2">
+						<h2 className="md:text-xl md:font-bold font-semibold hover:text-[#04aa6d] mb-2">
 							{index + 1 + " " + item.category}
 						</h2>
 						<h3 className="text-md font-bold">
@@ -281,13 +275,13 @@ const Speech = () => {
 				<h1 className="md:text-3xl font-bold text-center hover:text-[#04aa6d]">
 					Conjuction (संयोजक)
 				</h1>
-				<p className="text-center m-2">
+				<p className="text-justify m-2">
 					A conjunction is a word that connects words, phrases, or clauses
 					within a sentence. Conjunctions are used to show relationships between
 					different elements and to join them together to create coherent and
 					meaningful sentences. There are three main types of conjunctions:
 				</p>
-				<p className="text-center m-2">
+				<p className="text-justify m-2">
 					समुच्चयबोधक एक ऐसा शब्द है जो एक वाक्य के भीतर शब्दों, वाक्यांशों या
 					उपवाक्यों को जोड़ता है। संयोजकों का उपयोग विभिन्न तत्वों के बीच संबंध
 					दिखाने और उन्हें एक साथ जोड़कर सुसंगत और सार्थक वाक्य बनाने के लिए
@@ -384,13 +378,13 @@ const Speech = () => {
 				<h1 className="md:text-3xl font-bold text-center hover:text-[#04aa6d]">
 					Interjection (विस्मयादिबोधक शब्द)
 				</h1>
-				<p className="text-center m-2">
+				<p className="text-justify m-2">
 					Interjections are words or phrases used to express emotions,
 					sentiments, or sudden exclamations. They often stand alone or are
 					followed by an exclamation mark to indicate strong feelings or
 					reactions. Here are some examples of interjections:
 				</p>
-				<p className="text-center m-2">
+				<p className="text-justify m-2">
 					Interjections केवल भावनाओं, भावनाओं, या अचानक की अभिव्यक्ति के लिए
 					प्रयोग किए जाने वाले शब्द या वाक्यांश हैं। वे अक्सर अकेले खड़े होते
 					हैं या अधिक भावनात्मक भावों या प्रतिक्रियाओं की चिह्नित करने के लिए

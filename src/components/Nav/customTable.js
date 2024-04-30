@@ -81,7 +81,7 @@ const TableReact = ({ products }) => {
 		// setRowsToShow(sortedProducts.slice(0, rowsLimit));z
 	}, [products]);
 	return (
-		<div className="min-h-screen h-full bg-white flex justify-center pt-10 pb-14">
+		<div className="h-full bg-white flex justify-center pt-10 pb-14">
 			<div className="w-full max-w-6xl px-2">
 				<div className="flex justify-between bg-[#222E3A]/[6%]  px-2  mt-2 py-2 border-2 border-b-0 border-black">
 					<h1 className="text-2xl font-medium ">Verbs Table</h1>

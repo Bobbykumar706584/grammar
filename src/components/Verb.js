@@ -10,8 +10,10 @@ const Verb = () => {
 		<>
 			<Header />
 			<div className="font-serif mt-[100px] p-10">
-				<h1 className="text-5xl text-center font-bold">Verb (क्रिया)</h1>
-				<p className="p-2 text-xl">
+				<h1 className="md:text-5xl text-3xl text-center font-bold">
+					Verb (क्रिया)
+				</h1>
+				<p className="p-2 md:text-xl text-justify">
 					A verb is a word used to describe an action, state, or occurrence. It
 					is one of the main parts of speech in English and is often considered
 					the "doing" or "being" word in a sentence. Verbs can express actions
@@ -21,7 +23,7 @@ const Verb = () => {
 					forms to indicate when an action occurred, who performed the action,
 					and other aspects of the action.
 				</p>
-				<p className="p-2 text-xl">
+				<p className="p-2 md:text-xl text-justify">
 					क्रिया एक ऐसा शब्द है जिसका उपयोग किसी क्रिया, स्थिति या घटना का वर्णन
 					करने के लिए किया जाता है। यह अंग्रेजी में भाषण के मुख्य भागों में से
 					एक है और इसे अक्सर वाक्य में "करना" या "होना" शब्द माना जाता है।

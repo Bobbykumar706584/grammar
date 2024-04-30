@@ -9,18 +9,20 @@ const Modal = () => {
 		<>
 			<Header />
 			<div className="font-serif mt-[100px] p-10">
-				<h1 className="text-5xl text-center font-bold">Modals (मोडाल्स)</h1>
-				<p className="p-2 text-xl">
+				<h1 className="md:text-5xl text-3xl text-center font-bold">
+					Modals (मोडाल्स)
+				</h1>
+				<p className="p-2 md:text-xl text-justify">
 					“Modals are such auxiliary verbs which are used with the main verb in
 					the sentence to express capability, possibility, certainty, permission
 					and necessity of the action to be done.”
 				</p>
-				<p className="p-2 text-xl">
+				<p className="p-2 md:text-xl text-justify">
 					“Modals ऐसी सहायक क्रियाएँ होती हैं जिनका प्रयोग वाक्य में मुख्य
 					क्रिया के साथ किया जाता है ताकि किये जाने वाले कार्य की समर्थता,
 					सम्भावना, निश्चितता, इजाज़त और आवश्यकता व्यक्त की जा सके।”
 				</p>
-				<p className="p-2 text-xl mt-10">
+				<p className="p-2 md:text-xl mt-5 text-justify">
 					Modal Helping verbs are used with main verbs of the sentence to
 					express ability, possibility, certainty, permission and necessity.”
 					Following table lets you know about modals helping verbs, their
@@ -31,7 +33,7 @@ const Modal = () => {
 					की मदद करने वाले मोडल्स, उनके नकारात्मक, और उस विशेष मोडल के साथ उपयोग
 					की जाने वाली मुख्य क्रियाओं के रूप के बारे में बताती है।)
 				</p>
-				<div className="grid grid-cols-3 border text-center border-black p-2 mx-5">
+				<div className="grid grid-cols-3 border text-center border-black p-2 md:mx-5">
 					<div>
 						Modals सहायक क्रियाएँ <br />
 						Modal Helping Verbs
@@ -46,7 +48,7 @@ const Modal = () => {
 					</div>
 				</div>
 				{Data.modal.map((item) => (
-					<div className="grid grid-cols-3 border text-center border-black p-2 mx-5">
+					<div className="grid grid-cols-3 border text-center border-black p-2 md:mx-5">
 						<div>{item.modalName}</div>
 						<div>{item.negativeModalName}</div>
 						<div>{item.form}</div>
@@ -54,28 +56,28 @@ const Modal = () => {
 				))}
 			</div>
 			<div className="m-10 text-center p-10 border border-gray-300 bg-gray-200">
-				<h1 className="text-3xl font-bold text-center hover:text-[#04aa6d]">
+				<h1 className="md:text-3xl text-xl font-bold text-center hover:text-[#04aa6d]">
 					1. Can (सकता है)
 				</h1>
-				<h2 className="text-2xl font-bold">
+				<h2 className="md:text-2xl text-md font-bold">
 					(Subject + Can + 1st form verb + Object)
 				</h2>
-				<p className="">
+				<p className="text-justify">
 					The modal verb can is generally used to show ability or probability
 					but it has more functions. To learn more, take a look: <br></br>
 					मोडल क्रिया Can का उपयोग आम तौर पर क्षमता या संभावना दिखाने के लिए
 					किया जाता है लेकिन इसमें अधिक कार्य होते हैं। अधिक जानने के लिए, एक
 					नज़र डालें:
 				</p>
-				<div className="grid grid-cols-2 text-center bg-slate-400">
+				<div className="grid md:grid-cols-2 text-center bg-slate-400">
 					<div className="border border-black p-2 font-bold">USAGE</div>
 					<div className="border border-black p-2 font-bold uppercase">
 						Examples
 					</div>
 				</div>
-				<div className="grid grid-cols-2 text-center">
+				<div className="grid md:md:grid-cols-2 text-center">
 					<div className="border border-black p-2">Ability (क्षमता)</div>
-					<div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
+					<div className="grid md:grid-cols-2 grid-rows-2 border border-black p-2">
 						<div className="col-span-2">I can run. (मैं दौड़ सकता हुँ)</div>
 						<div className="col-span-2">
 							My friend can speak many languages (मेरा दोस्त कई भाषाएँ बोल सकता
@@ -83,11 +85,11 @@ const Modal = () => {
 						</div>
 					</div>
 				</div>
-				<div className="grid grid-cols-2 text-center">
+				<div className="grid md:grid-cols-2 text-center">
 					<div className="border border-black p-2">
 						Possibility/Probability (संभावना)
 					</div>
-					<div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
+					<div className="grid md:grid-cols-2 grid-rows-2 border border-black p-2">
 						<div className="col-span-2">
 							Smoking can harm your brain. (धूम्रपान आपके मस्तिष्क को नुकसान
 							पहुंचा सकता है)
@@ -97,11 +99,11 @@ const Modal = () => {
 						</div>
 					</div>
 				</div>
-				<div className="grid grid-cols-2 text-center">
+				<div className="grid md:grid-cols-2 text-center">
 					<div className="border border-black p-2">
 						Asking or Giving permission (अनुमति माँगना या देना)
 					</div>
-					<div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
+					<div className="grid md:grid-cols-2 grid-rows-2 border border-black p-2">
 						<div className="col-span-2">
 							Can I go to the park? (क्या मैं पार्क जा सकता हूँ?){" "}
 						</div>
@@ -111,11 +113,11 @@ const Modal = () => {
 						</div>
 					</div>
 				</div>
-				<div className="grid grid-cols-2 text-center">
+				<div className="grid md:grid-cols-2 text-center">
 					<div className="border border-black p-2">
 						Requesting someone to do something (किसी से कुछ करने का अनुरोध करना)
 					</div>
-					<div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
+					<div className="grid md:grid-cols-2 grid-rows-2 border border-black p-2">
 						<div className="col-span-2">
 							Can you call my mom for food? (क्या आप मेरी माँ को भोजन के लिए
 							बुला सकते हैं?)
@@ -126,11 +128,11 @@ const Modal = () => {
 						</div>
 					</div>
 				</div>
-				<div className="grid grid-cols-2 text-center">
+				<div className="grid md:grid-cols-2 text-center">
 					<div className="border border-black p-2">
 						Giving offers (प्रस्ताव देना)
 					</div>
-					<div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
+					<div className="grid md:grid-cols-2 grid-rows-2 border border-black p-2">
 						<div className="col-span-2">
 							Can I do that for you? (क्या मैं आपके लिए ऐसा कर सकता हूँ?)
 						</div>
@@ -139,11 +141,11 @@ const Modal = () => {
 						</div>
 					</div>
 				</div>
-				<div className="grid grid-cols-2 text-center">
+				<div className="grid md:grid-cols-2 text-center">
 					<div className="border border-black p-2">
 						Making suggestions (सुझाव देना)
 					</div>
-					<div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
+					<div className="grid md:grid-cols-2 grid-rows-2 border border-black p-2">
 						<div className="col-span-2">
 							We can go for a walk this morning. (आज सुबह हम लोग घूमने जा सकते
 							हैं.)
@@ -156,11 +158,11 @@ const Modal = () => {
 					</div>
 				</div>
 
-				<div className="grid grid-cols-2 text-center">
+				<div className="grid md:grid-cols-2 text-center">
 					<div className="border border-black p-2">
 						Talk about scientific facts (वैज्ञानिक तथ्यों के बारे में बात करें)
 					</div>
-					<div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
+					<div className="grid md:grid-cols-2 grid-rows-2 border border-black p-2">
 						<div className="col-span-2">
 							Tigers can run as fast as lions. (बाघ शेर की तरह तेज़ दौड़ सकते
 							हैं।)
@@ -171,12 +173,12 @@ const Modal = () => {
 						</div>
 					</div>
 				</div>
-				<div className="grid grid-cols-2 text-center">
+				<div className="grid md:grid-cols-2 text-center">
 					<div className="border border-black p-2">
 						Show the potential in someone or something (किसी व्यक्ति या वस्तु
 						में क्षमता दिखाना )
 					</div>
-					<div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
+					<div className="grid md:grid-cols-2 grid-rows-2 border border-black p-2">
 						<div className="col-span-2">
 							That can be the most difficult part for you to do. (ऐसा करना आपके
 							लिए सबसे कठिन हिस्सा हो सकता है।)
@@ -190,14 +192,14 @@ const Modal = () => {
 			</div>
 			{/* Could */}
 			<div className="m-10 text-center p-10 border border-gray-300 bg-gray-200">
-				<h1 className="text-3xl font-bold text-center hover:text-[#04aa6d]">
+				<h1 className="md:text-3xl text-xl font-bold text-center hover:text-[#04aa6d]">
 					2. Could (सका/सकी/पाया " या " सकता/सकती + था/है/हैं/हूँ/थी)
 				</h1>
-				<h2 className="text-2xl font-bold">
+				<h2 className="md:text-2xl text-md font-bold">
 					(Subject + Could + 1st form verb + Object)
 				</h2>
 
-				<p className="">
+				<p className="text-justify">
 					'Could' is used to express: possibility, past ability, and to make
 					suggestions and requests. 'Could' is also used in conditional
 					sentences as the conditional form of 'can'. <br></br>('Can' का उपयोग
@@ -205,17 +207,17 @@ const Modal = () => {
 					अनुरोध करने के लिए। 'Can' का प्रयोग सशर्त वाक्यों में 'can' के सशर्त
 					रूप के रूप में भी किया जाता है।)
 				</p>
-				<div className="grid grid-cols-2 text-center bg-slate-400">
+				<div className="grid md:grid-cols-2 text-center bg-slate-400">
 					<div className="border border-black p-2 font-bold">USAGE</div>
 					<div className="border border-black p-2 font-bold uppercase">
 						Examples
 					</div>
 				</div>
-				<div className="grid grid-cols-2 text-center">
+				<div className="grid md:grid-cols-2 text-center">
 					<div className="border border-black p-2">
 						Past Ability or Capability (अतीत की क्षमता)
 					</div>
-					<div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
+					<div className="grid md:grid-cols-2 grid-rows-2 border border-black p-2">
 						<div className="col-span-2">
 							When I was young, I could swim across the lake. (जब मैं छोटा था,
 							मैं झील को तैरकर पार कर सकता था।)
@@ -226,11 +228,11 @@ const Modal = () => {
 						</div>
 					</div>
 				</div>
-				<div className="grid grid-cols-2 text-center">
+				<div className="grid md:grid-cols-2 text-center">
 					<div className="border border-black p-2">
 						Polite Requests (विनम्र निवेदन)
 					</div>
-					<div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
+					<div className="grid md:grid-cols-2 grid-rows-2 border border-black p-2">
 						<div className="col-span-2">
 							Could you please pass me the salt? (क्या आप कृपया मुझे नमक दे सकते
 							हैं?)
@@ -241,9 +243,9 @@ const Modal = () => {
 						</div>
 					</div>
 				</div>
-				<div className="grid grid-cols-2 text-center">
+				<div className="grid md:grid-cols-2 text-center">
 					<div className="border border-black p-2">Conditional Statements</div>
-					<div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
+					<div className="grid md:grid-cols-2 grid-rows-2 border border-black p-2">
 						<div className="col-span-2">
 							If I had more time, I could finish the project. (यदि मेरे पास अधिक
 							समय होता तो मैं इस परियोजना को पूरा कर सकता था।){" "}
@@ -254,11 +256,11 @@ const Modal = () => {
 						</div>
 					</div>
 				</div>
-				<div className="grid grid-cols-2 text-center">
+				<div className="grid md:grid-cols-2 text-center">
 					<div className="border border-black p-2">
 						Possibility/Probability (संभावना)
 					</div>
-					<div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
+					<div className="grid md:grid-cols-2 grid-rows-2 border border-black p-2">
 						<div className="col-span-2">
 							It could rain later. (बाद में बारिश हो सकती है.)
 						</div>
@@ -267,11 +269,11 @@ const Modal = () => {
 						</div>
 					</div>
 				</div>
-				<div className="grid grid-cols-2 text-center">
+				<div className="grid md:grid-cols-2 text-center">
 					<div className="border border-black p-2">
 						Making Suggestions (सुझाव देना)
 					</div>
-					<div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
+					<div className="grid md:grid-cols-2 grid-rows-2 border border-black p-2">
 						<div className="col-span-2">
 							You could try the new restaurant downtown. (आप शहर में नया
 							restaurant आज़मा सकते हैं)
@@ -282,11 +284,11 @@ const Modal = () => {
 						</div>
 					</div>
 				</div>
-				<div className="grid grid-cols-2 text-center">
+				<div className="grid md:grid-cols-2 text-center">
 					<div className="border border-black p-2">
 						Expressing Politeness (विनम्रता व्यक्त करना)
 					</div>
-					<div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
+					<div className="grid md:grid-cols-2 grid-rows-2 border border-black p-2">
 						<div className="col-span-2">
 							Could you possibly help me with this problem? (क्या आप संभवतः इस
 							समस्या में मेरी मदद कर सकते हैं?)
@@ -296,11 +298,11 @@ const Modal = () => {
 						</div>
 					</div>
 				</div>
-				<div className="grid grid-cols-2 text-center">
+				<div className="grid md:grid-cols-2 text-center">
 					<div className="border border-black p-2">
 						Indirect Question (अप्रत्यक्ष सवाल)
 					</div>
-					<div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
+					<div className="grid md:grid-cols-2 grid-rows-2 border border-black p-2">
 						<div className="col-span-2">
 							Could you tell me where the nearest ATM is? (क्या आप मुझे बता सकते
 							हैं कि निकटतम एटीएम कहाँ है?)
@@ -315,14 +317,14 @@ const Modal = () => {
 
 			{/* Could have */}
 			<div className="m-10 text-center p-10 border border-gray-300 bg-gray-200">
-				<h1 className="text-3xl font-bold text-center hover:text-[#04aa6d]">
+				<h1 className="md:text-3xl text-xl font-bold text-center hover:text-[#04aa6d]">
 					3. Could have (सका/सकी/पाया + था/थी/थे)
 				</h1>
-				<h2 className="text-2xl font-bold">
+				<h2 className="md:text-2xl text-md font-bold">
 					(Subject + Could have + 3rd form verb + Object)
 				</h2>
 
-				<p className="">
+				<p className="text-justify">
 					"Could have" is a modal phrase in English that is used to express past
 					ability, past possibility, or past permission. Here's how it is
 					typically used: <br></br>("हो सकता था" अंग्रेजी में एक मॉडल वाक्यांश
@@ -330,17 +332,17 @@ const Modal = () => {
 					करने के लिए किया जाता है। यहां बताया गया है कि इसका आमतौर पर उपयोग
 					कैसे किया जाता है:)
 				</p>
-				<div className="grid grid-cols-2 text-center bg-slate-400">
+				<div className="grid md:grid-cols-2 text-center bg-slate-400">
 					<div className="border border-black p-2 font-bold">USAGE</div>
 					<div className="border border-black p-2 font-bold uppercase">
 						Examples
 					</div>
 				</div>
-				<div className="grid grid-cols-2 text-center">
+				<div className="grid md:grid-cols-2 text-center">
 					<div className="border border-black p-2">
 						Past Ability or Capability (अतीत की क्षमता)
 					</div>
-					<div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
+					<div className="grid md:grid-cols-2 grid-rows-2 border border-black p-2">
 						<div className="col-span-2">
 							She could have solved the problem if she had more time. (यदि उसके
 							पास अधिक समय होता तो वह समस्या का समाधान कर सकती थी।)
@@ -351,11 +353,11 @@ const Modal = () => {
 						</div>
 					</div>
 				</div>
-				<div className="grid grid-cols-2 text-center">
+				<div className="grid md:grid-cols-2 text-center">
 					<div className="border border-black p-2">
 						Past Possibility/Probability (अतीत की संभावना)
 					</div>
-					<div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
+					<div className="grid md:grid-cols-2 grid-rows-2 border border-black p-2">
 						<div className="col-span-2">
 							He could have missed the bus. (उसकी बस छूट सकती थी.)
 						</div>
@@ -364,11 +366,11 @@ const Modal = () => {
 						</div>
 					</div>
 				</div>
-				<div className="grid grid-cols-2 text-center">
+				<div className="grid md:grid-cols-2 text-center">
 					<div className="border border-black p-2">
 						Past Permission (अतीत की अनुमति)
 					</div>
-					<div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
+					<div className="grid md:grid-cols-2 grid-rows-2 border border-black p-2">
 						<div className="col-span-2">
 							You could have borrowed my car if you had asked. (अगर तुमने कहा
 							होता तो तुम मेरी कार उधार ले सकते थे।)
@@ -384,29 +386,28 @@ const Modal = () => {
 
 			{/* May/Might */}
 			<div className="m-10 text-center p-10 border border-gray-300 bg-gray-200">
-				<h1 className="text-3xl font-bold text-center hover:text-[#04aa6d]">
+				<h1 className="md:text-3xl text-xl font-bold text-center hover:text-[#04aa6d]">
 					4. May/Might (सकता/सकती + हूँ)
 				</h1>
-				<h2 className="text-2xl font-bold">
+				<h2 className="md:text-2xl text-md font-bold">
 					(Subject + May/Might + 1st form verb + Object)
 				</h2>
-				<p className="">
-					{" "}
+				<p className="text-justify">
 					"may" is a modal verb that is used to express possibility, permission,
 					or probability. Here are the main uses of "may": <br></br>("हो सकता
 					है" एक मोडल क्रिया है जिसका उपयोग संभावना, अनुमति या संभाव्यता व्यक्त
 					करने के लिए किया जाता है। यहां "हो सकता है" के मुख्य उपयोग दिए गए
 					हैं:)
 				</p>
-				<div className="grid grid-cols-2 text-center bg-slate-400">
+				<div className="grid md:grid-cols-2 text-center bg-slate-400">
 					<div className="border border-black p-2 font-bold">USAGE</div>
 					<div className="border border-black p-2 font-bold uppercase">
 						Examples
 					</div>
 				</div>
-				<div className="grid grid-cols-2 text-center">
+				<div className="grid md:grid-cols-2 text-center">
 					<div className="border border-black p-2">Permission (अनुमति)</div>
-					<div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
+					<div className="grid md:grid-cols-2 grid-rows-2 border border-black p-2">
 						<div className="col-span-2">
 							"May I borrow your pen, please? ("क्या मैं आपकी कलम उधार ले सकता
 							हूँ, कृपया?)
@@ -424,9 +425,9 @@ const Modal = () => {
 						</div>
 					</div>
 				</div>
-				<div className="grid grid-cols-2 text-center">
+				<div className="grid md:grid-cols-2 text-center">
 					<div className="border border-black p-2">Possibility (संभावना)</div>
-					<div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
+					<div className="grid md:grid-cols-2 grid-rows-2 border border-black p-2">
 						<div className="col-span-2">
 							It may/might rain later, so you should bring an umbrella. (बाद में
 							बारिश हो सकती है, इसलिए आपको छाता लेकर आना चाहिए।)
@@ -442,11 +443,11 @@ const Modal = () => {
 						</div>
 					</div>
 				</div>
-				<div className="grid grid-cols-2 text-center">
+				<div className="grid md:grid-cols-2 text-center">
 					<div className="border border-black p-2">
 						Wishes or Prayers (इच्छाएँ या प्रार्थनाएँ)
 					</div>
-					<div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
+					<div className="grid md:grid-cols-2 grid-rows-2 border border-black p-2">
 						<div className="col-span-2">
 							May you have a prosperous year ahead. (आपका आने वाला वर्ष मंगलमय
 							हो।){" "}
@@ -466,13 +467,13 @@ const Modal = () => {
 
 			{/* May have/Might have */}
 			<div className="m-10 text-center p-10 border border-gray-300 bg-gray-200">
-				<h1 className="text-3xl font-bold text-center hover:text-[#04aa6d]">
+				<h1 className="md:text-3xl text-xl font-bold text-center hover:text-[#04aa6d]">
 					5. May have/Might have(सकता/सकती/सकते + था/थी/थे)
 				</h1>
-				<h2 className="text-2xl font-bold">
+				<h2 className="md:text-2xl text-md font-bold">
 					(Subject + May have/Might have + 3rd form verb + Object)
 				</h2>
-				<p className="">
+				<p className="text-justify mt-2">
 					"may have" and "might have" are modal phrases used to express
 					possibility or uncertainty about past events. Here's how they are
 					typically used: <br></br>("हो सकता है" और "हो सकता है" ऐसे मोडल
@@ -480,7 +481,7 @@ const Modal = () => {
 					अनिश्चितता व्यक्त करने के लिए किया जाता है। यहां बताया गया है कि उनका
 					आम तौर पर कैसे उपयोग किया जाता है:)
 				</p>
-				<p className="">
+				<p className="text-justify mt-2">
 					"May have" is used to suggest a possibility or likelihood of something
 					happening or having happened in the past. It indicates a higher degree
 					of possibility compared to "might have." <br></br>("हो सकता है" का
@@ -488,22 +489,22 @@ const Modal = () => {
 					संभावना का सुझाव देने के लिए किया जाता है। यह "हो सकता है" की तुलना
 					में उच्च स्तर की संभावना को इंगित करता है।)
 				</p>
-				<p className="">
+				<p className="text-justify mt-2">
 					"Might have" is also used to express possibility or uncertainty about
 					past events. It suggests a lower degree of possibility compared to
 					"may have." <br></br>("हो सकता है" का प्रयोग पिछली घटनाओं के बारे में
 					संभावना या अनिश्चितता व्यक्त करने के लिए भी किया जाता है। यह "हो सकता
 					है" की तुलना में संभावना की कम डिग्री का सुझाव देता है।)
 				</p>
-				<div className="grid grid-cols-2 text-center bg-slate-400">
+				<div className="grid md:grid-cols-2 text-center bg-slate-400">
 					<div className="border border-black p-2 font-bold">USAGE</div>
 					<div className="border border-black p-2 font-bold uppercase">
 						Examples
 					</div>
 				</div>
-				<div className="grid grid-cols-2 text-center">
+				<div className="grid md:grid-cols-2 text-center">
 					<div className="border border-black p-2">Speculation (अनुमान)</div>
-					<div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
+					<div className="grid md:grid-cols-2 grid-rows-2 border border-black p-2">
 						<div className="col-span-2">
 							I may have left my keys at home.(हो सकता है कि मैंने अपनी चाबियाँ
 							घर पर ही छोड़ दी हों।)
@@ -526,11 +527,11 @@ const Modal = () => {
 						</div>
 					</div>
 				</div>
-				<div className="grid grid-cols-2 text-center">
+				<div className="grid md:grid-cols-2 text-center">
 					<div className="border border-black p-2">
 						Uncertainty (अनिश्चितता)
 					</div>
-					<div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
+					<div className="grid md:grid-cols-2 grid-rows-2 border border-black p-2">
 						<div className="col-span-2">
 							I might have left my book at home; I can't find it in my bag.
 							(शायद उसकी बस छूट गई होगी, इसलिए उसे देर हो गई।)
@@ -552,9 +553,9 @@ const Modal = () => {
 						</div>
 					</div>
 				</div>
-				<div className="grid grid-cols-2 text-center">
+				<div className="grid md:grid-cols-2 text-center">
 					<div className="border border-black p-2">Possibility (संभावना)</div>
-					<div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
+					<div className="grid md:grid-cols-2 grid-rows-2 border border-black p-2">
 						<div className="col-span-2">
 							The package might have arrived while we were out. (जब हम बाहर थे
 							तब शायद पैकेज आ गया होगा।)

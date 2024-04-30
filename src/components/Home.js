@@ -30,10 +30,10 @@ const Home = () => {
 	return (
 		<>
 			<Header />
-			<div className="font-serif mt-[100px] p-10 text-justify text-[#231f45]">
-				<div class="grid grid-cols-3 gap-5 border border-gray-600 p-2">
-					<div className="col-start-1 col-span-1 text-center">
-						<h1 for="search_word" class="text-center text-4xl">
+			<div className="font-serif mt-[100px] p-10 text-[#231f45]">
+				<div class="grid md:grid-cols-3 text-center gap-5 border border-gray-600 p-2">
+					<div className="col-start-1 col-span-1">
+						<h1 for="search_word" class="text-center text-3xl p-2">
 							Dictionary
 						</h1>
 						<input
@@ -44,10 +44,10 @@ const Home = () => {
 							onChange={(e) => {
 								setSearchWord(e.target.value);
 							}}
-							class="bg-gray-50 border span border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+							class="bg-gray-50 border span w-full border-gray-300 text-gray-900 rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
 						/>
 						<button
-							className="bg-blue-500 p-2.5 mt-5 w-[100px] rounded-md"
+							className="bg-blue-500 p-2.5 mt-5 md:w-full w-[200px] rounded-md"
 							onClick={() => {
 								getMeaning();
 							}}>
@@ -75,26 +75,25 @@ const Home = () => {
 								<h4>Definition:</h4>
 								<p>{data.meanings[0].definitions[0].definition}</p>
 								<h4>Example:</h4>
-								<p>{console.log(data)}</p>
 								<p>{data.meanings[0].definitions[0].example}</p>
 							</div>
 						)}
 					</div>
 				</div>
-				<h1 className="text-5xl text-center font-bold mt-[50px]">
+				<h1 className="md:text-5xl text-3xl text-center font-bold mt-[50px]">
 					Welcome to GrammerGuide
 				</h1>
-				<h4 className="text-4xl mt-5 text-center">
+				<h4 className="md:text-4xl mt-5 text-center text-2xl">
 					Want to learn English Speaking Easily
 				</h4>
-				<p className="p-2 text-xl">
+				<p className="p-2 md:text-xl font-sans text-justify">
 					Welcome to our comprehensive grammar guide! Whether you're a student,
 					a professional, or simply someone looking to improve their language
 					skills, understanding grammar is essential for effective
 					communication. This guide is designed to provide you with a clear and
 					concise overview of grammar principles, rules, and concepts.
 				</p>
-				<p className="p-2 text-xl font-sans">
+				<p className="p-2 md:text-xl font-sans text-justify">
 					हमारी व्यापक व्याकरण मार्गदर्शिका में आपका स्वागत है! चाहे आप एक छात्र
 					हों, एक पेशेवर हों, या बस ऐसे व्यक्ति हों जो अपने भाषा कौशल में सुधार
 					करना चाहते हों, प्रभावी संचार के लिए व्याकरण को समझना आवश्यक है। यह
@@ -102,7 +101,7 @@ const Home = () => {
 					संक्षिप्त अवलोकन प्रदान करने के लिए डिज़ाइन की गई है।
 				</p>
 
-				<div className="grid grid-cols-4 text-cente p-2 gap-5 mx-5">
+				<div className="grid md:grid-cols-4 text-cente p-2 gap-5 mx-5">
 					<button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
 						<a href="/verb">Verb (क्रिया)</a>
 					</button>
