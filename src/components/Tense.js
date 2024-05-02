@@ -955,7 +955,7 @@ const Tenses = () => {
 					भविष्य काल में वाक्यों के उदाहरण हैं। यह सब इस बारे में बात करने के
 					बारे में है कि बाद में क्या होगा।
 				</p>
-				{/* simple past tense */}
+				{/* simple future tense */}
 				<div className="mt-5">
 					<h2 className="md:text-2xl font-bold mb-2 hover:text-[#04aa6d]">
 						1. Simple Future Tense (सरल भविष्यकाल):-
@@ -1196,6 +1196,216 @@ const Tenses = () => {
 					<hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-gray-700"></hr>
 				</div>
 				{/* future continuous tense */}
+				<div className="mt-5">
+					<h2 className="md:text-2xl font-bold hover:text-[#04aa6d]">
+						2. Future Continuous Tense (भविष्य सतत काल):-
+					</h2>
+					<p>Comming soon</p>
+					<p className="text-justify font-serif">
+						At the end of Hindi sentences in this tense, words like (रहा होगा,
+						रही होगी, रहे होंगे, रहा हूँगा) etc. come. Sentences in this tense
+						show that some work will continue in the future and will not be
+						completed.
+						<br />
+						इस tense के हिन्दी वाक्यों के अन्त में (रहा होगा, रही होगी, रहे
+						होंगे, रहा हूँगा) आदि शब्द आते हैं | इस tense के वाक्यों से पता चलता
+						है कि भविष्य में कोई कार्य जारी रहेगा और पूरा नहीं होगा |
+					</p>
+					<h4 className="font-bold">
+						Subject:- I, He, She, It, Ram, You, We, They, Ram and Raju.
+					</h4>
+					<div className="grid md:grid-cols-2 gap-8 mt-4">
+						<div className="cols-span-1 text-center">
+							<h4 className="font-bold">1. Affirmative (सकारात्मक वाक्य) </h4>
+							<div className="md:font-bold">
+								Rule : - Subject + will/shall + be + 1st form verb + ing +
+								Object
+							</div>
+							<div className="grid grid-cols-1 bg-slate-400">
+								<div className="border border-black p-2 font-bold uppercase">
+									Examples
+								</div>
+							</div>
+							<div className="grid grid-cols-1">
+								<div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
+									<div className="col-span-2">
+										He will be going to school. (वह स्कूल जा रहा होगा |)
+									</div>
+									<div className="col-span-2">
+										The peon will be ringing the bell in the school. (चपरासी
+										स्कूल में घन्टी बजा रहा होगा |)
+									</div>
+									<div className="col-span-2">
+										The teacher will be teaching English in another room. (
+										मास्टरजी दूसरे कमरे में अँग्रेज़ी पढा रहे होंगे |)
+									</div>
+									<div className="col-span-2">
+										He will be selling vegetables in the market. (वह बाज़ार में
+										सब्ज़ी बेच रहा होगा |)
+									</div>
+									<div className="col-span-2">
+										Now the sun will be rising. (अब सूरज निकल रहा होगा |)
+									</div>
+								</div>
+							</div>
+						</div>
+						<div className="cols-span-1 text-center">
+							<h4 className="font-bold">2. Negative (नकारात्म क वाक्य) </h4>
+							<div className="md:font-bold">
+								Rule : - Subject + will/shall + not + be + 1st form verb + ing +
+								Object
+							</div>
+
+							<div className="grid grid-cols-1 bg-slate-400">
+								<div className="border border-black p-2 font-bold uppercase">
+									Examples
+								</div>
+							</div>
+							<div className="grid grid-cols-1">
+								<div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
+									<div className="col-span-2">
+										He will not be going to school. (वह स्कूल नहीं जा रहा होगा
+										|)
+									</div>
+									<div className="col-span-2">
+										The peon will not be ringing the bell in the school. (चपरासी
+										स्कूल में घन्टी नहीं बजा रहा होगा |)
+									</div>
+									<div className="col-span-2">
+										The teacher will not be teaching English in another room. (
+										मास्टरजी दूसरे कमरे में अँग्रेज़ी नहीं पढा रहे होंगे |)
+									</div>
+									<div className="col-span-2">
+										He will not be selling vegetables in the market. (वह बाज़ार
+										में सब्ज़ी नहीं बेच रहा होगा |)
+									</div>
+									<div className="col-span-2">
+										Now the sun will not be rising. (अब सूरज नहीं निकल रहा होगा
+										|)
+									</div>
+								</div>
+							</div>
+						</div>
+						<div className="cols-span-1 text-center">
+							<h4 className="font-bold">Interrogative (प्रश्नवाचक वाक्य)</h4>
+							<div className="md:font-bold">
+								Rule : -Will/Shall + subject + be + 1st form verb + ing +
+								Object?
+							</div>
+							<div className="grid grid-cols-1 bg-slate-400">
+								<div className="border border-black p-2 font-bold uppercase">
+									Examples
+								</div>
+							</div>
+							<div className="grid grid-cols-1">
+								<div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
+									<div className="col-span-2">
+										Will he not be going to school? (क्या वह स्कूल नहीं जा रहा
+										होगा?)
+									</div>
+									<div className="col-span-2">
+										Will the peon not be ringing the bell in the school? (क्या
+										चपरासी स्कूल में घंटी नहीं बजा रहा होगा?)
+									</div>
+									<div className="col-span-2">
+										Will the teacher not be teaching English in another room?
+										(क्या मास्टरजी दूसरे कमरे में अंग्रेजी नहीं पढ़ा रहे होंगे?)
+									</div>
+									<div className="col-span-2">
+										Will he not be selling vegetables in the market? (क्या वह
+										बाजार में सब्जियाँ नहीं बेच रहा होगा?)
+									</div>
+									<div className="col-span-2">
+										Will the sun not be rising now? (क्या अब सूरज नहीं उग रहा
+										होगा?)
+									</div>
+								</div>
+							</div>
+						</div>
+						<div className="cols-span-1 text-center">
+							<h4 className="font-bold">
+								Negative Interrogative (नकारात्मक प्रश्नवाचक वाक्य)
+							</h4>
+							<div className="md:font-bold">
+								Rule : - Will/shall + subject + not + be + 1st form verb + ing +
+								Object?
+							</div>
+							<div className="grid grid-cols-1 bg-slate-400">
+								<div className="border border-black p-2 font-bold uppercase">
+									Examples
+								</div>
+							</div>
+							<div className="grid grid-cols-1">
+								<div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
+									<div className="col-span-2">
+										Isn't he going to school? (क्या वह स्कूल नहीं जा रहा है?)
+									</div>
+									<div className="col-span-2">
+										Won't the peon be ringing the bell in the school? (क्या
+										चपरासी स्कूल में घंटी नहीं बजा रहा होगा?)
+									</div>
+									<div className="col-span-2">
+										Won't the teacher be teaching English in another room? (क्या
+										शिक्षक दूसरे कमरे में अंग्रेज़ी नहीं पढ़ा रहे होंगे?)
+									</div>
+									<div className="col-span-2">
+										Won't he be selling vegetables in the market? (क्या वह
+										बाज़ार में सब्ज़ी नहीं बेच रहा होगा?)
+									</div>
+									<div className="col-span-2">
+										Isn't the sun rising now? (क्या अब सूरज नहीं उग रहा है?)
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div className="mt-5">
+						<h1 className="font-bold md:text-2xl">Practice (अभ्यास) :-</h1>
+						<p className="md:text-xl">
+							Hindi to English Translate (हिंदी से अंग्रेजी अनुवाद)
+						</p>
+						<p className="font-bold">Example:-</p>
+						<ul className="list-disc ml-10">
+							<li>
+								स्टेज पर मेरा भाई गाना गा रहा होगा |
+								{/* (My brother will be singing a song on the stage.) */}
+							</li>
+							<li>
+								वे उससे मेरे बारे में बात कर रहे होंगे |
+								{/* (They will be talking to him about me.) */}
+							</li>
+							<li>
+								माताजी खाना नहीं बना रही होंगी |
+								{/* (The mother will not be cooking
+								the food.) */}
+							</li>
+							<li>
+								हवा में बादल नहीं तैर रहे होंगे |
+								{/* (The clouds will not be floating in the air.) */}
+							</li>
+							<li>
+								क्या बॉलर गेंद फेंक रहा होगा ?
+								{/* ( Will the baller be throwing the
+								ball ?) */}
+							</li>
+							<li>
+								क्या लडके स्विम्मिंग पूल में स्नान कर रहे होंगे ?
+								{/* (Will the boys
+								be bathing in the swimming pool ?) */}
+							</li>
+							<li>
+								क्या आपके शहर में बारिश नहीं हो रही होगी ?
+								{/* (Will it not be
+								raining in your city ?) */}
+							</li>
+							<li>
+								क्या रज़िया अपने भाई का स्वेटर नहीं बुन रही होगी ?
+								{/* (Will Razia not be knitting swatter of her brother ?) */}
+							</li>
+						</ul>
+					</div>
+					<hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-gray-700"></hr>
+				</div>
 			</div>
 			<Footer />
 		</>
