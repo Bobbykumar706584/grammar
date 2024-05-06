@@ -1,6 +1,6 @@
 /** @format */
 
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "./Nav/Header";
 import Data from "../JsonData/Common.json";
 import Footer from "./Nav/Footer";

@@ -548,6 +548,198 @@ const Tenses = () => {
 					</div>
 					<hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-gray-700"></hr>
 				</div>
+				{/* present perfect tense */}
+				<div className="mt-5">
+					<h2 className="md:text-2xl font-bold hover:text-[#04aa6d]">
+						3. Present Perfect Tense (वर्तमान पूर्ण काल):-
+					</h2>
+					<p>
+						The present perfect tense is used to describe actions or events that
+						happened at an unspecified time in the past, but have relevance to
+						the present moment or have an effect on the present situation. It is
+						formed by using the auxiliary verb "have" (or "has" for third-person
+						singular) followed by the past participle of the main verb. <br />
+						वर्तमान सही काल का उपयोग उन कार्यों या घटनाओं का वर्णन करने के लिए
+						किया जाता है जो अतीत में एक अनिर्दिष्ट समय पर हुए थे, लेकिन वर्तमान
+						क्षण से प्रासंगिक हैं या वर्तमान स्थिति पर प्रभाव डालते हैं। इसका
+						निर्माण मुख्य क्रिया के पिछले कृदंत के बाद सहायक क्रिया "है" (चुका
+						है, चुके हैं, चुकी है) का उपयोग करके किया जाता है।
+					</p>
+					<h4 className="font-bold">Subject 1:- He, She, It, Ram.</h4>
+					<h4 className="font-bold">
+						Subject 2:- I, You, We, They, Ram and Raju.
+					</h4>
+					<div className="grid md:grid-cols-2 gap-8 mt-4">
+						<div className="cols-span-1 text-center">
+							<h4 className="font-bold">1. Affirmative (सकारात्मक वाक्य) </h4>
+							<div className="md:font-bold">
+								Rule 1: - Subject 1 + has + 3rd form verb + ing + Object
+							</div>
+							<div className="md:font-bold">
+								Rule 2: - Subject 1 + have + 3rd form verb + ing + Object
+							</div>
+							<div className="grid grid-cols-1 bg-slate-400">
+								<div className="border border-black p-2 font-bold uppercase">
+									Examples
+								</div>
+							</div>
+							<div className="grid grid-cols-1">
+								<div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
+									<div className="col-span-2">
+										A girl has sold the baskets. (एक लड़की टोकरियां बेच चुकी है
+										।)
+									</div>
+									<div className="col-span-2">
+										Boys have bathed in the river. (लड़के नदी में स्नान कर चुके
+										हैं ।)
+									</div>
+									<div className="col-span-2">
+										These girls have done their homework very well. (यह लड़कियाँ
+										अपना गृह कार्य अच्छी तरह से कर चुकी हैं।)
+									</div>
+									<div className="col-span-2">
+										Sita has sung a sweet song. (सीता एक मधुर गीत गा चुकी है।)
+									</div>
+								</div>
+							</div>
+						</div>
+						<div className="cols-span-1 text-center">
+							<h4 className="font-bold">2. Negative (नकारात्म क वाक्य) </h4>
+							<div className="md:font-bold">
+								Rule 1: - Subject 1 + has + not + 3rd form verb + ing + Object
+							</div>
+							<div className="md:font-bold">
+								Rule 2: - Subject 1 + have + not + 3rd form verb + ing + Object
+							</div>
+							<div className="grid grid-cols-1 bg-slate-400">
+								<div className="border border-black p-2 font-bold uppercase">
+									Examples
+								</div>
+							</div>
+							<div className="grid grid-cols-1">
+								<div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
+									<div className="col-span-2">
+										A girl has not sold the baskets. (एक लड़की ने टोकरियां नहीं
+										बेची हैं।)
+									</div>
+									<div className="col-span-2">
+										Boys have not bathed in the river. (लड़के नदी में स्नान नहीं
+										किया है।)
+									</div>
+									<div className="col-span-2">
+										These girls have not done their homework very well. (यह
+										लड़कियाँ अपना गृह कार्य बहुत अच्छी तरह से नहीं किया हैं।)
+									</div>
+									<div className="col-span-2">
+										Sita has not sung a sweet song. (सीता एक मधुर गीत नहीं गाया
+										है।)
+									</div>
+								</div>
+							</div>
+						</div>
+						<div className="cols-span-1 text-center">
+							<h4 className="font-bold">Interrogative (प्रश्नवाचक वाक्य)</h4>
+							<div className="md:font-bold">
+								Rule 1: - Has + Subject 1 + 3rd form verb + ing + Object?
+							</div>
+							<div className="md:font-bold">
+								Rule 2: - Have + Subject 1 + 3rd form verb + ing + Object
+							</div>
+
+							<div className="grid grid-cols-1 bg-slate-400">
+								<div className="border border-black p-2 font-bold uppercase">
+									Examples
+								</div>
+							</div>
+							<div className="grid grid-cols-1">
+								<div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
+									<div className="col-span-2">
+										Has a girl sold the baskets? (क्या एक लड़की टोकरियां बेच
+										चुकी है?)
+									</div>
+									<div className="col-span-2">
+										Have boys bathed in the river? (क्या लड़के नदी में स्नान कर
+										चुके हैं?)
+									</div>
+									<div className="col-span-2">
+										Have these girls done their homework very well? (क्या यह
+										लड़कियाँ अपना गृह कार्य अच्छी तरह से कर चुकी हैं?)
+									</div>
+									<div className="col-span-2">
+										Has Sita sung a sweet song? (क्या सीता एक मधुर गीत गा चुकी
+										है?)
+									</div>
+								</div>
+							</div>
+						</div>
+						<div className="cols-span-1 text-center">
+							<h4 className="font-bold">
+								Negative Interrogative (नकारात्मक प्रश्नवाचक वाक्य)
+							</h4>
+							<div className="md:font-bold">
+								Rule 1: - Has not + Subject 1 + 3rd form verb + ing + Object?
+							</div>
+							<div className="md:font-bold">
+								Rule 2: - Have not + Subject 1 + 3rd form verb + ing + Object
+							</div>
+							<div className="grid grid-cols-1 bg-slate-400">
+								<div className="border border-black p-2 font-bold uppercase">
+									Examples
+								</div>
+							</div>
+							<div className="grid grid-cols-1">
+								<div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
+									<div className="col-span-2">
+										Hasn't a girl sold the baskets? (क्या एक लड़की ने टोकरियां
+										नहीं बेची हैं?)
+									</div>
+									<div className="col-span-2">
+										Haven't boys bathed in the river? (क्या लड़के नदी में स्नान
+										नहीं किया है?)
+									</div>
+									<div className="col-span-2">
+										Haven't these girls done their homework very well? (क्या यह
+										लड़कियाँ अपना गृह कार्य अच्छी तरह से नहीं किया हैं?)
+									</div>
+									<div className="col-span-2">
+										Hasn't Sita sung a sweet song? (क्या सीता एक मधुर गीत नहीं
+										गाया है?)
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div className="mt-5">
+						<h1 className="font-bold md:text-2xl">Practice (अभ्यास) :-</h1>
+						<p className="md:text-xl">
+							Hindi to English Translate (हिंदी से अंग्रेजी अनुवाद)
+						</p>
+						<p className="font-bold">Example:-</p>
+						<ul className="list-disc ml-10">
+							<li>उसने पेरिस दो बार देखा है।</li>
+							<li>हमने पहले ही लंच कर लिया है।</li>
+							<li>उसने तीन साल से स्पेनिश नहीं सीखा है।</li>
+							<li>इस महीने उसने तीन किताबें नहीं पढ़ी हैं।</li>
+							<li>क्या उन्होंने धारावाहिक के सभी एपिसोड देखे हैं?</li>
+							<li>क्या इस महीने उसने तीन किताबें पढ़ी हैं?</li>
+							<li>क्या उसने गाँव में अपने दादाजी-दादीजी को मिला है?</li>
+							<li>क्या उन्होंने धारावाहिक के सभी एपिसोड नहीं देखे हैं?</li>
+							<li>क्या इस महीने उसने तीन किताबें नहीं पढ़ी हैं?</li>
+							<li>क्या उसने गाँव में अपने दादाजी-दादीजी को नहीं मिला है?</li>
+							{/* "She has visited Paris twice."
+"We have eaten lunch already. "
+"He has not learned Spanish for three years."
+"She has not read three books this month."
+"Have they watched all the episodes of the series?"
+"Has she read three books this month? "
+"Has he visited his grandparents in the countryside?"
+"Haven't they watched all the episodes of the series? "
+"Hasn't she read three books this month?"
+"Hasn't he visited his grandparents in the countryside?" */}
+						</ul>
+					</div>
+					<hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-gray-700"></hr>
+				</div>
 			</div>
 			{/* past tense */}
 			<div className="m-10 p-10 border border-gray-300 bg-gray-200 text-justify font-serif">
