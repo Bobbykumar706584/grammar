@@ -573,10 +573,10 @@ const Tenses = () => {
 						<div className="cols-span-1 text-center">
 							<h4 className="font-bold">1. Affirmative (सकारात्मक वाक्य) </h4>
 							<div className="md:font-bold">
-								Rule 1: - Subject 1 + has + 3rd form verb + ing + Object
+								Rule 1: - Subject 1 + has + 3rd form verb + Object
 							</div>
 							<div className="md:font-bold">
-								Rule 2: - Subject 1 + have + 3rd form verb + ing + Object
+								Rule 2: - Subject 2 + have + 3rd form verb + Object
 							</div>
 							<div className="grid grid-cols-1 bg-slate-400">
 								<div className="border border-black p-2 font-bold uppercase">
@@ -606,10 +606,10 @@ const Tenses = () => {
 						<div className="cols-span-1 text-center">
 							<h4 className="font-bold">2. Negative (नकारात्म क वाक्य) </h4>
 							<div className="md:font-bold">
-								Rule 1: - Subject 1 + has + not + 3rd form verb + ing + Object
+								Rule 1: - Subject 1 + has + not + 3rd form verb + Object
 							</div>
 							<div className="md:font-bold">
-								Rule 2: - Subject 1 + have + not + 3rd form verb + ing + Object
+								Rule 2: - Subject 2 + have + not + 3rd form verb + Object
 							</div>
 							<div className="grid grid-cols-1 bg-slate-400">
 								<div className="border border-black p-2 font-bold uppercase">
@@ -640,10 +640,10 @@ const Tenses = () => {
 						<div className="cols-span-1 text-center">
 							<h4 className="font-bold">Interrogative (प्रश्नवाचक वाक्य)</h4>
 							<div className="md:font-bold">
-								Rule 1: - Has + Subject 1 + 3rd form verb + ing + Object?
+								Rule 1: - Has + Subject 1 + 3rd form verb + Object?
 							</div>
 							<div className="md:font-bold">
-								Rule 2: - Have + Subject 1 + 3rd form verb + ing + Object
+								Rule 2: - Have + Subject 2 + 3rd form verb + Object?
 							</div>
 
 							<div className="grid grid-cols-1 bg-slate-400">
@@ -677,10 +677,10 @@ const Tenses = () => {
 								Negative Interrogative (नकारात्मक प्रश्नवाचक वाक्य)
 							</h4>
 							<div className="md:font-bold">
-								Rule 1: - Has not + Subject 1 + 3rd form verb + ing + Object?
+								Rule 1: - Has not + Subject 1 + 3rd form verb + Object?
 							</div>
 							<div className="md:font-bold">
-								Rule 2: - Have not + Subject 1 + 3rd form verb + ing + Object
+								Rule 2: - Have not + Subject 2 + 3rd form verb + Object?
 							</div>
 							<div className="grid grid-cols-1 bg-slate-400">
 								<div className="border border-black p-2 font-bold uppercase">
@@ -1120,6 +1120,183 @@ const Tenses = () => {
 								क्या वह बाहर नहीं जा रही थी?
 								{/* (Was she not going outside?) */}
 							</li>
+						</ul>
+					</div>
+					<hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-gray-700"></hr>
+				</div>
+				{/* past perfect tense */}
+				<div className="mt-5">
+					<h2 className="md:text-2xl font-bold hover:text-[#04aa6d]">
+						3. Past Perfect Tense (भूत पूर्ण काल):-
+					</h2>
+					<p>
+						The past perfect tense is used to describe an action that was
+						completed before another past action or time in the past. It is
+						formed by using the auxiliary verb "had" followed by the past
+						participle of the main verb. <br />
+						पूर्ण भूत काल का उपयोग किसी ऐसी क्रिया का वर्णन करने के लिए किया
+						जाता है जो किसी अन्य पिछली क्रिया या समय से पहले पूरी हो गई हो। इसका
+						निर्माण मुख्य क्रिया के पिछले कृदंत के बाद सहायक क्रिया "था" का
+						उपयोग करके किया जाता है।
+					</p>
+					<h4 className="font-bold">
+						Subject :- I, You, We, They, Ram and Raju, He, She, It, Ram.
+					</h4>
+					<div className="grid md:grid-cols-2 gap-8 mt-4">
+						<div className="cols-span-1 text-center">
+							<h4 className="font-bold">1. Affirmative (सकारात्मक वाक्य) </h4>
+							<div className="md:font-bold">
+								Rule 1: - Subject + had + 3rd form verb + Object
+							</div>
+							<div className="grid grid-cols-1 bg-slate-400">
+								<div className="border border-black p-2 font-bold uppercase">
+									Examples
+								</div>
+							</div>
+							<div className="grid grid-cols-1">
+								<div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
+									<div className="col-span-2">
+										She had already eaten breakfast when I arrived. (जब मैं
+										पहुँचा, तब वहने पहले ही नाश्ता कर लिया था।)
+									</div>
+									<div className="col-span-2">
+										They had finished the project before the deadline. (उन्होंने
+										डेडलाइन से पहले ही प्रोजेक्ट को पूरा कर लिया था।)
+									</div>
+									<div className="col-span-2">
+										He had already left when she called him. (जब उसने उसे फ़ोन
+										किया, तब वह पहले ही चला गया था।)
+									</div>
+									<div className="col-span-2">
+										By the time we arrived, the train had departed. (हम पहुँचे
+										तब तक ट्रेन चल चुकी थी।)
+									</div>
+								</div>
+							</div>
+						</div>
+						<div className="cols-span-1 text-center">
+							<h4 className="font-bold">2. Negative (नकारात्म क वाक्य) </h4>
+							<div className="md:font-bold">
+								Rule 1: - Subject + had + not + 3rd form verb + Object
+							</div>
+							<div className="grid grid-cols-1 bg-slate-400">
+								<div className="border border-black p-2 font-bold uppercase">
+									Examples
+								</div>
+							</div>
+							<div className="grid grid-cols-1">
+								<div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
+									<div className="col-span-2">
+										She had not eaten breakfast when I arrived. (जब मैं पहुँचा
+										तो उसने नाश्ता नहीं किया था।)
+									</div>
+									<div className="col-span-2">
+										They had not finished the project before the deadline.
+										(उन्होंने समय सीमा से पहले परियोजना पूरी नहीं की थी।)
+									</div>
+									<div className="col-span-2">
+										He had not left when she called him. (जब उसने उसे बुलाया तो
+										वह नहीं गया था।)
+									</div>
+									<div className="col-span-2">
+										By the time we arrived, the train had not departed. (जब तक
+										हम पहुंचे, ट्रेन रवाना नहीं हुई थी।)
+									</div>
+								</div>
+							</div>
+						</div>
+						<div className="cols-span-1 text-center">
+							<h4 className="font-bold">Interrogative (प्रश्नवाचक वाक्य)</h4>
+							<div className="md:font-bold">
+								Rule 1: - Had + Subject + 3rd form verb + Object?
+							</div>
+							<div className="grid grid-cols-1 bg-slate-400">
+								<div className="border border-black p-2 font-bold uppercase">
+									Examples
+								</div>
+							</div>
+							<div className="grid grid-cols-1">
+								<div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
+									<div className="col-span-2">
+										Had she already eaten breakfast when I arrived? (जब मैं
+										पहुँचा तो क्या वह पहले ही नाश्ता कर चुकी थी?)
+									</div>
+									<div className="col-span-2">
+										Had they finished the project before the deadline? (क्या
+										उन्होंने समय सीमा से पहले परियोजना पूरी कर ली थी?)
+									</div>
+									<div className="col-span-2">
+										Had he already left when she called him? (जब उसने उसे बुलाया
+										तो क्या वह पहले ही जा चुका था?)
+									</div>
+									<div className="col-span-2">
+										Had the train departed by the time we arrived? (क्या हमारे
+										पहुँचने तक ट्रेन रवाना हो चुकी थी?)
+									</div>
+								</div>
+							</div>
+						</div>
+						<div className="cols-span-1 text-center">
+							<h4 className="font-bold">
+								Negative Interrogative (नकारात्मक प्रश्नवाचक वाक्य)
+							</h4>
+							<div className="md:font-bold">
+								Rule 1: - Had not + Subject + 3rd form verb + Object?
+							</div>
+							<div className="grid grid-cols-1 bg-slate-400">
+								<div className="border border-black p-2 font-bold uppercase">
+									Examples
+								</div>
+							</div>
+							<div className="grid grid-cols-1">
+								<div className="grid grid-cols-2 grid-rows-2 border border-black p-2">
+									<div className="col-span-2">
+										Hadn't she already eaten breakfast when I arrived? (क्या जब
+										मैं पहुँचा, तब वह पहले ही नाश्ता कर लिया था?)
+									</div>
+									<div className="col-span-2">
+										Hadn't they finished the project before the deadline? (क्या
+										उन्होंने डेडलाइन से पहले ही प्रोजेक्ट को पूरा कर लिया था?)
+									</div>
+									<div className="col-span-2">
+										Hadn't he already left when she called him? (क्या जब उसने
+										उसे फ़ोन किया, तब वह पहले ही चला गया था?)
+									</div>
+									<div className="col-span-2">
+										Hadn't the train departed by the time we arrived? (क्या हम
+										पहुँचे तब तक ट्रेन चल चुकी थी?)
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div className="mt-5">
+						<h1 className="font-bold md:text-2xl">Practice (अभ्यास) :-</h1>
+						<p className="md:text-xl">
+							Hindi to English Translate (हिंदी से अंग्रेजी अनुवाद)
+						</p>
+						<p className="font-bold">Example:-</p>
+						<ul className="list-disc ml-10">
+							<li>उसने पेरिस दो बार देखा है।</li>
+							<li>हमने पहले ही लंच कर लिया है।</li>
+							<li>उसने तीन साल से स्पेनिश नहीं सीखा है।</li>
+							<li>इस महीने उसने तीन किताबें नहीं पढ़ी हैं।</li>
+							<li>क्या उन्होंने धारावाहिक के सभी एपिसोड देखे हैं?</li>
+							<li>क्या इस महीने उसने तीन किताबें पढ़ी हैं?</li>
+							<li>क्या उसने गाँव में अपने दादाजी-दादीजी को मिला है?</li>
+							<li>क्या उन्होंने धारावाहिक के सभी एपिसोड नहीं देखे हैं?</li>
+							<li>क्या इस महीने उसने तीन किताबें नहीं पढ़ी हैं?</li>
+							<li>क्या उसने गाँव में अपने दादाजी-दादीजी को नहीं मिला है?</li>
+							{/* "She has visited Paris twice."
+"We have eaten lunch already. "
+"He has not learned Spanish for three years."
+"She has not read three books this month."
+"Have they watched all the episodes of the series?"
+"Has she read three books this month? "
+"Has he visited his grandparents in the countryside?"
+"Haven't they watched all the episodes of the series? "
+"Hasn't she read three books this month?"
+"Hasn't he visited his grandparents in the countryside?" */}
 						</ul>
 					</div>
 					<hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-gray-700"></hr>

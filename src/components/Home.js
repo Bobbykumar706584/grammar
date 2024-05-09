@@ -17,9 +17,11 @@ const Home = () => {
 		Axios.get(
 			`https://api.dictionaryapi.dev/api/v2/entries/en_US/${searchWord}`
 			// `https://api.dictionaryapi.dev/api/v2/entries/en/${searchWord}`
-		).then((response) => {
-			setData(response.data[0]);
-		});
+		)
+			.then((response) => {
+				setData(response.data[0]);
+			})
+			.catch((error) => console.error("Error", error));
 	}
 
 	// Function to play and listen the
