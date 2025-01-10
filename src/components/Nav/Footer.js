@@ -2,7 +2,7 @@
 
 const Footer = () => {
   return (
-    <div className="w-full md:h-[200px] bg-gradient-to-r from-cyan-500 to-blue-500 text-white">
+    <div className="w-full md:h-[200px] bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-indigo-500 to-90% text-white">
       <div className="md:grid md:grid-cols-3">
         <div className="col-span-1 p-2 border-r-2">
           <div className="grid grid-rows-2">

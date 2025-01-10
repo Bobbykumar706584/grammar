@@ -6,7 +6,7 @@ import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 const Header = () => {
   const [openMenu, setOpenMenu] = useState(false);
   return (
-    <div className=" bg-gradient-to-r from-cyan-500 to-blue-500  p-4 fixed top-0 w-full">
+    <div className="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% p-4 fixed top-0 w-full">
       {/* <div className=" bg-[#2699fb] from-indigo-500 from-10% via-sky-500 via-30% to-[#E63946] to-90%  p-4 fixed top-0 w-full"> */}
       {/* <div className="bg-[#2699fb] p-4"> */}
       <div className="max-w-[1240px] py-[15px] flex items-center justify-between mx-auto">
