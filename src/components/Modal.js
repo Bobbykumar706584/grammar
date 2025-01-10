@@ -1,6 +1,6 @@
 /** @format */
 
-import React, { useEffect } from "react";
+import React from "react";
 import Header from "./Nav/Header";
 import Data from "../JsonData/Common.json";
 import Footer from "./Nav/Footer";
@@ -34,7 +34,7 @@ const Modal = () => {
           की मदद करने वाले मोडल्स, उनके नकारात्मक, और उस विशेष मोडल के साथ उपयोग
           की जाने वाली मुख्य क्रियाओं के रूप के बारे में बताती है।)
         </p>
-        <div className="grid grid-cols-3 border text-center border-black p-2 md:mx-5">
+        <div className="grid grid-cols-3 border text-white font-bold text-center border-black p-2 md:mx-5 bg-blue-500">
           <div>
             Modals सहायक क्रियाएँ <br />
             Modal Helping Verbs
@@ -49,14 +49,14 @@ const Modal = () => {
           </div>
         </div>
         {Data.modal.map((item) => (
-          <div className="grid grid-cols-3 border text-center border-black p-2 md:mx-5">
+          <div className="grid grid-cols-3 border text-center border-black p-2 md:mx-5 odd:bg-gray-100 even:bg-blue-200">
             <div>{item.modalName}</div>
             <div>{item.negativeModalName}</div>
             <div>{item.form}</div>
           </div>
         ))}
       </div>
-      <div className="m-10 text-center p-10 border border-gray-300 bg-gray-200">
+      <div className="m-10 text-center p-10 border border-gray-300 bg-gray-200/20 rounded-md shadow-lg shadow-blue-500">
         <h1 className="md:text-3xl text-xl font-bold text-center hover:text-[#04aa6d]">
           1. Can (सकता है)
         </h1>
@@ -192,7 +192,7 @@ const Modal = () => {
         </div>
       </div>
       {/* Could */}
-      <div className="m-10 text-center p-10 border border-gray-300 bg-gray-200">
+      <div className="m-10 text-center p-10 border border-gray-300 bg-gray-200/20 rounded-md shadow-lg shadow-blue-500">
         <h1 className="md:text-3xl text-xl font-bold text-center hover:text-[#04aa6d]">
           2. Could (सका/सकी/पाया " या " सकता/सकती + था/है/हैं/हूँ/थी)
         </h1>
@@ -317,7 +317,7 @@ const Modal = () => {
       </div>
 
       {/* Could have */}
-      <div className="m-10 text-center p-10 border border-gray-300 bg-gray-200">
+      <div className="m-10 text-center p-10 border border-gray-300 bg-gray-200/20 rounded-md shadow-lg shadow-blue-500">
         <h1 className="md:text-3xl text-xl font-bold text-center hover:text-[#04aa6d]">
           3. Could have (सका/सकी/पाया + था/थी/थे)
         </h1>
@@ -386,7 +386,7 @@ const Modal = () => {
       </div>
 
       {/* May/Might */}
-      <div className="m-10 text-center p-10 border border-gray-300 bg-gray-200">
+      <div className="m-10 text-center p-10 border border-gray-300 bg-gray-200/20 rounded-md shadow-lg shadow-blue-500">
         <h1 className="md:text-3xl text-xl font-bold text-center hover:text-[#04aa6d]">
           4. May/Might (सकता/सकती + हूँ)
         </h1>
@@ -467,7 +467,7 @@ const Modal = () => {
       </div>
 
       {/* May have/Might have */}
-      <div className="m-10 text-center p-10 border border-gray-300 bg-gray-200">
+      <div className="m-10 text-center p-10 border border-gray-300 bg-gray-200/20 rounded-md shadow-lg shadow-blue-500">
         <h1 className="md:text-3xl text-xl font-bold text-center hover:text-[#04aa6d]">
           5. May have/Might have(सकता/सकती/सकते + था/थी/थे)
         </h1>

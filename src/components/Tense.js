@@ -45,7 +45,7 @@ const Tenses = () => {
           होते हैं। यहां काल के प्रकारों का विवरण दिया गया है:)
         </p>
         <div className="grid border text-center md:text-2xl mt-2 border-black p-2 md:mx-5 bg-[#2699fb][30%] font-bold">
-          <div className="">
+          <div className="bg-blue-500 p-2">
             Type of Tenses <br />
             (काल के प्रकार)
           </div>
@@ -157,7 +157,7 @@ const Tenses = () => {
         </div>
       </div>
       {/* Present tense */}
-      <div className="m-10 p-10 border border-gray-300 bg-gray-200 text-justify font-serif">
+      <div className="m-10 p-10 border border-gray-300 bg-gray-200/20 rounded-md shadow-lg shadow-blue-500 text-justify font-serif">
         <h1 className="md:text-3xl text-xl font-bold text-center hover:text-[#04aa6d]">
           Present Tense (वर्तमानकाल)
         </h1>
@@ -764,7 +764,7 @@ const Tenses = () => {
         </div>
       </div>
       {/* past tense */}
-      <div className="m-10 p-10 border border-gray-300 bg-gray-200 text-justify font-serif">
+      <div className="m-10 p-10 border border-gray-300 bg-gray-200/20 rounded-md shadow-lg shadow-blue-500 text-justify font-serif">
         <h1 className="md:text-3xl text-xl font-bold text-center hover:text-[#04aa6d]">
           Past Tense (भूतकाल)
         </h1>
@@ -1326,7 +1326,7 @@ const Tenses = () => {
       </div>
 
       {/* future tense */}
-      <div className="m-10 p-10 border border-gray-300 bg-gray-200 text-justify font-serif">
+      <div className="m-10 p-10 border border-gray-300 bg-gray-200/20 rounded-md shadow-lg shadow-blue-500 text-justify font-serif">
         <h1 className="md:text-3xl text-xl font-bold text-center hover:text-[#04aa6d]">
           Future Tense (भविष्यकाल)
         </h1>

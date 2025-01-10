@@ -54,7 +54,7 @@ const Speech = () => {
         </div>
       </div>
       {/* noun */}
-      <div className="m-10 p-10 border border-gray-300 bg-gray-200 text-justify font-serif">
+      <div className="m-10 p-10 border border-gray-300 bg-gray-200/20 rounded-md shadow-lg shadow-blue-500 text-justify font-serif">
         <h1 className="md:text-3xl font-bold text-center hover:text-[#2699fb]">
           Noun (संज्ञा)
         </h1>
@@ -92,7 +92,7 @@ const Speech = () => {
         <hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-gray-700"></hr>
       </div>
       {/* pronoun */}
-      <div className="m-10 p-10 border border-gray-300 bg-gray-200 text-justify font-serif">
+      <div className="m-10 p-10 border border-gray-300 bg-gray-200/20 rounded-md shadow-lg shadow-blue-500 text-justify font-serif">
         <h1 className="md:text-3xl font-bold text-center hover:text-[#2699fb]">
           Pronoun (सर्वनाम)
         </h1>
@@ -131,7 +131,7 @@ const Speech = () => {
         <hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-gray-700"></hr>
       </div>
       {/* adjective */}
-      <div className="m-10 p-10 border border-gray-300 bg-gray-200 text-justify font-serif">
+      <div className="m-10 p-10 border border-gray-300 bg-gray-200/20 rounded-md shadow-lg shadow-blue-500 text-justify font-serif">
         <h1 className="md:text-3xl font-bold text-center hover:text-[#2699fb]">
           Adjective (विशेषण)
         </h1>
@@ -172,7 +172,7 @@ const Speech = () => {
         <hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-gray-700"></hr>
       </div>
       {/* verb */}
-      <div className="m-10 p-10 border border-gray-300 bg-gray-200 text-justify font-serif">
+      <div className="m-10 p-10 border border-gray-300 bg-gray-200/20 rounded-md shadow-lg shadow-blue-500 text-justify font-serif">
         <h1 className="md:text-3xl font-bold text-center hover:text-[#2699fb]">
           Verb (क्रिया)
         </h1>
@@ -199,7 +199,7 @@ const Speech = () => {
         <hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-gray-700"></hr>
       </div>
       {/* adverb */}
-      <div className="m-10 p-10 border border-gray-300 bg-gray-200 text-justify font-serif">
+      <div className="m-10 p-10 border border-gray-300 bg-gray-200/20 rounded-md shadow-lg shadow-blue-500 text-justify font-serif">
         <h1 className="md:text-3xl font-bold text-center hover:text-[#2699fb]">
           Adverb (क्रिया-विशेषण)
         </h1>
@@ -235,7 +235,7 @@ const Speech = () => {
         <hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-gray-700"></hr>
       </div>
       {/* Preposition */}
-      <div className="m-10 p-10 border border-gray-300 bg-gray-200 text-justify font-serif">
+      <div className="m-10 p-10 border border-gray-300 bg-gray-200/20 rounded-md shadow-lg shadow-blue-500 text-justify font-serif">
         <h1 className="md:text-3xl font-bold text-center hover:text-[#2699fb]">
           Preposition (सम्बंध-सूचक)
         </h1>
@@ -272,7 +272,7 @@ const Speech = () => {
         <hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-gray-700"></hr>
       </div>
       {/* Conjuction */}
-      <div className="m-10 p-10 border border-gray-300 bg-gray-200 text-justify font-serif">
+      <div className="m-10 p-10 border border-gray-300 bg-gray-200/20 rounded-md shadow-lg shadow-blue-500 text-justify font-serif">
         <h1 className="md:text-3xl font-bold text-center hover:text-[#2699fb]">
           Conjuction (संयोजक)
         </h1>
@@ -375,7 +375,7 @@ const Speech = () => {
         <hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-gray-700"></hr>
       </div>
       {/* interjection */}
-      <div className="m-10 p-10 border border-gray-300 bg-gray-200 text-justify font-serif">
+      <div className="m-10 p-10 border border-gray-300 bg-gray-200/20 rounded-md shadow-lg shadow-blue-500 text-justify font-serif">
         <h1 className="md:text-3xl font-bold text-center hover:text-[#2699fb]">
           Interjection (विस्मयादिबोधक शब्द)
         </h1>
