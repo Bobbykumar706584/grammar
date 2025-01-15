@@ -2,7 +2,7 @@
 
 const Footer = () => {
   return (
-    <div className="w-full md:h-[250px] bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-indigo-500 to-90% text-white">
+    <div className="w-full md:h-[250px] bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-white">
       <div className="md:grid md:grid-cols-3">
         {/* Subscription Section */}
         <div className="col-span-1 p-2 border-r-2">
@@ -58,13 +58,13 @@ const Footer = () => {
               </p>
             </div>
             <div>
-              <a href="/about-us" className="hover:underline">
+              <a href="/" className="hover:underline">
                 About Us
               </a>
               <p className="text-sm mt-2">
                 Discover more about GrammerGuide and our mission to enhance
                 grammar education. Visit our{" "}
-                <a href="/about-us" className="text-black underline">
+                <a href="/" className="text-black underline">
                   About Us
                 </a>
                 .
