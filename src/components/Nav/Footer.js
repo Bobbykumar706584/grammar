@@ -2,86 +2,83 @@
 
 const Footer = () => {
   return (
-    <div className="w-full md:h-[250px] bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% text-white">
-      <div className="md:grid md:grid-cols-3">
+    <footer className="w-full bg-orange-800 text-white py-8">
+      <div className="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
         {/* Subscription Section */}
-        <div className="col-span-1 p-2 border-r-2">
-          <div className="grid grid-rows-2">
-            <div className="md:text-2xl p-2 m-2">
-              <a className="mt-15px" href="/">
-                GrammerGuide
-              </a>
-            </div>
-            <div className="grid grid-cols-1">
-              <input
-                type="text"
-                placeholder="Email..."
-                id="subscribe"
-                className="bg-gray-50 border span w-full border-gray-300 text-gray-900 rounded-md focus:ring-blue-500 focus:border-blue-500 block p-2 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-              />
-              <button className="mt-2 bg-transparent hover:bg-white text-white font-semibold hover:text-black py-2 px-4 border border-white hover:border-transparent rounded">
-                Subscribe
-              </button>
-            </div>
-          </div>
+        <div>
+          <h2 className="text-2xl font-semibold mb-4">
+            <a href="/">GrammerGuide</a>
+          </h2>
+          <p className="mb-2">Subscribe to our newsletter</p>
+          <input
+            type="email"
+            placeholder="Enter your email"
+            className="w-full p-2 rounded-md text-black focus:outline-none focus:ring-2 focus:ring-white"
+          />
+          <button className="mt-3 w-full hover:text-orange-800 bg-white text-black hover:bg-gray-100 font-semibold py-2 px-4 rounded-md transition duration-300">
+            Subscribe
+          </button>
         </div>
 
         {/* Links Section */}
-        <div className="col-span-2">
-          <div className="flex justify-around gap-2 m-10 px-2">
-            <div>
+        <div className="space-y-4">
+          <div>
+            <h3 className="text-lg font-semibold mb-1">
               <a href="/privacy-policy" className="hover:underline">
                 Privacy Policy
               </a>
-              <p className="text-sm mt-2">
-                Learn about how we handle your data responsibly and respect your
-                privacy. For more details, visit our{" "}
-                <a href="/policy" className="text-black underline">
-                  Privacy Policy
-                </a>
-                .
-              </p>
-            </div>
-            <div>
+            </h3>
+            <p className="text-sm">
+              Learn how we handle your data. Visit our{" "}
+              <a href="/policy" className="text-white underline">
+                Privacy Policy
+              </a>
+              .
+            </p>
+          </div>
+
+          <div>
+            <h3 className="text-lg font-semibold mb-1">
               <a href="/contact" className="hover:underline">
                 Contact
               </a>
-              <p className="text-sm mt-2">
-                Have questions? Reach out to us at{" "}
-                <a
-                  href="mailto:support@grammerguide.com"
-                  className="text-black underline"
-                >
-                  support@grammerguide.com
-                </a>{" "}
-                or call us at (+91) 7065847364.
-              </p>
-            </div>
-            <div>
-              <a href="/" className="hover:underline">
-                About Us
-              </a>
-              <p className="text-sm mt-2">
-                Discover more about GrammerGuide and our mission to enhance
-                grammar education. Visit our{" "}
-                <a href="/" className="text-black underline">
-                  About Us
-                </a>
-                .
-              </p>
-            </div>
-          </div>
-
-          {/* Footer Bottom Section */}
-          <div className="text-center mt-10">
-            Copyright © 2024 | Powered by{" "}
-            <a href="/" className="hover:underline">
-              GrammerGuide.com
-            </a>
+            </h3>
+            <p className="text-sm">
+              Email:{" "}
+              <a
+                href="mailto:support@grammerguide.com"
+                className="text-white underline"
+              >
+                support@grammerguide.com
+              </a>{" "}
+              <br />
+              Phone: (+91) 7065847364
+            </p>
           </div>
         </div>
+
+        {/* About Section */}
+        <div>
+          <h3 className="text-lg font-semibold mb-1">
+            <a href="/" className="hover:underline">
+              About Us
+            </a>
+          </h3>
+          <p className="text-sm">
+            Learn more about our mission to enhance grammar education at{" "}
+            <a href="/" className="text-white underline">
+              GrammerGuide
+            </a>
+            .
+          </p>
+        </div>
       </div>
-    </div>
+
+      {/* Bottom Note */}
+      <div className="text-center text-sm mt-8">
+        © 2024 GrammerGuide.com — All Rights Reserved.
+      </div>
+    </footer>
   );
 };
 

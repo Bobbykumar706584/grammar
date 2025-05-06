@@ -81,9 +81,9 @@ const TableReact = ({ products }) => {
     // setRowsToShow(sortedProducts.slice(0, rowsLimit));z
   }, [products]);
   return (
-    <div className="h-full bg-white flex justify-center pt-10 pb-14">
+    <div className="h-full bg-white flex justify-center pt-10 pb-14 font-['roboto']">
       <div className="w-full max-w-6xl px-2">
-        <div className="flex justify-between bg-[#2699fb]  px-2  mt-2 py-2 border-2 border-b-0 border-black">
+        <div className="flex justify-between bg-orange-700  px-2  mt-2 py-2 border-2 border-b-0 border-black">
           <h1 className="text-2xl font-medium text-white font-sans">
             Verbs Table
           </h1>
@@ -167,7 +167,7 @@ const TableReact = ({ products }) => {
               {rowsToShow?.map((data, index) => (
                 <tr
                   className={`${
-                    index % 2 == 0 ? "bg-white" : "bg-[#2699fb]/[40%]"
+                    index % 2 == 0 ? "bg-white" : "bg-orange-900/[40%]"
                   }`}
                   key={index}
                 >
@@ -275,7 +275,7 @@ const TableReact = ({ products }) => {
                 <li
                   className={`flex items-center justify-center w-[36px] rounded-[6px] h-[34px] border-solid border-[2px] bg-[#FFFFFF] cursor-pointer ${
                     currentPage == index
-                      ? "text-[#04aa6d]  border-[#2699fb]"
+                      ? "text-orange-800  border-orange-600"
                       : "border-[#E4E4EB] "
                   }`}
                   onClick={() => changePage(index)}

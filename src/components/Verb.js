@@ -10,11 +10,11 @@ const Verb = () => {
   return (
     <>
       <Header />
-      <div className="font-serif mt-[100px] p-6 border border-gray-200 m-10 bg-gray-200/20 rounded-md shadow-lg shadow-blue-500">
+      <div className="font-['roboto'] mt-[100px] p-6 border border-orange-200 m-10 bg-orange-200/20 rounded-md shadow-lg shadow-blue-500">
         <h1 className="md:text-5xl text-3xl text-center font-bold">
           Verb (क्रिया)
         </h1>
-        <p className="p-2 md:text-xl text-justify font-serif">
+        <p className="p-2 md:text-xl text-justify">
           A verb is a word used to describe an action, state, or occurrence. It
           is one of the main parts of speech in English and is often considered
           the "doing" or "being" word in a sentence. Verbs can express actions

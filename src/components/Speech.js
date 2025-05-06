@@ -10,7 +10,7 @@ const Speech = () => {
   return (
     <>
       <Header />
-      <div className="mt-[100px] font-serif p-6 border border-gray-200 m-10 text-justify text-[#231f45] bg-gray-200/20 rounded-md shadow-lg shadow-blue-500">
+      <div className="mt-[100px] font-serif p-6 border border-orange-200 m-10 text-justify text-[#231f45] bg-orange-200/20 rounded-md shadow-lg shadow-orange-500">
         <h1 className="lg:text-5xl md:text-2xl text-center font-bold">
           Parts of Speech (शब्दभेद)
         </h1>
@@ -27,35 +27,35 @@ const Speech = () => {
           भाषण के सामान्य भागों में शामिल हैं:
         </p>
         <div className="grid md:grid-cols-4 text-cente p-2 gap-5 mx-5">
-          <button className="bg-transparent hover:bg-[#2699fb] text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+          <button className="bg-transparent hover:bg-orange-800 text-orange-700 font-semibold hover:text-white py-2 px-4 border border-orange-500 hover:border-transparent rounded">
             Noun (संज्ञा)
           </button>
-          <button className="bg-transparent hover:bg-[#2699fb] text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+          <button className="bg-transparent hover:bg-orange-800 text-orange-700 font-semibold hover:text-white py-2 px-4 border border-orange-500 hover:border-transparent rounded">
             Pronoun (सर्वनाम)
           </button>
-          <button className="bg-transparent hover:bg-[#2699fb] text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+          <button className="bg-transparent hover:bg-orange-800 text-orange-700 font-semibold hover:text-white py-2 px-4 border border-orange-500 hover:border-transparent rounded">
             Adjective (विशेषण)
           </button>
-          <button className="bg-transparent hover:bg-[#2699fb] text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+          <button className="bg-transparent hover:bg-orange-800 text-orange-700 font-semibold hover:text-white py-2 px-4 border border-orange-500 hover:border-transparent rounded">
             Verb (क्रिया)
           </button>
-          <button className="bg-transparent hover:bg-[#2699fb] text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+          <button className="bg-transparent hover:bg-orange-800 text-orange-700 font-semibold hover:text-white py-2 px-4 border border-orange-500 hover:border-transparent rounded">
             Adverb (क्रिया-विशेषण)
           </button>
-          <button className="bg-transparent hover:bg-[#2699fb] text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+          <button className="bg-transparent hover:bg-orange-800 text-orange-700 font-semibold hover:text-white py-2 px-4 border border-orange-500 hover:border-transparent rounded">
             Preposition (सम्बंध-सूचक)
           </button>
-          <button className="bg-transparent hover:bg-[#2699fb] text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+          <button className="bg-transparent hover:bg-orange-800 text-orange-700 font-semibold hover:text-white py-2 px-4 border border-orange-500 hover:border-transparent rounded">
             Conjuction (संयोजक)
           </button>
-          <button className="bg-transparent hover:bg-[#2699fb] text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+          <button className="bg-transparent hover:bg-orange-800 text-orange-700 font-semibold hover:text-white py-2 px-4 border border-orange-500 hover:border-transparent rounded">
             Interjection (विस्मयादिबोधक शब्द)
           </button>
         </div>
       </div>
       {/* noun */}
-      <div className="m-10 p-10 border border-gray-300 bg-gray-200/20 rounded-md shadow-lg shadow-blue-500 text-justify font-serif">
-        <h1 className="md:text-3xl font-bold text-center hover:text-[#2699fb]">
+      <div className="m-10 p-10 border border-orange-300 bg-orange-200/20 rounded-md shadow-lg shadow-orange-500 text-justify font-serif">
+        <h1 className="md:text-3xl font-bold text-center hover:text-orange-800">
           Noun (संज्ञा)
         </h1>
         <p className="text-justify m-2 md:text-xl">
@@ -75,7 +75,7 @@ const Speech = () => {
         {/* Noun */}
         {data.speech[0].nouns.map((item, index) => (
           <div className="mt-3">
-            <h2 className="md:text-xl md:font-bold font-semibold hover:text-[#2699fb] mb-2">
+            <h2 className="md:text-xl md:font-bold font-semibold hover:text-orange-800 mb-2">
               {index + 1 + " " + item.category}
             </h2>
             <p>
@@ -89,11 +89,11 @@ const Speech = () => {
             </p>
           </div>
         ))}
-        <hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-gray-700"></hr>
+        <hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-orange-700"></hr>
       </div>
       {/* pronoun */}
-      <div className="m-10 p-10 border border-gray-300 bg-gray-200/20 rounded-md shadow-lg shadow-blue-500 text-justify font-serif">
-        <h1 className="md:text-3xl font-bold text-center hover:text-[#2699fb]">
+      <div className="m-10 p-10 border border-orange-300 bg-orange-200/20 rounded-md shadow-lg shadow-orange-500 text-justify font-serif">
+        <h1 className="md:text-3xl font-bold text-center hover:text-orange-800">
           Pronoun (सर्वनाम)
         </h1>
         <p className="text-justify m-2">
@@ -114,7 +114,7 @@ const Speech = () => {
         {/* pronoun */}
         {data.speech[0].pronoun.map((item, index) => (
           <div className="mt-3">
-            <h2 className="md:text-xl md:font-bold font-semibold hover:text-[#2699fb] mb-2">
+            <h2 className="md:text-xl md:font-bold font-semibold hover:text-orange-800 mb-2">
               {index + 1 + " " + item.category}
             </h2>
             <p>
@@ -128,11 +128,11 @@ const Speech = () => {
             </p>
           </div>
         ))}
-        <hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-gray-700"></hr>
+        <hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-orange-700"></hr>
       </div>
       {/* adjective */}
-      <div className="m-10 p-10 border border-gray-300 bg-gray-200/20 rounded-md shadow-lg shadow-blue-500 text-justify font-serif">
-        <h1 className="md:text-3xl font-bold text-center hover:text-[#2699fb]">
+      <div className="m-10 p-10 border border-orange-300 bg-orange-200/20 rounded-md shadow-lg shadow-orange-500 text-justify font-serif">
+        <h1 className="md:text-3xl font-bold text-center hover:text-orange-800">
           Adjective (विशेषण)
         </h1>
         <p className="text-justify m-2">
@@ -155,7 +155,7 @@ const Speech = () => {
         </h5>
         {data.speech[0].adjective.map((item, index) => (
           <div className="mt-3">
-            <h2 className="md:text-xl md:font-bold font-semibold hover:text-[#2699fb] mb-2">
+            <h2 className="md:text-xl md:font-bold font-semibold hover:text-orange-800 mb-2">
               {index + 1 + " " + item.category}
             </h2>
             <p>
@@ -169,11 +169,11 @@ const Speech = () => {
             </p>
           </div>
         ))}
-        <hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-gray-700"></hr>
+        <hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-orange-700"></hr>
       </div>
       {/* verb */}
-      <div className="m-10 p-10 border border-gray-300 bg-gray-200/20 rounded-md shadow-lg shadow-blue-500 text-justify font-serif">
-        <h1 className="md:text-3xl font-bold text-center hover:text-[#2699fb]">
+      <div className="m-10 p-10 border border-orange-300 bg-orange-200/20 rounded-md shadow-lg shadow-orange-500 text-justify font-serif">
+        <h1 className="md:text-3xl font-bold text-center hover:text-orange-800">
           Verb (क्रिया)
         </h1>
         <p className="text-justify m-2">
@@ -196,11 +196,11 @@ const Speech = () => {
         </p>
         <TableReact products={data.speech[0].verbs} />
 
-        <hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-gray-700"></hr>
+        <hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-orange-700"></hr>
       </div>
       {/* adverb */}
-      <div className="m-10 p-10 border border-gray-300 bg-gray-200/20 rounded-md shadow-lg shadow-blue-500 text-justify font-serif">
-        <h1 className="md:text-3xl font-bold text-center hover:text-[#2699fb]">
+      <div className="m-10 p-10 border border-orange-300 bg-orange-200/20 rounded-md shadow-lg shadow-orange-500 text-justify font-serif">
+        <h1 className="md:text-3xl font-bold text-center hover:text-orange-800">
           Adverb (क्रिया-विशेषण)
         </h1>
         <p className="text-justify m-2">
@@ -221,7 +221,7 @@ const Speech = () => {
         </p>
         {data.speech[0].adverb.map((item, index) => (
           <div className="mt-3">
-            <h2 className="md:text-xl md:font-bold font-semibold hover:text-[#2699fb] mb-2">
+            <h2 className="md:text-xl md:font-bold font-semibold hover:text-orange-800 mb-2">
               {index + 1 + " " + item.category}
             </h2>
             <p>
@@ -232,11 +232,11 @@ const Speech = () => {
             </p>
           </div>
         ))}
-        <hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-gray-700"></hr>
+        <hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-orange-700"></hr>
       </div>
       {/* Preposition */}
-      <div className="m-10 p-10 border border-gray-300 bg-gray-200/20 rounded-md shadow-lg shadow-blue-500 text-justify font-serif">
-        <h1 className="md:text-3xl font-bold text-center hover:text-[#2699fb]">
+      <div className="m-10 p-10 border border-orange-300 bg-orange-200/20 rounded-md shadow-lg shadow-orange-500 text-justify font-serif">
+        <h1 className="md:text-3xl font-bold text-center hover:text-orange-800">
           Preposition (सम्बंध-सूचक)
         </h1>
         <p className="text-justify m-2">
@@ -253,7 +253,7 @@ const Speech = () => {
         </p>
         {data.speech[0].preposition.map((item, index) => (
           <div className="mt-3">
-            <h2 className="md:text-xl md:font-bold font-semibold hover:text-[#2699fb] mb-2">
+            <h2 className="md:text-xl md:font-bold font-semibold hover:text-orange-800 mb-2">
               {index + 1 + " " + item.category}
             </h2>
             <h3 className="text-md font-bold">
@@ -269,11 +269,11 @@ const Speech = () => {
             </p>
           </div>
         ))}
-        <hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-gray-700"></hr>
+        <hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-orange-700"></hr>
       </div>
       {/* Conjuction */}
-      <div className="m-10 p-10 border border-gray-300 bg-gray-200/20 rounded-md shadow-lg shadow-blue-500 text-justify font-serif">
-        <h1 className="md:text-3xl font-bold text-center hover:text-[#2699fb]">
+      <div className="m-10 p-10 border border-orange-300 bg-orange-200/20 rounded-md shadow-lg shadow-orange-500 text-justify font-serif">
+        <h1 className="md:text-3xl font-bold text-center hover:text-orange-800">
           Conjuction (संयोजक)
         </h1>
         <p className="text-justify m-2">
@@ -289,7 +289,7 @@ const Speech = () => {
           किया जाता है। संयोजक के तीन मुख्य प्रकार हैं:
         </p>
         <div className="mt-3">
-          <h2 className="md:text-xl font-bold hover:text-[#2699fb] mb-2">
+          <h2 className="md:text-xl font-bold hover:text-orange-800 mb-2">
             1 Coordinating Conjunctions:
           </h2>
           <h3 className="text-md font-bold">
@@ -316,7 +316,7 @@ const Speech = () => {
           </p>
         </div>
         <div className="mt-3">
-          <h2 className="md:text-xl font-bold hover:text-[#2699fb] mb-2">
+          <h2 className="md:text-xl font-bold hover:text-orange-800 mb-2">
             2 Subordinating Conjunctions:
           </h2>
           <h3 className="text-md font-bold">
@@ -346,7 +346,7 @@ const Speech = () => {
           </p>
         </div>
         <div className="mt-3">
-          <h2 className="md:text-xl font-bold hover:text-[#2699fb] mb-2">
+          <h2 className="md:text-xl font-bold hover:text-orange-800 mb-2">
             3 Correlative Conjunctions:
           </h2>
           <h3 className="text-md font-bold">
@@ -372,11 +372,11 @@ const Speech = () => {
             (आपको यह पसंद है या नहीं, हमें जाना होगा।)
           </p>
         </div>
-        <hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-gray-700"></hr>
+        <hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-orange-700"></hr>
       </div>
       {/* interjection */}
-      <div className="m-10 p-10 border border-gray-300 bg-gray-200/20 rounded-md shadow-lg shadow-blue-500 text-justify font-serif">
-        <h1 className="md:text-3xl font-bold text-center hover:text-[#2699fb]">
+      <div className="m-10 p-10 border border-orange-300 bg-orange-200/20 rounded-md shadow-lg shadow-orange-500 text-justify font-serif">
+        <h1 className="md:text-3xl font-bold text-center hover:text-orange-800">
           Interjection (विस्मयादिबोधक शब्द)
         </h1>
         <p className="text-justify m-2">
@@ -430,7 +430,7 @@ const Speech = () => {
             प्रदर्शन है!)
           </p>
         </div>
-        <hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-gray-700"></hr>
+        <hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-orange-700"></hr>
       </div>
       <Footer />
     </>

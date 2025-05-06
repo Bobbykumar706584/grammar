@@ -34,8 +34,8 @@ const Home = () => {
   return (
     <>
       <Header />
-      <div className="font-serif mt-[100px] p-6 border border-gray-200 m-10 text-[#231f45] bg-gray-200/20 rounded-md shadow-lg shadow-blue-500">
-        <div class="grid md:grid-cols-3 text-center gap-5 border border-gray-600 p-2">
+      <div className="font-serif mt-[100px] p-6 border border-orange-200 m-10 text-[#231f45] bg-orange-200/20 rounded-md shadow-lg shadow-blue-500">
+        <div class="grid md:grid-cols-3 text-center gap-5 border border-orange-600 p-2">
           <div className="col-start-1 col-span-1">
             <h1 for="search_word" class="text-center text-3xl p-2">
               Dictionary
@@ -48,10 +48,10 @@ const Home = () => {
               onChange={(e) => {
                 setSearchWord(e.target.value);
               }}
-              class="bg-gray-50 border span w-full border-gray-300 text-gray-900 rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              class="bg-orange-50 border span w-full border-orange-300 text-orange-900 rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-orange-700 dark:border-orange-600 dark:placeholder-orange-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
             />
             <button
-              className="bg-[#2699fb] p-2.5 mt-5 md:w-full flex items-center gap-2 justify-center rounded-md font-bold hover:text-white"
+              className="bg-orange-800 p-2.5 mt-5 md:w-full flex items-center gap-2 justify-center rounded-md font-bold text-white"
               onClick={() => {
                 getMeaning();
               }}
@@ -60,7 +60,7 @@ const Home = () => {
               <span>Search</span>
             </button>
           </div>
-          <div className="col-span-2 text-center border border-gray-600">
+          <div className="col-span-2 text-center border border-orange-600">
             {/* {data && ( */}
             <h1 className="text-2xl font-bold">Result:</h1>
 
@@ -118,7 +118,7 @@ const Home = () => {
           ].map((label, index) => (
             <button
               key={label}
-              className="bg-transparent hover:bg-[#2699fb] text-[#2699fb] font-semibold hover:text-white py-2 px-4 border border-[#2699fb] hover:border-transparent rounded animate-slideIn"
+              className="bg-transparent hover:bg-orange-800 text-black font-semibold hover:text-white py-2 px-4 border border-orange-800 hover:border-transparent rounded animate-slideIn"
               style={{
                 animationDelay: `${index * 0.4}s`,
                 animationFillMode: "both",
@@ -130,7 +130,7 @@ const Home = () => {
         </div>
       </div>
       <Footer />
-      {/* <button data-drawer-target="sidebar-multi-level-sidebar" data-drawer-toggle="sidebar-multi-level-sidebar" aria-controls="sidebar-multi-level-sidebar" type="button" class="inline-flex items-center p-2 mt-2 ms-3 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
+      {/* <button data-drawer-target="sidebar-multi-level-sidebar" data-drawer-toggle="sidebar-multi-level-sidebar" aria-controls="sidebar-multi-level-sidebar" type="button" class="inline-flex items-center p-2 mt-2 ms-3 text-sm text-orange-500 rounded-lg sm:hidden hover:bg-orange-100 focus:outline-none focus:ring-2 focus:ring-orange-200 dark:text-orange-400 dark:hover:bg-orange-700 dark:focus:ring-orange-600">
    <span class="sr-only">Open sidebar</span>
    <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
    <path clip-rule="evenodd" fill-rule="evenodd" d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z"></path>
@@ -138,11 +138,11 @@ const Home = () => {
 </button>
 
 <aside id="sidebar-multi-level-sidebar" class="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0" aria-label="Sidebar">
-   <div class="h-full px-3 py-4 overflow-y-auto bg-gray-300 dark:bg-gray-800">
+   <div class="h-full px-3 py-4 overflow-y-auto bg-orange-300 dark:bg-orange-800">
       <ul class="space-y-2 font-medium">
          <li>
-            <button type="button" class="flex items-center w-full p-2 text-base text-gray-900 transition duration-75 rounded-lg group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700" aria-controls="dropdown-sidebar" data-collapse-toggle="dropdown-sidebar">
-                  <svg class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 group-hover:text-gray-900 dark:text-gray-400 dark:group-hover:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 21">
+            <button type="button" class="flex items-center w-full p-2 text-base text-orange-900 transition duration-75 rounded-lg group hover:bg-orange-100 dark:text-white dark:hover:bg-orange-700" aria-controls="dropdown-sidebar" data-collapse-toggle="dropdown-sidebar">
+                  <svg class="flex-shrink-0 w-5 h-5 text-orange-500 transition duration-75 group-hover:text-orange-900 dark:text-orange-400 dark:group-hover:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 21">
                      <path d="M15 12a1 1 0 0 0 .962-.726l2-7A1 1 0 0 0 17 3H3.77L3.175.745A1 1 0 0 0 2.208 0H1a1 1 0 0 0 0 2h.438l.6 2.255v.019l2 7 .746 2.986A3 3 0 1 0 9 17a2.966 2.966 0 0 0-.184-1h2.368c-.118.32-.18.659-.184 1a3 3 0 1 0 3-3H6.78l-.5-2H15Z"/>
                   </svg>
                   <span class="flex-1 ms-3 text-left rtl:text-right whitespace-nowrap">Tense</span>
@@ -152,13 +152,13 @@ const Home = () => {
             </button>
             <ul id="dropdown-sidebar" class="hidden py-2 space-y-2">
                   <li>
-                     <a href="#" class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Present Tense</a>
+                     <a href="#" class="flex items-center w-full p-2 text-orange-900 transition duration-75 rounded-lg pl-11 group hover:bg-orange-100 dark:text-white dark:hover:bg-orange-700">Present Tense</a>
                   </li>
                   <li>
-                     <a href="#" class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Past Tense</a>
+                     <a href="#" class="flex items-center w-full p-2 text-orange-900 transition duration-75 rounded-lg pl-11 group hover:bg-orange-100 dark:text-white dark:hover:bg-orange-700">Past Tense</a>
                   </li>
                   <li>
-                     <a href="#" class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Future Tense</a>
+                     <a href="#" class="flex items-center w-full p-2 text-orange-900 transition duration-75 rounded-lg pl-11 group hover:bg-orange-100 dark:text-white dark:hover:bg-orange-700">Future Tense</a>
                   </li>
             </ul>
          </li>

@@ -8,7 +8,7 @@ const Tenses = () => {
   return (
     <>
       <Header />
-      <div className="font-serif mt-[100px] p-6 border border-gray-200 m-10 text-justify text-[#231f45] bg-gray-200/20 rounded-md shadow-lg shadow-blue-500">
+      <div className="font-serif mt-[100px] p-6 border border-orange-200 m-10 text-justify text-[#231f45] bg-orange-200/20 rounded-md shadow-lg shadow-blue-500">
         <h1 className="md:text-5xl text-3xl text-center font-bold">
           Tenses (काल)
         </h1>
@@ -44,8 +44,8 @@ const Tenses = () => {
           वर्तमान और भविष्य। इन श्रेणियों के अंतर्गत काल के विभिन्न रूप या पहलू
           होते हैं। यहां काल के प्रकारों का विवरण दिया गया है:)
         </p>
-        <div className="grid border text-center md:text-2xl mt-2 border-black p-2 md:mx-5 bg-[#2699fb][30%] font-bold">
-          <div className="bg-blue-500 p-2">
+        <div className="grid border text-center md:text-2xl mt-2 border-black p-2 md:mx-5 bg-orange-800/[30%] font-bold">
+          <div className="bg-orange-800 p-2 text-white">
             Type of Tenses <br />
             (काल के प्रकार)
           </div>
@@ -58,48 +58,48 @@ const Tenses = () => {
         <div className="grid grid-cols-3 text-center border border-black md:p-2 md:mx-5">
           <div className="col-span-1 bg-slate-200">
             <div className="grid gap-3 border border-black md:p-3">
-              <div className="odd:bg-gray-100 p-2 even:bg-blue-200">
+              <div className="odd:bg-orange-100 p-2 even:bg-blue-200">
                 Simple Past Tense (सरल भूतकाल)
               </div>
-              <div className="odd:bg-gray-100 p-2 even:bg-blue-200">
+              <div className="odd:bg-orange-100 p-2 even:bg-blue-200">
                 Past Continuous Tense (भूत अपूर्ण काल)
               </div>
-              <div className="odd:bg-gray-100 p-2 even:bg-blue-200">
+              <div className="odd:bg-orange-100 p-2 even:bg-blue-200">
                 Past Perfect Tense(पूर्ण भूत काल)
               </div>
-              <div className="odd:bg-gray-100 p-2 even:bg-blue-200">
+              <div className="odd:bg-orange-100 p-2 even:bg-blue-200">
                 Past Perfect Continuous Tense (भूतकाल पूर्ण सतत काल)
               </div>
             </div>
           </div>
           <div className="col-span-1 bg-slate-200">
             <div className="grid gap-3 border border-black md:p-3">
-              <div className="odd:bg-gray-100 p-2 even:bg-blue-200">
+              <div className="odd:bg-orange-100 p-2 even:bg-blue-200">
                 Simple Present Tense (साधारण वर्तमान काल)
               </div>
-              <div className="odd:bg-gray-100 p-2 even:bg-blue-200">
+              <div className="odd:bg-orange-100 p-2 even:bg-blue-200">
                 Present Continuous Tense (वर्तमान निरंतर काल)
               </div>
-              <div className="odd:bg-gray-100 p-2 even:bg-blue-200">
+              <div className="odd:bg-orange-100 p-2 even:bg-blue-200">
                 Present Perfect Tense (वर्तमान पूर्ण काल)
               </div>
-              <div className="odd:bg-gray-100 p-2 even:bg-blue-200">
+              <div className="odd:bg-orange-100 p-2 even:bg-blue-200">
                 Present Perfect Continuous Tense (वर्तमान पूर्ण सतत काल)
               </div>
             </div>
           </div>
           <div className="col-span-1 bg-slate-200">
             <div className="grid gap-3 border border-black md:p-3">
-              <div className="odd:bg-gray-100 p-2 even:bg-blue-200">
+              <div className="odd:bg-orange-100 p-2 even:bg-blue-200">
                 Simple Future Tense (सरल भविष्य काल)
               </div>
-              <div className="odd:bg-gray-100 p-2 even:bg-blue-200">
+              <div className="odd:bg-orange-100 p-2 even:bg-blue-200">
                 Future Continuous (भविष्य सतत काल)
               </div>
-              <div className="odd:bg-gray-100 p-2 even:bg-blue-200">
+              <div className="odd:bg-orange-100 p-2 even:bg-blue-200">
                 Future Perfect Tense (भविष्य पूर्ण काल)
               </div>
-              <div className="odd:bg-gray-100 p-2 even:bg-blue-200">
+              <div className="odd:bg-orange-100 p-2 even:bg-blue-200">
                 Future Perfect Continuous Tense (भविष्य पूर्ण सतत काल)
               </div>
             </div>
@@ -107,11 +107,11 @@ const Tenses = () => {
         </div>
       </div>
       {/* singular and plural */}
-      <div className="m-10 text-center bg-blue-200">
+      <div className="m-10 text-center bg-orange-200">
         <h1 className="font-bold text-2xl underline p-5">
           Singular and Plural
         </h1>
-        <div className="grid grid-cols-3 bg-[#2699fb]">
+        <div className="grid grid-cols-3 bg-orange-800 text-white">
           <div className="col-span-1 border border-black font-bold text-xl p-3">
             Person
           </div>
@@ -157,7 +157,7 @@ const Tenses = () => {
         </div>
       </div>
       {/* Present tense */}
-      <div className="m-10 p-10 border border-gray-300 bg-gray-200/20 rounded-md shadow-lg shadow-blue-500 text-justify font-serif">
+      <div className="m-10 p-10 border border-orange-300 bg-orange-200/20 rounded-md shadow-lg shadow-blue-500 text-justify font-serif">
         <h1 className="md:text-3xl text-xl font-bold text-center hover:text-[#04aa6d]">
           Present Tense (वर्तमानकाल)
         </h1>
@@ -227,7 +227,7 @@ const Tenses = () => {
               <div className="md:font-bold">
                 Rule 2: - Subject 2 + 1st form verb + s/es + Object
               </div>
-              <div className="grid grid-cols-1 bg-slate-400">
+              <div className="grid grid-cols-1 bg-orange-800 text-white">
                 <div className="border border-black p-2 font-bold uppercase">
                   Examples
                 </div>
@@ -258,7 +258,7 @@ const Tenses = () => {
               <div className="md:font-bold">
                 Rule 2: - Subject 2 + does not + 1st form verb + Object
               </div>
-              <div className="grid grid-cols-1 bg-slate-400">
+              <div className="grid grid-cols-1 bg-orange-800 text-white">
                 <div className="border border-black p-2 font-bold uppercase">
                   Examples
                 </div>
@@ -292,7 +292,7 @@ const Tenses = () => {
               <div className="md:font-bold">
                 Rule 2: - Does + Subject 2 + 1st form verb + Object?
               </div>
-              <div className="grid grid-cols-1 bg-slate-400">
+              <div className="grid grid-cols-1 bg-orange-800 text-white">
                 <div className="border border-black p-2 font-bold uppercase">
                   Examples
                 </div>
@@ -327,7 +327,7 @@ const Tenses = () => {
               <div className="md:font-bold">
                 Rule 2: - Does + Subject 2 + not + 1st form verb + Object?
               </div>
-              <div className="grid grid-cols-1 bg-slate-400">
+              <div className="grid grid-cols-1 bg-orange-800 text-white">
                 <div className="border border-black p-2 font-bold uppercase">
                   Examples
                 </div>
@@ -374,7 +374,7 @@ const Tenses = () => {
               <li>क्या वह तुम्हें प्यार करता है?</li>
             </ul>
           </div>
-          <hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-gray-700"></hr>
+          <hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-orange-700"></hr>
         </div>
         {/* present continuous tense */}
         <div className="mt-5">
@@ -408,7 +408,7 @@ const Tenses = () => {
                 Rule 3: - Subject 2 + are + 1st form verb + ing + Object
               </div>
 
-              <div className="grid grid-cols-1 bg-slate-400">
+              <div className="grid grid-cols-1 bg-orange-800 text-white">
                 <div className="border border-black p-2 font-bold uppercase">
                   Examples
                 </div>
@@ -443,7 +443,7 @@ const Tenses = () => {
                 Rule 3: - Subject 2 + are + not + 1st form verb + ing + Object
               </div>
 
-              <div className="grid grid-cols-1 bg-slate-400">
+              <div className="grid grid-cols-1 bg-orange-800 text-white">
                 <div className="border border-black p-2 font-bold uppercase">
                   Examples
                 </div>
@@ -478,7 +478,7 @@ const Tenses = () => {
                 Rule 3: - Are + Subject 2 + 1st form verb + ing + Object?
               </div>
 
-              <div className="grid grid-cols-1 bg-slate-400">
+              <div className="grid grid-cols-1 bg-orange-800 text-white">
                 <div className="border border-black p-2 font-bold uppercase">
                   Examples
                 </div>
@@ -515,7 +515,7 @@ const Tenses = () => {
                 Rule 3: - Are + Subject 2 + not + 1st form verb + ing + Object?
               </div>
 
-              <div className="grid grid-cols-1 bg-slate-400">
+              <div className="grid grid-cols-1 bg-orange-800 text-white">
                 <div className="border border-black p-2 font-bold uppercase">
                   Examples
                 </div>
@@ -568,7 +568,7 @@ const Tenses = () => {
 "They are painting the walls blue." */}
             </ul>
           </div>
-          <hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-gray-700"></hr>
+          <hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-orange-700"></hr>
         </div>
         {/* present perfect tense */}
         <div className="mt-5">
@@ -600,7 +600,7 @@ const Tenses = () => {
               <div className="md:font-bold">
                 Rule 2: - Subject 2 + have + 3rd form verb + Object
               </div>
-              <div className="grid grid-cols-1 bg-slate-400">
+              <div className="grid grid-cols-1 bg-orange-800 text-white">
                 <div className="border border-black p-2 font-bold uppercase">
                   Examples
                 </div>
@@ -633,7 +633,7 @@ const Tenses = () => {
               <div className="md:font-bold">
                 Rule 2: - Subject 2 + have + not + 3rd form verb + Object
               </div>
-              <div className="grid grid-cols-1 bg-slate-400">
+              <div className="grid grid-cols-1 bg-orange-800 text-white">
                 <div className="border border-black p-2 font-bold uppercase">
                   Examples
                 </div>
@@ -668,7 +668,7 @@ const Tenses = () => {
                 Rule 2: - Have + Subject 2 + 3rd form verb + Object?
               </div>
 
-              <div className="grid grid-cols-1 bg-slate-400">
+              <div className="grid grid-cols-1 bg-orange-800 text-white">
                 <div className="border border-black p-2 font-bold uppercase">
                   Examples
                 </div>
@@ -704,7 +704,7 @@ const Tenses = () => {
               <div className="md:font-bold">
                 Rule 2: - Have not + Subject 2 + 3rd form verb + Object?
               </div>
-              <div className="grid grid-cols-1 bg-slate-400">
+              <div className="grid grid-cols-1 bg-orange-800 text-white">
                 <div className="border border-black p-2 font-bold uppercase">
                   Examples
                 </div>
@@ -760,11 +760,11 @@ const Tenses = () => {
 "Hasn't he visited his grandparents in the countryside?" */}
             </ul>
           </div>
-          <hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-gray-700"></hr>
+          <hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-orange-700"></hr>
         </div>
       </div>
       {/* past tense */}
-      <div className="m-10 p-10 border border-gray-300 bg-gray-200/20 rounded-md shadow-lg shadow-blue-500 text-justify font-serif">
+      <div className="m-10 p-10 border border-orange-300 bg-orange-200/20 rounded-md shadow-lg shadow-blue-500 text-justify font-serif">
         <h1 className="md:text-3xl text-xl font-bold text-center hover:text-[#04aa6d]">
           Past Tense (भूतकाल)
         </h1>
@@ -809,7 +809,7 @@ const Tenses = () => {
                 Rule: - Subject + 2nd form verb + Object
               </div>
 
-              <div className="grid grid-cols-1 bg-slate-400">
+              <div className="grid grid-cols-1 bg-orange-800 text-white">
                 <div className="border border-black p-2 font-bold uppercase">
                   Examples
                 </div>
@@ -840,7 +840,7 @@ const Tenses = () => {
                 Rule: Subject + did not + 1st form verb + Object.
               </div>
 
-              <div className="grid grid-cols-1 bg-slate-400">
+              <div className="grid grid-cols-1 bg-orange-800 text-white">
                 <div className="border border-black p-2 font-bold uppercase">
                   Examples
                 </div>
@@ -871,7 +871,7 @@ const Tenses = () => {
                 Rule: + did + subject + 1st form verb + Object?
               </div>
 
-              <div className="grid grid-cols-1 bg-slate-400">
+              <div className="grid grid-cols-1 bg-orange-800 text-white">
                 <div className="border border-black p-2 font-bold uppercase">
                   Examples
                 </div>
@@ -905,7 +905,7 @@ const Tenses = () => {
                 Rule: + Did + Subject + not + 1st form verb + Object?
               </div>
 
-              <div className="grid grid-cols-1 bg-slate-400">
+              <div className="grid grid-cols-1 bg-orange-800 text-white">
                 <div className="border border-black p-2 font-bold uppercase">
                   Examples
                 </div>
@@ -949,7 +949,7 @@ const Tenses = () => {
               <li>क्या मैंने बोतल से पानी नहीं पिया?</li>
             </ul>
           </div>
-          <hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-gray-700"></hr>
+          <hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-orange-700"></hr>
         </div>
         {/* past continuous tense */}
         <div className="mt-5">
@@ -981,7 +981,7 @@ const Tenses = () => {
                 Rule 2: - Subject 2 + were + 1st form verb + ing + Object
               </div>
 
-              <div className="grid grid-cols-1 bg-slate-400">
+              <div className="grid grid-cols-1 bg-orange-800 text-white">
                 <div className="border border-black p-2 font-bold uppercase">
                   Examples
                 </div>
@@ -1012,7 +1012,7 @@ const Tenses = () => {
                 Rule 2: - Subject 2 + were + not + 1st form verb + ing + Object
               </div>
 
-              <div className="grid grid-cols-1 bg-slate-400">
+              <div className="grid grid-cols-1 bg-orange-800 text-white">
                 <div className="border border-black p-2 font-bold uppercase">
                   Examples
                 </div>
@@ -1043,7 +1043,7 @@ const Tenses = () => {
               <div className="md:font-bold">
                 Rule 2: - Were + (Subject 2) + 1st form verb + ing + Object?
               </div>
-              <div className="grid grid-cols-1 bg-slate-400">
+              <div className="grid grid-cols-1 bg-orange-800 text-white">
                 <div className="border border-black p-2 font-bold uppercase">
                   Examples
                 </div>
@@ -1078,7 +1078,7 @@ const Tenses = () => {
                 Rule 2: - Were + (Subject 2) + not + 1st form verb + ing +
                 Object?
               </div>
-              <div className="grid grid-cols-1 bg-slate-400">
+              <div className="grid grid-cols-1 bg-orange-800 text-white">
                 <div className="border border-black p-2 font-bold uppercase">
                   Examples
                 </div>
@@ -1144,7 +1144,7 @@ const Tenses = () => {
               </li>
             </ul>
           </div>
-          <hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-gray-700"></hr>
+          <hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-orange-700"></hr>
         </div>
         {/* past perfect tense */}
         <div className="mt-5">
@@ -1170,7 +1170,7 @@ const Tenses = () => {
               <div className="md:font-bold">
                 Rule 1: - Subject + had + 3rd form verb + Object
               </div>
-              <div className="grid grid-cols-1 bg-slate-400">
+              <div className="grid grid-cols-1 bg-orange-800 text-white">
                 <div className="border border-black p-2 font-bold uppercase">
                   Examples
                 </div>
@@ -1201,7 +1201,7 @@ const Tenses = () => {
               <div className="md:font-bold">
                 Rule 1: - Subject + had + not + 3rd form verb + Object
               </div>
-              <div className="grid grid-cols-1 bg-slate-400">
+              <div className="grid grid-cols-1 bg-orange-800 text-white">
                 <div className="border border-black p-2 font-bold uppercase">
                   Examples
                 </div>
@@ -1232,7 +1232,7 @@ const Tenses = () => {
               <div className="md:font-bold">
                 Rule 1: - Had + Subject + 3rd form verb + Object?
               </div>
-              <div className="grid grid-cols-1 bg-slate-400">
+              <div className="grid grid-cols-1 bg-orange-800 text-white">
                 <div className="border border-black p-2 font-bold uppercase">
                   Examples
                 </div>
@@ -1265,7 +1265,7 @@ const Tenses = () => {
               <div className="md:font-bold">
                 Rule 1: - Had not + Subject + 3rd form verb + Object?
               </div>
-              <div className="grid grid-cols-1 bg-slate-400">
+              <div className="grid grid-cols-1 bg-orange-800 text-white">
                 <div className="border border-black p-2 font-bold uppercase">
                   Examples
                 </div>
@@ -1321,12 +1321,12 @@ const Tenses = () => {
 "Hasn't he visited his grandparents in the countryside?" */}
             </ul>
           </div>
-          <hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-gray-700"></hr>
+          <hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-orange-700"></hr>
         </div>
       </div>
 
       {/* future tense */}
-      <div className="m-10 p-10 border border-gray-300 bg-gray-200/20 rounded-md shadow-lg shadow-blue-500 text-justify font-serif">
+      <div className="m-10 p-10 border border-orange-300 bg-orange-200/20 rounded-md shadow-lg shadow-blue-500 text-justify font-serif">
         <h1 className="md:text-3xl text-xl font-bold text-center hover:text-[#04aa6d]">
           Future Tense (भविष्यकाल)
         </h1>
@@ -1366,7 +1366,7 @@ const Tenses = () => {
                 Rule: - Subject + will + 1st form verb + Object
               </div>
 
-              <div className="grid grid-cols-1 bg-slate-400">
+              <div className="grid grid-cols-1 bg-orange-800 text-white">
                 <div className="border border-black p-2 font-bold uppercase">
                   Examples
                 </div>
@@ -1414,7 +1414,7 @@ const Tenses = () => {
                 Rule: Subject + will + not + 1st form verb + Object
               </div>
 
-              <div className="grid grid-cols-1 bg-slate-400">
+              <div className="grid grid-cols-1 bg-orange-800 text-white">
                 <div className="border border-black p-2 font-bold uppercase">
                   Examples
                 </div>
@@ -1464,7 +1464,7 @@ const Tenses = () => {
                 Rule: + will + subject + 1st form verb + Object?
               </div>
 
-              <div className="grid grid-cols-1 bg-slate-400">
+              <div className="grid grid-cols-1 bg-orange-800 text-white">
                 <div className="border border-black p-2 font-bold uppercase">
                   Examples
                 </div>
@@ -1516,7 +1516,7 @@ const Tenses = () => {
                 Rule: + Will + Subject + not + 1st form verb + Object?
               </div>
 
-              <div className="grid grid-cols-1 bg-slate-400">
+              <div className="grid grid-cols-1 bg-orange-800 text-white">
                 <div className="border border-black p-2 font-bold uppercase">
                   Examples
                 </div>
@@ -1584,7 +1584,7 @@ const Tenses = () => {
 							<li>I will not throw this ball there.</li> */}
             </ul>
           </div>
-          <hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-gray-700"></hr>
+          <hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-orange-700"></hr>
         </div>
         {/* future continuous tense */}
         <div className="mt-5">
@@ -1612,7 +1612,7 @@ const Tenses = () => {
                 Rule : - Subject + will/shall + be + 1st form verb + ing +
                 Object
               </div>
-              <div className="grid grid-cols-1 bg-slate-400">
+              <div className="grid grid-cols-1 bg-orange-800 text-white">
                 <div className="border border-black p-2 font-bold uppercase">
                   Examples
                 </div>
@@ -1647,7 +1647,7 @@ const Tenses = () => {
                 Object
               </div>
 
-              <div className="grid grid-cols-1 bg-slate-400">
+              <div className="grid grid-cols-1 bg-orange-800 text-white">
                 <div className="border border-black p-2 font-bold uppercase">
                   Examples
                 </div>
@@ -1683,7 +1683,7 @@ const Tenses = () => {
                 Rule : -Will/Shall + subject + be + 1st form verb + ing +
                 Object?
               </div>
-              <div className="grid grid-cols-1 bg-slate-400">
+              <div className="grid grid-cols-1 bg-orange-800 text-white">
                 <div className="border border-black p-2 font-bold uppercase">
                   Examples
                 </div>
@@ -1721,7 +1721,7 @@ const Tenses = () => {
                 Rule : - Will/shall + subject + not + be + 1st form verb + ing +
                 Object?
               </div>
-              <div className="grid grid-cols-1 bg-slate-400">
+              <div className="grid grid-cols-1 bg-orange-800 text-white">
                 <div className="border border-black p-2 font-bold uppercase">
                   Examples
                 </div>
@@ -1795,7 +1795,7 @@ const Tenses = () => {
               </li>
             </ul>
           </div>
-          <hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-gray-700"></hr>
+          <hr class="h-[0.5px] my-8 bg-black border-0 rounded dark:bg-orange-700"></hr>
         </div>
       </div>
       <Footer />
