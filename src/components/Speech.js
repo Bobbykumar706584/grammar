@@ -6,6 +6,17 @@ import data from "../JsonData/Common.json";
 import TableReact from "./Nav/customTable";
 import Footer from "./Nav/Footer";
 
+const speechType = [
+  "Noun (संज्ञा)",
+  "Pronoun (सर्वनाम)",
+  "Adjective (विशेषण)",
+  "Verb (क्रिया)",
+  "Adverb (क्रिया-विशेषण)",
+  "Preposition (सम्बंध-सूचक)",
+  "Conjuction (संयोजक)",
+  "Interjection (विस्मयादिबोधक शब्द)",
+];
+
 const Speech = () => {
   return (
     <>
@@ -27,36 +38,20 @@ const Speech = () => {
           भाषण के सामान्य भागों में शामिल हैं:
         </p>
         <div className="grid md:grid-cols-4 text-cente p-2 gap-5 mx-5">
-          <button className="bg-transparent hover:bg-orange-800 text-orange-700 font-semibold hover:text-white py-2 px-4 border border-orange-500 hover:border-transparent rounded">
-            Noun (संज्ञा)
-          </button>
-          <button className="bg-transparent hover:bg-orange-800 text-orange-700 font-semibold hover:text-white py-2 px-4 border border-orange-500 hover:border-transparent rounded">
-            Pronoun (सर्वनाम)
-          </button>
-          <button className="bg-transparent hover:bg-orange-800 text-orange-700 font-semibold hover:text-white py-2 px-4 border border-orange-500 hover:border-transparent rounded">
-            Adjective (विशेषण)
-          </button>
-          <button className="bg-transparent hover:bg-orange-800 text-orange-700 font-semibold hover:text-white py-2 px-4 border border-orange-500 hover:border-transparent rounded">
-            Verb (क्रिया)
-          </button>
-          <button className="bg-transparent hover:bg-orange-800 text-orange-700 font-semibold hover:text-white py-2 px-4 border border-orange-500 hover:border-transparent rounded">
-            Adverb (क्रिया-विशेषण)
-          </button>
-          <button className="bg-transparent hover:bg-orange-800 text-orange-700 font-semibold hover:text-white py-2 px-4 border border-orange-500 hover:border-transparent rounded">
-            Preposition (सम्बंध-सूचक)
-          </button>
-          <button className="bg-transparent hover:bg-orange-800 text-orange-700 font-semibold hover:text-white py-2 px-4 border border-orange-500 hover:border-transparent rounded">
-            Conjuction (संयोजक)
-          </button>
-          <button className="bg-transparent hover:bg-orange-800 text-orange-700 font-semibold hover:text-white py-2 px-4 border border-orange-500 hover:border-transparent rounded">
-            Interjection (विस्मयादिबोधक शब्द)
-          </button>
+          {speechType.map((item, index) => (
+            <button
+              key={index}
+              className="bg-transparent hover:bg-orange-800 text-orange-700 font-semibold hover:text-white py-2 px-4 border border-orange-500 hover:border-transparent rounded"
+            >
+              {index + 1}. {item}
+            </button>
+          ))}
         </div>
       </div>
       {/* noun */}
       <div className="m-10 p-10 border border-orange-300 bg-orange-200/20 rounded-md shadow-lg shadow-orange-500 text-justify font-serif">
         <h1 className="md:text-3xl font-bold text-center hover:text-orange-800">
-          Noun (संज्ञा)
+          1. Noun (संज्ञा)
         </h1>
         <p className="text-justify m-2 md:text-xl">
           A noun is a part of speech that names a person, place, thing, or idea.
@@ -94,7 +89,7 @@ const Speech = () => {
       {/* pronoun */}
       <div className="m-10 p-10 border border-orange-300 bg-orange-200/20 rounded-md shadow-lg shadow-orange-500 text-justify font-serif">
         <h1 className="md:text-3xl font-bold text-center hover:text-orange-800">
-          Pronoun (सर्वनाम)
+          2. Pronoun (सर्वनाम)
         </h1>
         <p className="text-justify m-2">
           A pronoun is a part of speech that takes the place of a noun in a
@@ -133,7 +128,7 @@ const Speech = () => {
       {/* adjective */}
       <div className="m-10 p-10 border border-orange-300 bg-orange-200/20 rounded-md shadow-lg shadow-orange-500 text-justify font-serif">
         <h1 className="md:text-3xl font-bold text-center hover:text-orange-800">
-          Adjective (विशेषण)
+          3. Adjective (विशेषण)
         </h1>
         <p className="text-justify m-2">
           An adjective is a part of speech that modifies or describes a noun or
@@ -174,7 +169,7 @@ const Speech = () => {
       {/* verb */}
       <div className="m-10 p-10 border border-orange-300 bg-orange-200/20 rounded-md shadow-lg shadow-orange-500 text-justify font-serif">
         <h1 className="md:text-3xl font-bold text-center hover:text-orange-800">
-          Verb (क्रिया)
+          4. Verb (क्रिया)
         </h1>
         <p className="text-justify m-2">
           A verb is a word that expresses an action, occurrence, or state of
@@ -201,7 +196,7 @@ const Speech = () => {
       {/* adverb */}
       <div className="m-10 p-10 border border-orange-300 bg-orange-200/20 rounded-md shadow-lg shadow-orange-500 text-justify font-serif">
         <h1 className="md:text-3xl font-bold text-center hover:text-orange-800">
-          Adverb (क्रिया-विशेषण)
+          5. Adverb (क्रिया-विशेषण)
         </h1>
         <p className="text-justify m-2">
           An adverb is a word that modifies or describes a verb, adjective, or
@@ -237,7 +232,7 @@ const Speech = () => {
       {/* Preposition */}
       <div className="m-10 p-10 border border-orange-300 bg-orange-200/20 rounded-md shadow-lg shadow-orange-500 text-justify font-serif">
         <h1 className="md:text-3xl font-bold text-center hover:text-orange-800">
-          Preposition (सम्बंध-सूचक)
+          6. Preposition (सम्बंध-सूचक)
         </h1>
         <p className="text-justify m-2">
           A preposition is a word that typically comes before a noun or pronoun
@@ -274,7 +269,7 @@ const Speech = () => {
       {/* Conjuction */}
       <div className="m-10 p-10 border border-orange-300 bg-orange-200/20 rounded-md shadow-lg shadow-orange-500 text-justify font-serif">
         <h1 className="md:text-3xl font-bold text-center hover:text-orange-800">
-          Conjuction (संयोजक)
+          7. Conjuction (संयोजक)
         </h1>
         <p className="text-justify m-2">
           A conjunction is a word that connects words, phrases, or clauses
@@ -377,7 +372,7 @@ const Speech = () => {
       {/* interjection */}
       <div className="m-10 p-10 border border-orange-300 bg-orange-200/20 rounded-md shadow-lg shadow-orange-500 text-justify font-serif">
         <h1 className="md:text-3xl font-bold text-center hover:text-orange-800">
-          Interjection (विस्मयादिबोधक शब्द)
+          8. Interjection (विस्मयादिबोधक शब्द)
         </h1>
         <p className="text-justify m-2">
           Interjections are words or phrases used to express emotions,

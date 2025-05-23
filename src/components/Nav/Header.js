@@ -21,12 +21,12 @@ const Header = () => {
       className={`fixed top-12 bg-orange-800 left-1/2 text-white font-['poppins'] transform -translate-x-1/2 -translate-y-1/2 w-2/3 z-50 flex items-center justify-center p-2  transition-all duration-500 ease-in-out text-center ${
         scrolled
           ? "backdrop-blur-lg bg-white/30 py-1 shadow-xl rounded-full md:w-[50%] border border-white/50"
-          : "bg-transparent border rounded-full"
+          : "bg-transparent"
       }`}
     >
       <div className="max-w-[1240px] flex items-center justify-between px-4 py-2">
         <div
-          className={`text-2xl md:text-3xl font-bold font-serif mr-5 transition-all duration-300`}
+          className={`text-2xl md:text-3xl text-orange-800 font-bold font-serif mr-5 transition-all duration-300`}
         >
           <a href="/">GrammerGuide</a>
         </div>
@@ -44,7 +44,7 @@ const Header = () => {
         )}
 
         <ul
-          className={`hidden md:flex gap-8 font-bold transition-all duration-300 `}
+          className={`hidden md:flex gap-8 font-bold transition-all text-orange-800 duration-300 `}
         >
           <li className="">
             <a href="/">Home</a>

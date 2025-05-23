@@ -49,7 +49,7 @@ const Modal = () => {
           </div>
         </div>
         {Data.modal.map((item) => (
-          <div className="grid grid-cols-3 border text-center border-black p-2 md:mx-5 odd:bg-orange-100 even:bg-orange-200">
+          <div className="grid grid-cols-3 border text-center border-black p-2 md:mx-5 odd:bg-orange-100 even:bg-orange-200 font-bold">
             <div>{item.modalName}</div>
             <div>{item.negativeModalName}</div>
             <div>{item.form}</div>
