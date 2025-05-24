@@ -28,7 +28,7 @@ const Header = () => {
         <div
           className={`text-2xl md:text-3xl text-orange-800 font-bold font-serif mr-5 transition-all duration-300`}
         >
-          <a href="/">GrammerGuide</a>
+          <a href="/">GrammarGuide</a>
         </div>
 
         {openMenu ? (

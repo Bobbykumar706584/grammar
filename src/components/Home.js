@@ -88,13 +88,13 @@ const Home = () => {
           </div>
         </div>
         <h1 className="md:text-6xl text-4xl text-center font-bold mt-[50px] font-mono animate-slideIn">
-          Welcome to Grammer Guide
+          Welcome to Grammar Guide
         </h1>
         <h4 className="md:text-4xl mt-5 text-center text-2xl font-serif">
           Do you Want to learn English Speaking?
         </h4>
         <p className="p-2 md:text-xl font-mono text-justify">
-          Welcome to our ultimate grammer guide! Whether you're a student, a
+          Welcome to our ultimate grammar guide! Whether you're a student, a
           professional, or just someone eager to enhance your language skills,
           mastering grammar is key to effective communication. This guide offers
           a straightforward and comprehensive overview of essential grammar

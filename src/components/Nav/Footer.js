@@ -7,7 +7,7 @@ const Footer = () => {
         {/* Subscription Section */}
         <div>
           <h2 className="text-2xl font-semibold mb-4">
-            <a href="/">GrammerGuide</a>
+            <a href="/">GrammarGuide</a>
           </h2>
           <p className="mb-2">Subscribe to our newsletter</p>
           <input
@@ -46,10 +46,10 @@ const Footer = () => {
             <p className="text-sm">
               Email:{" "}
               <a
-                href="mailto:support@grammerguide.com"
+                href="mailto:info.grammarguide@gmail.com"
                 className="text-white underline"
               >
-                support@grammerguide.com
+                info.grammarguide@gmail.com
               </a>{" "}
               <br />
               Phone: (+91) 7065847364
@@ -67,7 +67,7 @@ const Footer = () => {
           <p className="text-sm">
             Learn more about our mission to enhance grammar education at{" "}
             <a href="/" className="text-white underline">
-              GrammerGuide
+              GrammarGuide
             </a>
             .
           </p>
@@ -76,7 +76,7 @@ const Footer = () => {
 
       {/* Bottom Note */}
       <div className="text-center text-sm mt-8">
-        © 2024 GrammerGuide.com — All Rights Reserved.
+        © 2024 GrammarGuide.com — All Rights Reserved.
       </div>
     </footer>
   );
